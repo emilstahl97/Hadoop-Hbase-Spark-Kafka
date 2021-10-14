@@ -6,3 +6,5 @@ sudo cp -r hbase-1.7.1 /home/emilstahl
 sudo cp .profile /home/emilstahl
 sudo cp .bashrc /home/emilstahl
 
+sudo source ../.profile
+sudo source ../.bashrc
