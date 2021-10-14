@@ -12,3 +12,4 @@ sudo chmod 644 /etc/apt/trusted.gpg.d/scalasbt-release.gpg
 sudo apt-get update
 sudo apt-get install sbt
 
+ssh-keygen -t rsa
