@@ -1,0 +1,30 @@
+OpenJDK 64-Bit Server VM warning: ignoring option PermSize=128m; support was removed in 8.0
+OpenJDK 64-Bit Server VM warning: ignoring option MaxPermSize=128m; support was removed in 8.0
+SLF4J: Class path contains multiple SLF4J bindings.
+SLF4J: Found binding in [jar:file:/home/emilstahl/hbase-1.7.1/lib/slf4j-log4j12-1.7.25.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: Found binding in [jar:file:/home/emilstahl/hadoop-2.10.1/share/hadoop/common/lib/slf4j-log4j12-1.7.25.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: See http://www.slf4j.org/codes.html#multiple_bindings for an explanation.
+SLF4J: Actual binding is of type [org.slf4j.impl.Log4jLoggerFactory]
+log4j:ERROR Failed to flush writer,
+java.io.IOException: No space left on device
+	at java.io.FileOutputStream.writeBytes(Native Method)
+	at java.io.FileOutputStream.write(FileOutputStream.java:326)
+	at sun.nio.cs.StreamEncoder.writeBytes(StreamEncoder.java:221)
+	at sun.nio.cs.StreamEncoder.implFlushBuffer(StreamEncoder.java:291)
+	at sun.nio.cs.StreamEncoder.implFlush(StreamEncoder.java:295)
+	at sun.nio.cs.StreamEncoder.flush(StreamEncoder.java:141)
+	at java.io.OutputStreamWriter.flush(OutputStreamWriter.java:229)
+	at org.apache.log4j.helpers.QuietWriter.flush(QuietWriter.java:59)
+	at org.apache.log4j.WriterAppender.subAppend(WriterAppender.java:324)
+	at org.apache.log4j.RollingFileAppender.subAppend(RollingFileAppender.java:276)
+	at org.apache.log4j.WriterAppender.append(WriterAppender.java:162)
+	at org.apache.log4j.AppenderSkeleton.doAppend(AppenderSkeleton.java:251)
+	at org.apache.log4j.helpers.AppenderAttachableImpl.appendLoopOnAppenders(AppenderAttachableImpl.java:66)
+	at org.apache.log4j.Category.callAppenders(Category.java:206)
+	at org.apache.log4j.Category.forcedLog(Category.java:391)
+	at org.apache.log4j.Category.log(Category.java:856)
+	at org.slf4j.impl.Log4jLoggerAdapter.warn(Log4jLoggerAdapter.java:479)
+	at org.apache.hadoop.hdfs.client.impl.LeaseRenewer.run(LeaseRenewer.java:438)
+	at org.apache.hadoop.hdfs.client.impl.LeaseRenewer.access$600(LeaseRenewer.java:76)
+	at org.apache.hadoop.hdfs.client.impl.LeaseRenewer$1.run(LeaseRenewer.java:307)
+	at java.lang.Thread.run(Thread.java:748)

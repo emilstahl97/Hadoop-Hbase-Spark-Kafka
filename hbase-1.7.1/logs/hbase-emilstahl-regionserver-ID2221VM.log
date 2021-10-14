@@ -1,0 +1,1392 @@
+tis  5 okt 2021 16:03:13 CEST Starting regionserver on ID2221VM
+core file size          (blocks, -c) 0
+data seg size           (kbytes, -d) unlimited
+scheduling priority             (-e) 0
+file size               (blocks, -f) unlimited
+pending signals                 (-i) 47721
+max locked memory       (kbytes, -l) 16384
+max memory size         (kbytes, -m) unlimited
+open files                      (-n) 1024
+pipe size            (512 bytes, -p) 8
+POSIX message queues     (bytes, -q) 819200
+real-time priority              (-r) 0
+stack size              (kbytes, -s) 8192
+cpu time               (seconds, -t) unlimited
+max user processes              (-u) 47721
+virtual memory          (kbytes, -v) unlimited
+file locks                      (-x) unlimited
+2021-10-05 16:03:14,846 INFO  [main] util.VersionInfo: HBase 1.7.1
+2021-10-05 16:03:14,846 INFO  [main] util.VersionInfo: Source code repository git://localhost.localdomain/home/bharathv/IdeaProjects/rc/hbase-rc-clone revision=2d9273667e418e7023f9104a830cdcb8233b6f25
+2021-10-05 16:03:14,847 INFO  [main] util.VersionInfo: Compiled by bharathv on Fri Jul 16 00:20:26 PDT 2021
+2021-10-05 16:03:14,847 INFO  [main] util.VersionInfo: From source with checksum cb15e8fa7fadc65448aa9a30e3f40b27
+2021-10-05 16:03:15,271 INFO  [main] util.ServerCommandLine: env:PATH=/usr/lib/jvm/java-8-openjdk-amd64/bin:/home/emilstahl/spark-2.4.3-bin-hadoop2.7/bin:/home/emilstahl/hbase-1.7.1/bin:/usr/lib/jvm/java-8-openjdk-amd64/bin:/home/emilstahl/hadoop-2.10.1/bin:/home/emilstahl/hadoop-2.10.1/sbin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin
+2021-10-05 16:03:15,271 INFO  [main] util.ServerCommandLine: env:HADOOP_CONFIG=/home/emilstahl/hadoop-2.10.1/etc/hadoop
+2021-10-05 16:03:15,271 INFO  [main] util.ServerCommandLine: env:XAUTHORITY=/run/user/1000/gdm/Xauthority
+2021-10-05 16:03:15,271 INFO  [main] util.ServerCommandLine: env:LC_MEASUREMENT=sv_SE.UTF-8
+2021-10-05 16:03:15,271 INFO  [main] util.ServerCommandLine: env:LC_TELEPHONE=sv_SE.UTF-8
+2021-10-05 16:03:15,271 INFO  [main] util.ServerCommandLine: env:XMODIFIERS=@im=ibus
+2021-10-05 16:03:15,272 INFO  [main] util.ServerCommandLine: env:GDMSESSION=ubuntu
+2021-10-05 16:03:15,272 INFO  [main] util.ServerCommandLine: env:XDG_DATA_DIRS=/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop
+2021-10-05 16:03:15,272 INFO  [main] util.ServerCommandLine: env:LC_TIME=sv_SE.UTF-8
+2021-10-05 16:03:15,272 INFO  [main] util.ServerCommandLine: env:HBASE_REGIONSERVER_OPTS= -XX:PermSize=128m -XX:MaxPermSize=128m -XX:ReservedCodeCacheSize=256m
+2021-10-05 16:03:15,272 INFO  [main] util.ServerCommandLine: env:TEXTDOMAINDIR=/usr/share/locale/
+2021-10-05 16:03:15,272 INFO  [main] util.ServerCommandLine: env:GTK_IM_MODULE=ibus
+2021-10-05 16:03:15,272 INFO  [main] util.ServerCommandLine: env:DBUS_SESSION_BUS_ADDRESS=unix:path=/run/user/1000/bus
+2021-10-05 16:03:15,272 INFO  [main] util.ServerCommandLine: env:XDG_CURRENT_DESKTOP=ubuntu:GNOME
+2021-10-05 16:03:15,272 INFO  [main] util.ServerCommandLine: env:SSH_AGENT_PID=967
+2021-10-05 16:03:15,272 INFO  [main] util.ServerCommandLine: env:COLORTERM=truecolor
+2021-10-05 16:03:15,272 INFO  [main] util.ServerCommandLine: env:LD_LIBRARY_PATH=:/home/emilstahl/hadoop-2.10.1/lib/native
+2021-10-05 16:03:15,272 INFO  [main] util.ServerCommandLine: env:QT4_IM_MODULE=xim
+2021-10-05 16:03:15,272 INFO  [main] util.ServerCommandLine: env:SESSION_MANAGER=local/ID2221VM:@/tmp/.ICE-unix/872,unix/ID2221VM:/tmp/.ICE-unix/872
+2021-10-05 16:03:15,272 INFO  [main] util.ServerCommandLine: env:USERNAME=emilstahl
+2021-10-05 16:03:15,272 INFO  [main] util.ServerCommandLine: env:LC_PAPER=sv_SE.UTF-8
+2021-10-05 16:03:15,272 INFO  [main] util.ServerCommandLine: env:LOGNAME=emilstahl
+2021-10-05 16:03:15,272 INFO  [main] util.ServerCommandLine: env:HBASE_REST_OPTS=
+2021-10-05 16:03:15,272 INFO  [main] util.ServerCommandLine: env:JVM_PID=11944
+2021-10-05 16:03:15,273 INFO  [main] util.ServerCommandLine: env:PWD=/home/emilstahl/hbase-1.7.1
+2021-10-05 16:03:15,273 INFO  [main] util.ServerCommandLine: env:IM_CONFIG_PHASE=2
+2021-10-05 16:03:15,273 INFO  [main] util.ServerCommandLine: env:GJS_DEBUG_TOPICS=JS ERROR;JS LOG
+2021-10-05 16:03:15,273 INFO  [main] util.ServerCommandLine: env:LESSOPEN=| /usr/bin/lesspipe %s
+2021-10-05 16:03:15,273 INFO  [main] util.ServerCommandLine: env:SHELL=/bin/bash
+2021-10-05 16:03:15,273 INFO  [main] util.ServerCommandLine: env:HBASE_ROOT_LOGGER=INFO,RFA
+2021-10-05 16:03:15,273 INFO  [main] util.ServerCommandLine: env:LC_ADDRESS=sv_SE.UTF-8
+2021-10-05 16:03:15,273 INFO  [main] util.ServerCommandLine: env:HBASE_ENV_INIT=true
+2021-10-05 16:03:15,273 INFO  [main] util.ServerCommandLine: env:OLDPWD=/home/emilstahl/hadoop-2.10.1/hdfs
+2021-10-05 16:03:15,273 INFO  [main] util.ServerCommandLine: env:HBASE_MASTER_OPTS= -XX:PermSize=128m -XX:MaxPermSize=128m -XX:ReservedCodeCacheSize=256m
+2021-10-05 16:03:15,273 INFO  [main] util.ServerCommandLine: env:GNOME_DESKTOP_SESSION_ID=this-is-deprecated
+2021-10-05 16:03:15,273 INFO  [main] util.ServerCommandLine: env:GTK_MODULES=gail:atk-bridge
+2021-10-05 16:03:15,273 INFO  [main] util.ServerCommandLine: env:GNOME_TERMINAL_SCREEN=/org/gnome/Terminal/screen/0328a7cf_de41_4120_93de_38911e8cf554
+2021-10-05 16:03:15,273 INFO  [main] util.ServerCommandLine: env:CLUTTER_IM_MODULE=xim
+2021-10-05 16:03:15,273 INFO  [main] util.ServerCommandLine: env:TEXTDOMAIN=im-config
+2021-10-05 16:03:15,273 INFO  [main] util.ServerCommandLine: env:HADOOP_HOME=/home/emilstahl/hadoop-2.10.1
+2021-10-05 16:03:15,273 INFO  [main] util.ServerCommandLine: env:HBASE_NICENESS=0
+2021-10-05 16:03:15,273 INFO  [main] util.ServerCommandLine: env:HBASE_SECURITY_LOGGER=INFO,RFAS
+2021-10-05 16:03:15,273 INFO  [main] util.ServerCommandLine: env:HBASE_OPTS=-XX:+UseConcMarkSweepGC   -XX:PermSize=128m -XX:MaxPermSize=128m -XX:ReservedCodeCacheSize=256m -Dhbase.log.dir=/home/emilstahl/hbase-1.7.1/logs -Dhbase.log.file=hbase-emilstahl-regionserver-ID2221VM.log -Dhbase.home.dir=/home/emilstahl/hbase-1.7.1 -Dhbase.id.str=emilstahl -Dhbase.root.logger=INFO,RFA -Djava.library.path=/home/emilstahl/hadoop-2.10.1/lib/native -Dhbase.security.logger=INFO,RFAS
+2021-10-05 16:03:15,273 INFO  [main] util.ServerCommandLine: env:XDG_SESSION_DESKTOP=ubuntu
+2021-10-05 16:03:15,274 INFO  [main] util.ServerCommandLine: env:HBASE_CONF=/home/emilstahl/hbase-1.7.1/conf
+2021-10-05 16:03:15,274 INFO  [main] util.ServerCommandLine: eb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:
+2021-10-05 16:03:15,274 INFO  [main] util.ServerCommandLine: env:SHLVL=5
+2021-10-05 16:03:15,274 INFO  [main] util.ServerCommandLine: env:LC_IDENTIFICATION=sv_SE.UTF-8
+2021-10-05 16:03:15,274 INFO  [main] util.ServerCommandLine: env:HBASE_LOGFILE=hbase-emilstahl-regionserver-ID2221VM.log
+2021-10-05 16:03:15,274 INFO  [main] util.ServerCommandLine: env:LC_MONETARY=sv_SE.UTF-8
+2021-10-05 16:03:15,274 INFO  [main] util.ServerCommandLine: env:LESSCLOSE=/usr/bin/lesspipe %s %s
+2021-10-05 16:03:15,274 INFO  [main] util.ServerCommandLine: env:QT_IM_MODULE=xim
+2021-10-05 16:03:15,274 INFO  [main] util.ServerCommandLine: env:JAVA_HOME=/usr/lib/jvm/java-8-openjdk-amd64
+2021-10-05 16:03:15,274 INFO  [main] util.ServerCommandLine: env:TERM=xterm-256color
+2021-10-05 16:03:15,274 INFO  [main] util.ServerCommandLine: env:XDG_CONFIG_DIRS=/etc/xdg/xdg-ubuntu:/etc/xdg
+2021-10-05 16:03:15,274 INFO  [main] util.ServerCommandLine: env:GNOME_TERMINAL_SERVICE=:1.66
+2021-10-05 16:03:15,274 INFO  [main] util.ServerCommandLine: env:LANG=en_US.UTF-8
+2021-10-05 16:03:15,274 INFO  [main] util.ServerCommandLine: env:XDG_SESSION_TYPE=x11
+2021-10-05 16:03:15,274 INFO  [main] util.ServerCommandLine: env:XDG_SESSION_ID=1
+2021-10-05 16:03:15,274 INFO  [main] util.ServerCommandLine: env:DISPLAY=:0
+2021-10-05 16:03:15,275 INFO  [main] util.ServerCommandLine: ilstahl/hadoop-2.10.1/share/hadoop/hdfs/*:/home/emilstahl/hadoop-2.10.1/share/hadoop/yarn:/home/emilstahl/hadoop-2.10.1/share/hadoop/yarn/lib/*:/home/emilstahl/hadoop-2.10.1/share/hadoop/yarn/*:/home/emilstahl/hadoop-2.10.1/share/hadoop/mapreduce/lib/*:/home/emilstahl/hadoop-2.10.1/share/hadoop/mapreduce/*:/home/emilstahl/hadoop-2.10.1/etc/hadoop:/home/emilstahl/hadoop-2.10.1/share/hadoop/common/lib/*:/home/emilstahl/hadoop-2.10.1/share/hadoop/common/*:/home/emilstahl/hadoop-2.10.1/share/hadoop/hdfs:/home/emilstahl/hadoop-2.10.1/share/hadoop/hdfs/lib/*:/home/emilstahl/hadoop-2.10.1/share/hadoop/hdfs/*:/home/emilstahl/hadoop-2.10.1/share/hadoop/yarn:/home/emilstahl/hadoop-2.10.1/share/hadoop/yarn/lib/*:/home/emilstahl/hadoop-2.10.1/share/hadoop/yarn/*:/home/emilstahl/hadoop-2.10.1/share/hadoop/mapreduce/lib/*:/home/emilstahl/hadoop-2.10.1/share/hadoop/mapreduce/*:/home/emilstahl/hadoop-2.10.1/contrib/capacity-scheduler/*.jar:/home/emilstahl/hadoop-2.10.1/contrib/capacity-scheduler/*.jar
+2021-10-05 16:03:15,275 INFO  [main] util.ServerCommandLine: env:SPARK_HOME=/home/emilstahl/spark-2.4.3-bin-hadoop2.7
+2021-10-05 16:03:15,275 INFO  [main] util.ServerCommandLine: env:LC_NAME=sv_SE.UTF-8
+2021-10-05 16:03:15,275 INFO  [main] util.ServerCommandLine: ilstahl/hadoop-2.10.1/share/hadoop/hdfs/*:/home/emilstahl/hadoop-2.10.1/share/hadoop/yarn:/home/emilstahl/hadoop-2.10.1/share/hadoop/yarn/lib/*:/home/emilstahl/hadoop-2.10.1/share/hadoop/yarn/*:/home/emilstahl/hadoop-2.10.1/share/hadoop/mapreduce/lib/*:/home/emilstahl/hadoop-2.10.1/share/hadoop/mapreduce/*:/home/emilstahl/hadoop-2.10.1/etc/hadoop:/home/emilstahl/hadoop-2.10.1/share/hadoop/common/lib/*:/home/emilstahl/hadoop-2.10.1/share/hadoop/common/*:/home/emilstahl/hadoop-2.10.1/share/hadoop/hdfs:/home/emilstahl/hadoop-2.10.1/share/hadoop/hdfs/lib/*:/home/emilstahl/hadoop-2.10.1/share/hadoop/hdfs/*:/home/emilstahl/hadoop-2.10.1/share/hadoop/yarn:/home/emilstahl/hadoop-2.10.1/share/hadoop/yarn/lib/*:/home/emilstahl/hadoop-2.10.1/share/hadoop/yarn/*:/home/emilstahl/hadoop-2.10.1/share/hadoop/mapreduce/lib/*:/home/emilstahl/hadoop-2.10.1/share/hadoop/mapreduce/*:/home/emilstahl/hadoop-2.10.1/contrib/capacity-scheduler/*.jar:/home/emilstahl/hadoop-2.10.1/contrib/capacity-scheduler/*.jar
+2021-10-05 16:03:15,275 INFO  [main] util.ServerCommandLine: env:HBASE_IDENT_STRING=emilstahl
+2021-10-05 16:03:15,275 INFO  [main] util.ServerCommandLine: env:HBASE_ZNODE_FILE=/tmp/hbase-emilstahl-regionserver.znode
+2021-10-05 16:03:15,275 INFO  [main] util.ServerCommandLine: env:HBASE_LOG_DIR=/home/emilstahl/hbase-1.7.1/logs
+2021-10-05 16:03:15,275 INFO  [main] util.ServerCommandLine: env:HBASE_LOG_PREFIX=hbase-emilstahl-regionserver-ID2221VM
+2021-10-05 16:03:15,275 INFO  [main] util.ServerCommandLine: env:GPG_AGENT_INFO=/run/user/1000/gnupg/S.gpg-agent:0:1
+2021-10-05 16:03:15,275 INFO  [main] util.ServerCommandLine: env:DESKTOP_SESSION=ubuntu
+2021-10-05 16:03:15,275 INFO  [main] util.ServerCommandLine: env:USER=emilstahl
+2021-10-05 16:03:15,276 INFO  [main] util.ServerCommandLine: ilstahl/hadoop-2.10.1/share/hadoop/hdfs/*:/home/emilstahl/hadoop-2.10.1/share/hadoop/yarn:/home/emilstahl/hadoop-2.10.1/share/hadoop/yarn/lib/*:/home/emilstahl/hadoop-2.10.1/share/hadoop/yarn/*:/home/emilstahl/hadoop-2.10.1/share/hadoop/mapreduce/lib/*:/home/emilstahl/hadoop-2.10.1/share/hadoop/mapreduce/*:/home/emilstahl/hadoop-2.10.1/etc/hadoop:/home/emilstahl/hadoop-2.10.1/share/hadoop/common/lib/*:/home/emilstahl/hadoop-2.10.1/share/hadoop/common/*:/home/emilstahl/hadoop-2.10.1/share/hadoop/hdfs:/home/emilstahl/hadoop-2.10.1/share/hadoop/hdfs/lib/*:/home/emilstahl/hadoop-2.10.1/share/hadoop/hdfs/*:/home/emilstahl/hadoop-2.10.1/share/hadoop/yarn:/home/emilstahl/hadoop-2.10.1/share/hadoop/yarn/lib/*:/home/emilstahl/hadoop-2.10.1/share/hadoop/yarn/*:/home/emilstahl/hadoop-2.10.1/share/hadoop/mapreduce/lib/*:/home/emilstahl/hadoop-2.10.1/share/hadoop/mapreduce/*:/home/emilstahl/hadoop-2.10.1/contrib/capacity-scheduler/*.jar:/home/emilstahl/hadoop-2.10.1/contrib/capacity-scheduler/*.jar
+2021-10-05 16:03:15,276 INFO  [main] util.ServerCommandLine: env:XDG_MENU_PREFIX=gnome-
+2021-10-05 16:03:15,276 INFO  [main] util.ServerCommandLine: env:VTE_VERSION=5202
+2021-10-05 16:03:15,276 INFO  [main] util.ServerCommandLine: env:WINDOWPATH=1
+2021-10-05 16:03:15,276 INFO  [main] util.ServerCommandLine: env:QT_ACCESSIBILITY=1
+2021-10-05 16:03:15,276 INFO  [main] util.ServerCommandLine: env:LC_NUMERIC=sv_SE.UTF-8
+2021-10-05 16:03:15,276 INFO  [main] util.ServerCommandLine: env:GJS_DEBUG_OUTPUT=stderr
+2021-10-05 16:03:15,276 INFO  [main] util.ServerCommandLine: env:XDG_SEAT=seat0
+2021-10-05 16:03:15,276 INFO  [main] util.ServerCommandLine: env:SSH_AUTH_SOCK=/run/user/1000/keyring/ssh
+2021-10-05 16:03:15,276 INFO  [main] util.ServerCommandLine: env:HBASE_AUTOSTART_FILE=/tmp/hbase-emilstahl-regionserver.autostart
+2021-10-05 16:03:15,276 INFO  [main] util.ServerCommandLine: env:GNOME_SHELL_SESSION_MODE=ubuntu
+2021-10-05 16:03:15,277 INFO  [main] util.ServerCommandLine: env:XDG_RUNTIME_DIR=/run/user/1000
+2021-10-05 16:03:15,277 INFO  [main] util.ServerCommandLine: env:HBASE_HOME=/home/emilstahl/hbase-1.7.1
+2021-10-05 16:03:15,277 INFO  [main] util.ServerCommandLine: env:HBASE_THRIFT_OPTS=
+2021-10-05 16:03:15,277 INFO  [main] util.ServerCommandLine: env:XDG_VTNR=1
+2021-10-05 16:03:15,277 INFO  [main] util.ServerCommandLine: env:HOME=/home/emilstahl
+2021-10-05 16:03:15,277 INFO  [main] util.ServerCommandLine: env:MALLOC_ARENA_MAX=4
+2021-10-05 16:03:15,277 INFO  [main] util.ServerCommandLine: vmName=OpenJDK 64-Bit Server VM, vmVendor=Private Build, vmVersion=25.292-b10
+2021-10-05 16:03:15,278 INFO  [main] util.ServerCommandLine: vmInputArguments=[-Dproc_regionserver, -XX:OnOutOfMemoryError=kill -9 %p, -XX:+UseConcMarkSweepGC, -XX:PermSize=128m, -XX:MaxPermSize=128m, -XX:ReservedCodeCacheSize=256m, -Dhbase.log.dir=/home/emilstahl/hbase-1.7.1/logs, -Dhbase.log.file=hbase-emilstahl-regionserver-ID2221VM.log, -Dhbase.home.dir=/home/emilstahl/hbase-1.7.1, -Dhbase.id.str=emilstahl, -Dhbase.root.logger=INFO,RFA, -Djava.library.path=/home/emilstahl/hadoop-2.10.1/lib/native, -Dhbase.security.logger=INFO,RFAS]
+2021-10-05 16:03:15,502 INFO  [main] regionserver.RSRpcServices: regionserver/ID2221VM/127.0.1.1:16201 server-side HConnection retries=350
+2021-10-05 16:03:15,565 INFO  [main] ipc.RpcExecutor: RpcExecutor  name  using fifo as call queue; numCallQueues=3; maxQueueLength=300; handlerCount=30
+2021-10-05 16:03:15,567 INFO  [main] ipc.RpcExecutor: RpcExecutor  name  using fifo as call queue; numCallQueues=2; maxQueueLength=300; handlerCount=20
+2021-10-05 16:03:15,567 INFO  [main] ipc.RpcExecutor: RpcExecutor  name  using fifo as call queue; numCallQueues=1; maxQueueLength=300; handlerCount=3
+2021-10-05 16:03:15,592 INFO  [main] ipc.RpcServer: regionserver/ID2221VM/127.0.1.1:16201: started 10 reader(s) listening on port=16201
+2021-10-05 16:03:15,781 INFO  [main] metrics.MetricRegistries: Loaded MetricRegistries class org.apache.hadoop.hbase.metrics.impl.MetricRegistriesImpl
+2021-10-05 16:03:16,384 INFO  [main] fs.HFileSystem: Added intercepting call to namenode#getBlockLocations so can do block reordering using class org.apache.hadoop.hbase.fs.HFileSystem$ReorderWALBlocks
+2021-10-05 16:03:16,386 INFO  [main] fs.HFileSystem: Added intercepting call to namenode#getBlockLocations so can do block reordering using class org.apache.hadoop.hbase.fs.HFileSystem$ReorderWALBlocks
+2021-10-05 16:03:16,529 INFO  [main] zookeeper.RecoverableZooKeeper: Process identifier=regionserver:16201 connecting to ZooKeeper ensemble=localhost:2181
+2021-10-05 16:03:16,534 INFO  [main] zookeeper.ZooKeeper: Client environment:zookeeper.version=3.4.10-39d3a4f269333c922ed3db283be479f9deacaa0f, built on 03/23/2017 10:13 GMT
+2021-10-05 16:03:16,534 INFO  [main] zookeeper.ZooKeeper: Client environment:host.name=ID2221VM
+2021-10-05 16:03:16,534 INFO  [main] zookeeper.ZooKeeper: Client environment:java.version=1.8.0_292
+2021-10-05 16:03:16,534 INFO  [main] zookeeper.ZooKeeper: Client environment:java.vendor=Private Build
+2021-10-05 16:03:16,534 INFO  [main] zookeeper.ZooKeeper: Client environment:java.home=/usr/lib/jvm/java-8-openjdk-amd64/jre
+2021-10-05 16:03:16,534 INFO  [main] zookeeper.ZooKeeper: 3.10.6.Final.jar:/home/emilstahl/hadoop-2.10.1/share/hadoop/mapreduce/hadoop-mapreduce-client-jobclient-2.10.1.jar:/home/emilstahl/hadoop-2.10.1/share/hadoop/mapreduce/hadoop-mapreduce-client-app-2.10.1.jar:/home/emilstahl/hadoop-2.10.1/share/hadoop/mapreduce/hadoop-mapreduce-client-jobclient-2.10.1-tests.jar:/home/emilstahl/hadoop-2.10.1/share/hadoop/mapreduce/hadoop-mapreduce-client-hs-2.10.1.jar:/home/emilstahl/hadoop-2.10.1/share/hadoop/mapreduce/hadoop-mapreduce-client-hs-plugins-2.10.1.jar:/home/emilstahl/hadoop-2.10.1/share/hadoop/mapreduce/hadoop-mapreduce-client-common-2.10.1.jar:/home/emilstahl/hadoop-2.10.1/share/hadoop/mapreduce/hadoop-mapreduce-client-shuffle-2.10.1.jar:/home/emilstahl/hadoop-2.10.1/share/hadoop/mapreduce/hadoop-mapreduce-client-core-2.10.1.jar:/home/emilstahl/hadoop-2.10.1/share/hadoop/mapreduce/hadoop-mapreduce-examples-2.10.1.jar:/home/emilstahl/hadoop-2.10.1/contrib/capacity-scheduler/*.jar:/home/emilstahl/hadoop-2.10.1/contrib/capacity-scheduler/*.jar
+2021-10-05 16:03:16,534 INFO  [main] zookeeper.ZooKeeper: Client environment:java.library.path=/home/emilstahl/hadoop-2.10.1/lib/native
+2021-10-05 16:03:16,534 INFO  [main] zookeeper.ZooKeeper: Client environment:java.io.tmpdir=/tmp
+2021-10-05 16:03:16,534 INFO  [main] zookeeper.ZooKeeper: Client environment:java.compiler=<NA>
+2021-10-05 16:03:16,534 INFO  [main] zookeeper.ZooKeeper: Client environment:os.name=Linux
+2021-10-05 16:03:16,534 INFO  [main] zookeeper.ZooKeeper: Client environment:os.arch=amd64
+2021-10-05 16:03:16,534 INFO  [main] zookeeper.ZooKeeper: Client environment:os.version=5.4.0-87-generic
+2021-10-05 16:03:16,534 INFO  [main] zookeeper.ZooKeeper: Client environment:user.name=emilstahl
+2021-10-05 16:03:16,534 INFO  [main] zookeeper.ZooKeeper: Client environment:user.home=/home/emilstahl
+2021-10-05 16:03:16,534 INFO  [main] zookeeper.ZooKeeper: Client environment:user.dir=/home/emilstahl/hbase-1.7.1
+2021-10-05 16:03:16,535 INFO  [main] zookeeper.ZooKeeper: Initiating client connection, connectString=localhost:2181 sessionTimeout=90000 watcher=org.apache.hadoop.hbase.zookeeper.PendingWatcher@41de5768
+2021-10-05 16:03:16,547 INFO  [main-SendThread(localhost:2181)] zookeeper.ClientCnxn: Opening socket connection to server localhost/127.0.0.1:2181. Will not attempt to authenticate using SASL (unknown error)
+2021-10-05 16:03:16,553 WARN  [main-SendThread(localhost:2181)] zookeeper.ClientCnxn: Session 0x0 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.ConnectException: Connection refused
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:716)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:361)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1141)
+2021-10-05 16:03:17,659 INFO  [main-SendThread(localhost:2181)] zookeeper.ClientCnxn: Opening socket connection to server localhost/127.0.0.1:2181. Will not attempt to authenticate using SASL (unknown error)
+2021-10-05 16:03:17,660 INFO  [main-SendThread(localhost:2181)] zookeeper.ClientCnxn: Socket connection established to localhost/127.0.0.1:2181, initiating session
+2021-10-05 16:03:17,687 INFO  [main-SendThread(localhost:2181)] zookeeper.ClientCnxn: Session establishment complete on server localhost/127.0.0.1:2181, sessionid = 0x17c50c40a700000, negotiated timeout = 90000
+2021-10-05 16:03:17,711 INFO  [RpcServer.responder] ipc.RpcServer: RpcServer.responder: starting
+2021-10-05 16:03:17,711 INFO  [RpcServer.listener,port=16201] ipc.RpcServer: RpcServer.listener,port=16201: starting
+2021-10-05 16:03:17,773 INFO  [main] mortbay.log: Logging to org.slf4j.impl.Log4jLoggerAdapter(org.mortbay.log) via org.mortbay.log.Slf4jLog
+2021-10-05 16:03:17,776 INFO  [main] http.HttpRequestLog: Http request log for http.requests.regionserver is not defined
+2021-10-05 16:03:17,785 INFO  [main] http.HttpServer: Added global filter 'safety' (class=org.apache.hadoop.hbase.http.HttpServer$QuotingInputFilter)
+2021-10-05 16:03:17,785 INFO  [main] http.HttpServer: Added global filter 'clickjackingprevention' (class=org.apache.hadoop.hbase.http.ClickjackingPreventionFilter)
+2021-10-05 16:03:17,787 INFO  [main] http.HttpServer: Added filter static_user_filter (class=org.apache.hadoop.hbase.http.lib.StaticUserWebFilter$StaticUserFilter) to context regionserver
+2021-10-05 16:03:17,787 INFO  [main] http.HttpServer: Added filter static_user_filter (class=org.apache.hadoop.hbase.http.lib.StaticUserWebFilter$StaticUserFilter) to context logs
+2021-10-05 16:03:17,787 INFO  [main] http.HttpServer: Added filter static_user_filter (class=org.apache.hadoop.hbase.http.lib.StaticUserWebFilter$StaticUserFilter) to context static
+2021-10-05 16:03:17,795 INFO  [main] http.HttpServer: ASYNC_PROFILER_HOME environment variable and async.profiler.home system property not specified. Disabling /prof endpoint.
+2021-10-05 16:03:17,811 INFO  [main] http.HttpServer: Jetty bound to port 16301
+2021-10-05 16:03:17,811 INFO  [main] mortbay.log: jetty-6.1.26
+2021-10-05 16:03:18,001 INFO  [main] mortbay.log: Started SelectChannelConnector@0.0.0.0:16301
+2021-10-05 16:03:18,005 INFO  [main] hbase.ChoreService: Chore [ScheduledChore: Name: CompactedHFilesCleaner Period: 120000 Unit: MILLISECONDS] is enabled.
+2021-10-05 16:03:18,045 INFO  [regionserver/ID2221VM/127.0.1.1:16201] zookeeper.RecoverableZooKeeper: Process identifier=hconnection-0x20fc01dc connecting to ZooKeeper ensemble=localhost:2181
+2021-10-05 16:03:18,045 INFO  [regionserver/ID2221VM/127.0.1.1:16201] zookeeper.ZooKeeper: Initiating client connection, connectString=localhost:2181 sessionTimeout=90000 watcher=org.apache.hadoop.hbase.zookeeper.PendingWatcher@3095895f
+2021-10-05 16:03:18,045 INFO  [regionserver/ID2221VM/127.0.1.1:16201-SendThread(localhost:2181)] zookeeper.ClientCnxn: Opening socket connection to server localhost/127.0.0.1:2181. Will not attempt to authenticate using SASL (unknown error)
+2021-10-05 16:03:18,046 INFO  [regionserver/ID2221VM/127.0.1.1:16201-SendThread(localhost:2181)] zookeeper.ClientCnxn: Socket connection established to localhost/127.0.0.1:2181, initiating session
+2021-10-05 16:03:18,055 INFO  [regionserver/ID2221VM/127.0.1.1:16201-SendThread(localhost:2181)] zookeeper.ClientCnxn: Session establishment complete on server localhost/127.0.0.1:2181, sessionid = 0x17c50c40a700002, negotiated timeout = 90000
+2021-10-05 16:03:18,139 INFO  [regionserver/ID2221VM/127.0.1.1:16201] regionserver.HRegionServer: ClusterId : 3fdefe07-ac60-4540-8f1a-c261578745c1
+2021-10-05 16:03:18,171 INFO  [regionserver/ID2221VM/127.0.1.1:16201] regionserver.MemStoreFlusher: globalMemStoreLimit=1.1 G, globalMemStoreLimitLowMark=1.1 G, maxHeap=2.9 G
+2021-10-05 16:03:18,178 INFO  [regionserver/ID2221VM/127.0.1.1:16201] throttle.PressureAwareCompactionThroughputController: Compaction throughput configurations, higher bound: 100.00 MB/sec, lower bound 50.00 MB/sec, off peak: unlimited, tuning period: 60000 ms
+2021-10-05 16:03:18,178 INFO  [regionserver/ID2221VM/127.0.1.1:16201] hbase.ChoreService: Chore [ScheduledChore: Name: CompactionThroughputTuner Period: 60000 Unit: MILLISECONDS] is enabled.
+2021-10-05 16:03:18,179 INFO  [regionserver/ID2221VM/127.0.1.1:16201] regionserver.HRegionServer: CompactionChecker runs every 10sec
+2021-10-05 16:03:18,195 INFO  [regionserver/ID2221VM/127.0.1.1:16201] regionserver.RegionServerCoprocessorHost: System coprocessor loading is enabled
+2021-10-05 16:03:18,195 INFO  [regionserver/ID2221VM/127.0.1.1:16201] regionserver.RegionServerCoprocessorHost: Table coprocessor loading is enabled
+2021-10-05 16:03:18,202 INFO  [regionserver/ID2221VM/127.0.1.1:16201] regionserver.HRegionServer: reportForDuty to master=id2221,16000,1631727424162 with port=16201, startcode=1633442595304
+2021-10-05 16:03:18,340 WARN  [regionserver/ID2221VM/127.0.1.1:16201] regionserver.HRegionServer: error telling master we are up
+com.google.protobuf.ServiceException: java.io.IOException: Call to ID2221:16000 failed on local exception: java.net.SocketException: Invalid argument
+	at org.apache.hadoop.hbase.ipc.AbstractRpcClient.callBlockingMethod(AbstractRpcClient.java:333)
+	at org.apache.hadoop.hbase.ipc.AbstractRpcClient.access$200(AbstractRpcClient.java:94)
+	at org.apache.hadoop.hbase.ipc.AbstractRpcClient$BlockingRpcChannelImplementation.callBlockingMethod(AbstractRpcClient.java:585)
+	at org.apache.hadoop.hbase.protobuf.generated.RegionServerStatusProtos$RegionServerStatusService$BlockingStub.regionServerStartup(RegionServerStatusProtos.java:8982)
+	at org.apache.hadoop.hbase.regionserver.HRegionServer.reportForDuty(HRegionServer.java:2585)
+	at org.apache.hadoop.hbase.regionserver.HRegionServer.run(HRegionServer.java:1037)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.io.IOException: Call to ID2221:16000 failed on local exception: java.net.SocketException: Invalid argument
+	at org.apache.hadoop.hbase.ipc.IPCUtil.wrapException(IPCUtil.java:180)
+	at org.apache.hadoop.hbase.ipc.AbstractRpcClient.onCallFinished(AbstractRpcClient.java:387)
+	at org.apache.hadoop.hbase.ipc.AbstractRpcClient.access$100(AbstractRpcClient.java:94)
+	at org.apache.hadoop.hbase.ipc.AbstractRpcClient$3.run(AbstractRpcClient.java:408)
+	at org.apache.hadoop.hbase.ipc.AbstractRpcClient$3.run(AbstractRpcClient.java:404)
+	at org.apache.hadoop.hbase.ipc.Call.callComplete(Call.java:103)
+	at org.apache.hadoop.hbase.ipc.Call.setException(Call.java:118)
+	at org.apache.hadoop.hbase.ipc.AbstractRpcClient.callMethod(AbstractRpcClient.java:421)
+	at org.apache.hadoop.hbase.ipc.AbstractRpcClient.callBlockingMethod(AbstractRpcClient.java:325)
+	... 6 more
+Caused by: java.net.SocketException: Invalid argument
+	at sun.nio.ch.Net.connect0(Native Method)
+	at sun.nio.ch.Net.connect(Net.java:482)
+	at sun.nio.ch.Net.connect(Net.java:474)
+	at sun.nio.ch.SocketChannelImpl.connect(SocketChannelImpl.java:647)
+	at org.apache.hadoop.net.SocketIOWithTimeout.connect(SocketIOWithTimeout.java:192)
+	at org.apache.hadoop.net.NetUtils.connect(NetUtils.java:531)
+	at org.apache.hadoop.net.NetUtils.connect(NetUtils.java:495)
+	at org.apache.hadoop.hbase.ipc.BlockingRpcConnection.setupConnection(BlockingRpcConnection.java:264)
+	at org.apache.hadoop.hbase.ipc.BlockingRpcConnection.setupIOstreams(BlockingRpcConnection.java:445)
+	at org.apache.hadoop.hbase.ipc.BlockingRpcConnection.writeRequest(BlockingRpcConnection.java:548)
+	at org.apache.hadoop.hbase.ipc.BlockingRpcConnection.tracedWriteRequest(BlockingRpcConnection.java:528)
+	at org.apache.hadoop.hbase.ipc.BlockingRpcConnection.access$200(BlockingRpcConnection.java:86)
+	at org.apache.hadoop.hbase.ipc.BlockingRpcConnection$4.run(BlockingRpcConnection.java:732)
+	at org.apache.hadoop.hbase.ipc.HBaseRpcControllerImpl.notifyOnCancel(HBaseRpcControllerImpl.java:240)
+	at org.apache.hadoop.hbase.ipc.BlockingRpcConnection.sendRequest(BlockingRpcConnection.java:707)
+	at org.apache.hadoop.hbase.ipc.AbstractRpcClient.callMethod(AbstractRpcClient.java:419)
+	... 7 more
+2021-10-05 16:03:18,340 WARN  [regionserver/ID2221VM/127.0.1.1:16201] regionserver.HRegionServer: reportForDuty failed; sleeping 3000 ms and then retrying
+2021-10-05 16:03:21,342 INFO  [regionserver/ID2221VM/127.0.1.1:16201] regionserver.HRegionServer: reportForDuty to master=id2221,16000,1631727424162 with port=16201, startcode=1633442595304
+2021-10-05 16:03:21,343 WARN  [regionserver/ID2221VM/127.0.1.1:16201] regionserver.HRegionServer: error telling master we are up
+com.google.protobuf.ServiceException: java.io.IOException: Call to ID2221:16000 failed on local exception: java.net.SocketException: Invalid argument
+	at org.apache.hadoop.hbase.ipc.AbstractRpcClient.callBlockingMethod(AbstractRpcClient.java:333)
+	at org.apache.hadoop.hbase.ipc.AbstractRpcClient.access$200(AbstractRpcClient.java:94)
+	at org.apache.hadoop.hbase.ipc.AbstractRpcClient$BlockingRpcChannelImplementation.callBlockingMethod(AbstractRpcClient.java:585)
+	at org.apache.hadoop.hbase.protobuf.generated.RegionServerStatusProtos$RegionServerStatusService$BlockingStub.regionServerStartup(RegionServerStatusProtos.java:8982)
+	at org.apache.hadoop.hbase.regionserver.HRegionServer.reportForDuty(HRegionServer.java:2585)
+	at org.apache.hadoop.hbase.regionserver.HRegionServer.run(HRegionServer.java:1037)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.io.IOException: Call to ID2221:16000 failed on local exception: java.net.SocketException: Invalid argument
+	at org.apache.hadoop.hbase.ipc.IPCUtil.wrapException(IPCUtil.java:180)
+	at org.apache.hadoop.hbase.ipc.AbstractRpcClient.onCallFinished(AbstractRpcClient.java:387)
+	at org.apache.hadoop.hbase.ipc.AbstractRpcClient.access$100(AbstractRpcClient.java:94)
+	at org.apache.hadoop.hbase.ipc.AbstractRpcClient$3.run(AbstractRpcClient.java:408)
+	at org.apache.hadoop.hbase.ipc.AbstractRpcClient$3.run(AbstractRpcClient.java:404)
+	at org.apache.hadoop.hbase.ipc.Call.callComplete(Call.java:103)
+	at org.apache.hadoop.hbase.ipc.Call.setException(Call.java:118)
+	at org.apache.hadoop.hbase.ipc.AbstractRpcClient.callMethod(AbstractRpcClient.java:421)
+	at org.apache.hadoop.hbase.ipc.AbstractRpcClient.callBlockingMethod(AbstractRpcClient.java:325)
+	... 6 more
+Caused by: java.net.SocketException: Invalid argument
+	at sun.nio.ch.Net.connect0(Native Method)
+	at sun.nio.ch.Net.connect(Net.java:482)
+	at sun.nio.ch.Net.connect(Net.java:474)
+	at sun.nio.ch.SocketChannelImpl.connect(SocketChannelImpl.java:647)
+	at org.apache.hadoop.net.SocketIOWithTimeout.connect(SocketIOWithTimeout.java:192)
+	at org.apache.hadoop.net.NetUtils.connect(NetUtils.java:531)
+	at org.apache.hadoop.net.NetUtils.connect(NetUtils.java:495)
+	at org.apache.hadoop.hbase.ipc.BlockingRpcConnection.setupConnection(BlockingRpcConnection.java:264)
+	at org.apache.hadoop.hbase.ipc.BlockingRpcConnection.setupIOstreams(BlockingRpcConnection.java:445)
+	at org.apache.hadoop.hbase.ipc.BlockingRpcConnection.writeRequest(BlockingRpcConnection.java:548)
+	at org.apache.hadoop.hbase.ipc.BlockingRpcConnection.tracedWriteRequest(BlockingRpcConnection.java:528)
+	at org.apache.hadoop.hbase.ipc.BlockingRpcConnection.access$200(BlockingRpcConnection.java:86)
+	at org.apache.hadoop.hbase.ipc.BlockingRpcConnection$4.run(BlockingRpcConnection.java:732)
+	at org.apache.hadoop.hbase.ipc.HBaseRpcControllerImpl.notifyOnCancel(HBaseRpcControllerImpl.java:240)
+	at org.apache.hadoop.hbase.ipc.BlockingRpcConnection.sendRequest(BlockingRpcConnection.java:707)
+	at org.apache.hadoop.hbase.ipc.AbstractRpcClient.callMethod(AbstractRpcClient.java:419)
+	... 7 more
+2021-10-05 16:03:21,344 WARN  [regionserver/ID2221VM/127.0.1.1:16201] regionserver.HRegionServer: reportForDuty failed; sleeping 6000 ms and then retrying
+2021-10-05 16:03:27,345 INFO  [regionserver/ID2221VM/127.0.1.1:16201] regionserver.HRegionServer: reportForDuty to master=id2221,16000,1631727424162 with port=16201, startcode=1633442595304
+2021-10-05 16:03:27,346 WARN  [regionserver/ID2221VM/127.0.1.1:16201] regionserver.HRegionServer: error telling master we are up
+com.google.protobuf.ServiceException: java.io.IOException: Call to ID2221:16000 failed on local exception: java.net.SocketException: Invalid argument
+	at org.apache.hadoop.hbase.ipc.AbstractRpcClient.callBlockingMethod(AbstractRpcClient.java:333)
+	at org.apache.hadoop.hbase.ipc.AbstractRpcClient.access$200(AbstractRpcClient.java:94)
+	at org.apache.hadoop.hbase.ipc.AbstractRpcClient$BlockingRpcChannelImplementation.callBlockingMethod(AbstractRpcClient.java:585)
+	at org.apache.hadoop.hbase.protobuf.generated.RegionServerStatusProtos$RegionServerStatusService$BlockingStub.regionServerStartup(RegionServerStatusProtos.java:8982)
+	at org.apache.hadoop.hbase.regionserver.HRegionServer.reportForDuty(HRegionServer.java:2585)
+	at org.apache.hadoop.hbase.regionserver.HRegionServer.run(HRegionServer.java:1037)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.io.IOException: Call to ID2221:16000 failed on local exception: java.net.SocketException: Invalid argument
+	at org.apache.hadoop.hbase.ipc.IPCUtil.wrapException(IPCUtil.java:180)
+	at org.apache.hadoop.hbase.ipc.AbstractRpcClient.onCallFinished(AbstractRpcClient.java:387)
+	at org.apache.hadoop.hbase.ipc.AbstractRpcClient.access$100(AbstractRpcClient.java:94)
+	at org.apache.hadoop.hbase.ipc.AbstractRpcClient$3.run(AbstractRpcClient.java:408)
+	at org.apache.hadoop.hbase.ipc.AbstractRpcClient$3.run(AbstractRpcClient.java:404)
+	at org.apache.hadoop.hbase.ipc.Call.callComplete(Call.java:103)
+	at org.apache.hadoop.hbase.ipc.Call.setException(Call.java:118)
+	at org.apache.hadoop.hbase.ipc.AbstractRpcClient.callMethod(AbstractRpcClient.java:421)
+	at org.apache.hadoop.hbase.ipc.AbstractRpcClient.callBlockingMethod(AbstractRpcClient.java:325)
+	... 6 more
+Caused by: java.net.SocketException: Invalid argument
+	at sun.nio.ch.Net.connect0(Native Method)
+	at sun.nio.ch.Net.connect(Net.java:482)
+	at sun.nio.ch.Net.connect(Net.java:474)
+	at sun.nio.ch.SocketChannelImpl.connect(SocketChannelImpl.java:647)
+	at org.apache.hadoop.net.SocketIOWithTimeout.connect(SocketIOWithTimeout.java:192)
+	at org.apache.hadoop.net.NetUtils.connect(NetUtils.java:531)
+	at org.apache.hadoop.net.NetUtils.connect(NetUtils.java:495)
+	at org.apache.hadoop.hbase.ipc.BlockingRpcConnection.setupConnection(BlockingRpcConnection.java:264)
+	at org.apache.hadoop.hbase.ipc.BlockingRpcConnection.setupIOstreams(BlockingRpcConnection.java:445)
+	at org.apache.hadoop.hbase.ipc.BlockingRpcConnection.writeRequest(BlockingRpcConnection.java:548)
+	at org.apache.hadoop.hbase.ipc.BlockingRpcConnection.tracedWriteRequest(BlockingRpcConnection.java:528)
+	at org.apache.hadoop.hbase.ipc.BlockingRpcConnection.access$200(BlockingRpcConnection.java:86)
+	at org.apache.hadoop.hbase.ipc.BlockingRpcConnection$4.run(BlockingRpcConnection.java:732)
+	at org.apache.hadoop.hbase.ipc.HBaseRpcControllerImpl.notifyOnCancel(HBaseRpcControllerImpl.java:240)
+	at org.apache.hadoop.hbase.ipc.BlockingRpcConnection.sendRequest(BlockingRpcConnection.java:707)
+	at org.apache.hadoop.hbase.ipc.AbstractRpcClient.callMethod(AbstractRpcClient.java:419)
+	... 7 more
+2021-10-05 16:03:27,346 WARN  [regionserver/ID2221VM/127.0.1.1:16201] regionserver.HRegionServer: reportForDuty failed; sleeping 12000 ms and then retrying
+2021-10-05 16:03:39,348 INFO  [regionserver/ID2221VM/127.0.1.1:16201] regionserver.HRegionServer: reportForDuty to master=id2221,16000,1631727424162 with port=16201, startcode=1633442595304
+2021-10-05 16:03:39,349 WARN  [regionserver/ID2221VM/127.0.1.1:16201] regionserver.HRegionServer: error telling master we are up
+com.google.protobuf.ServiceException: java.io.IOException: Call to ID2221:16000 failed on local exception: java.net.SocketException: Invalid argument
+	at org.apache.hadoop.hbase.ipc.AbstractRpcClient.callBlockingMethod(AbstractRpcClient.java:333)
+	at org.apache.hadoop.hbase.ipc.AbstractRpcClient.access$200(AbstractRpcClient.java:94)
+	at org.apache.hadoop.hbase.ipc.AbstractRpcClient$BlockingRpcChannelImplementation.callBlockingMethod(AbstractRpcClient.java:585)
+	at org.apache.hadoop.hbase.protobuf.generated.RegionServerStatusProtos$RegionServerStatusService$BlockingStub.regionServerStartup(RegionServerStatusProtos.java:8982)
+	at org.apache.hadoop.hbase.regionserver.HRegionServer.reportForDuty(HRegionServer.java:2585)
+	at org.apache.hadoop.hbase.regionserver.HRegionServer.run(HRegionServer.java:1037)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.io.IOException: Call to ID2221:16000 failed on local exception: java.net.SocketException: Invalid argument
+	at org.apache.hadoop.hbase.ipc.IPCUtil.wrapException(IPCUtil.java:180)
+	at org.apache.hadoop.hbase.ipc.AbstractRpcClient.onCallFinished(AbstractRpcClient.java:387)
+	at org.apache.hadoop.hbase.ipc.AbstractRpcClient.access$100(AbstractRpcClient.java:94)
+	at org.apache.hadoop.hbase.ipc.AbstractRpcClient$3.run(AbstractRpcClient.java:408)
+	at org.apache.hadoop.hbase.ipc.AbstractRpcClient$3.run(AbstractRpcClient.java:404)
+	at org.apache.hadoop.hbase.ipc.Call.callComplete(Call.java:103)
+	at org.apache.hadoop.hbase.ipc.Call.setException(Call.java:118)
+	at org.apache.hadoop.hbase.ipc.AbstractRpcClient.callMethod(AbstractRpcClient.java:421)
+	at org.apache.hadoop.hbase.ipc.AbstractRpcClient.callBlockingMethod(AbstractRpcClient.java:325)
+	... 6 more
+Caused by: java.net.SocketException: Invalid argument
+	at sun.nio.ch.Net.connect0(Native Method)
+	at sun.nio.ch.Net.connect(Net.java:482)
+	at sun.nio.ch.Net.connect(Net.java:474)
+	at sun.nio.ch.SocketChannelImpl.connect(SocketChannelImpl.java:647)
+	at org.apache.hadoop.net.SocketIOWithTimeout.connect(SocketIOWithTimeout.java:192)
+	at org.apache.hadoop.net.NetUtils.connect(NetUtils.java:531)
+	at org.apache.hadoop.net.NetUtils.connect(NetUtils.java:495)
+	at org.apache.hadoop.hbase.ipc.BlockingRpcConnection.setupConnection(BlockingRpcConnection.java:264)
+	at org.apache.hadoop.hbase.ipc.BlockingRpcConnection.setupIOstreams(BlockingRpcConnection.java:445)
+	at org.apache.hadoop.hbase.ipc.BlockingRpcConnection.writeRequest(BlockingRpcConnection.java:548)
+	at org.apache.hadoop.hbase.ipc.BlockingRpcConnection.tracedWriteRequest(BlockingRpcConnection.java:528)
+	at org.apache.hadoop.hbase.ipc.BlockingRpcConnection.access$200(BlockingRpcConnection.java:86)
+	at org.apache.hadoop.hbase.ipc.BlockingRpcConnection$4.run(BlockingRpcConnection.java:732)
+	at org.apache.hadoop.hbase.ipc.HBaseRpcControllerImpl.notifyOnCancel(HBaseRpcControllerImpl.java:240)
+	at org.apache.hadoop.hbase.ipc.BlockingRpcConnection.sendRequest(BlockingRpcConnection.java:707)
+	at org.apache.hadoop.hbase.ipc.AbstractRpcClient.callMethod(AbstractRpcClient.java:419)
+	... 7 more
+2021-10-05 16:03:39,349 WARN  [regionserver/ID2221VM/127.0.1.1:16201] regionserver.HRegionServer: reportForDuty failed; sleeping 24000 ms and then retrying
+2021-10-05 16:04:03,350 WARN  [regionserver/ID2221VM/127.0.1.1:16201] util.Sleeper: We slept 24001ms instead of 3000ms, this is likely due to a long garbage collecting pause and it's usually bad, see http://hbase.apache.org/book.html#trouble.rs.runtime.zkexpired
+2021-10-05 16:04:03,351 INFO  [regionserver/ID2221VM/127.0.1.1:16201] regionserver.HRegionServer: reportForDuty to master=id2221,16000,1631727424162 with port=16201, startcode=1633442595304
+2021-10-05 16:04:03,355 WARN  [regionserver/ID2221VM/127.0.1.1:16201] regionserver.HRegionServer: error telling master we are up
+com.google.protobuf.ServiceException: java.io.IOException: Call to ID2221:16000 failed on local exception: java.net.SocketException: Invalid argument
+	at org.apache.hadoop.hbase.ipc.AbstractRpcClient.callBlockingMethod(AbstractRpcClient.java:333)
+	at org.apache.hadoop.hbase.ipc.AbstractRpcClient.access$200(AbstractRpcClient.java:94)
+	at org.apache.hadoop.hbase.ipc.AbstractRpcClient$BlockingRpcChannelImplementation.callBlockingMethod(AbstractRpcClient.java:585)
+	at org.apache.hadoop.hbase.protobuf.generated.RegionServerStatusProtos$RegionServerStatusService$BlockingStub.regionServerStartup(RegionServerStatusProtos.java:8982)
+	at org.apache.hadoop.hbase.regionserver.HRegionServer.reportForDuty(HRegionServer.java:2585)
+	at org.apache.hadoop.hbase.regionserver.HRegionServer.run(HRegionServer.java:1037)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.io.IOException: Call to ID2221:16000 failed on local exception: java.net.SocketException: Invalid argument
+	at org.apache.hadoop.hbase.ipc.IPCUtil.wrapException(IPCUtil.java:180)
+	at org.apache.hadoop.hbase.ipc.AbstractRpcClient.onCallFinished(AbstractRpcClient.java:387)
+	at org.apache.hadoop.hbase.ipc.AbstractRpcClient.access$100(AbstractRpcClient.java:94)
+	at org.apache.hadoop.hbase.ipc.AbstractRpcClient$3.run(AbstractRpcClient.java:408)
+	at org.apache.hadoop.hbase.ipc.AbstractRpcClient$3.run(AbstractRpcClient.java:404)
+	at org.apache.hadoop.hbase.ipc.Call.callComplete(Call.java:103)
+	at org.apache.hadoop.hbase.ipc.Call.setException(Call.java:118)
+	at org.apache.hadoop.hbase.ipc.AbstractRpcClient.callMethod(AbstractRpcClient.java:421)
+	at org.apache.hadoop.hbase.ipc.AbstractRpcClient.callBlockingMethod(AbstractRpcClient.java:325)
+	... 6 more
+Caused by: java.net.SocketException: Invalid argument
+	at sun.nio.ch.Net.connect0(Native Method)
+	at sun.nio.ch.Net.connect(Net.java:482)
+	at sun.nio.ch.Net.connect(Net.java:474)
+	at sun.nio.ch.SocketChannelImpl.connect(SocketChannelImpl.java:647)
+	at org.apache.hadoop.net.SocketIOWithTimeout.connect(SocketIOWithTimeout.java:192)
+	at org.apache.hadoop.net.NetUtils.connect(NetUtils.java:531)
+	at org.apache.hadoop.net.NetUtils.connect(NetUtils.java:495)
+	at org.apache.hadoop.hbase.ipc.BlockingRpcConnection.setupConnection(BlockingRpcConnection.java:264)
+	at org.apache.hadoop.hbase.ipc.BlockingRpcConnection.setupIOstreams(BlockingRpcConnection.java:445)
+	at org.apache.hadoop.hbase.ipc.BlockingRpcConnection.writeRequest(BlockingRpcConnection.java:548)
+	at org.apache.hadoop.hbase.ipc.BlockingRpcConnection.tracedWriteRequest(BlockingRpcConnection.java:528)
+	at org.apache.hadoop.hbase.ipc.BlockingRpcConnection.access$200(BlockingRpcConnection.java:86)
+	at org.apache.hadoop.hbase.ipc.BlockingRpcConnection$4.run(BlockingRpcConnection.java:732)
+	at org.apache.hadoop.hbase.ipc.HBaseRpcControllerImpl.notifyOnCancel(HBaseRpcControllerImpl.java:240)
+	at org.apache.hadoop.hbase.ipc.BlockingRpcConnection.sendRequest(BlockingRpcConnection.java:707)
+	at org.apache.hadoop.hbase.ipc.AbstractRpcClient.callMethod(AbstractRpcClient.java:419)
+	... 7 more
+2021-10-05 16:04:03,355 WARN  [regionserver/ID2221VM/127.0.1.1:16201] regionserver.HRegionServer: reportForDuty failed; sleeping 48000 ms and then retrying
+2021-10-05 16:04:51,355 WARN  [regionserver/ID2221VM/127.0.1.1:16201] util.Sleeper: We slept 48000ms instead of 3000ms, this is likely due to a long garbage collecting pause and it's usually bad, see http://hbase.apache.org/book.html#trouble.rs.runtime.zkexpired
+2021-10-05 16:04:51,357 INFO  [regionserver/ID2221VM/127.0.1.1:16201] regionserver.HRegionServer: reportForDuty to master=id2221vm,16000,1633442594112 with port=16201, startcode=1633442595304
+2021-10-05 16:04:51,511 INFO  [regionserver/ID2221VM/127.0.1.1:16201] Configuration.deprecation: hbase.offheapcache.minblocksize is deprecated. Instead, use hbase.blockcache.minblocksize
+2021-10-05 16:04:51,511 INFO  [regionserver/ID2221VM/127.0.1.1:16201] hfile.CacheConfig: Allocating LruBlockCache size=1.14 GB, blockSize=64 KB
+2021-10-05 16:04:51,518 INFO  [regionserver/ID2221VM/127.0.1.1:16201] hfile.CacheConfig: Created cacheConfig: blockCache=LruBlockCache{blockCount=0, currentSize=900960, freeSize=1227820448, maxSize=1228721408, heapSize=900960, minSize=1167285376, minFactor=0.95, multiSize=583642688, multiFactor=0.5, singleSize=291821344, singleFactor=0.25}, cacheDataOnRead=true, cacheDataOnWrite=false, cacheIndexesOnWrite=false, cacheBloomsOnWrite=false, cacheEvictOnClose=false, cacheDataCompressed=false, prefetchOnOpen=false
+2021-10-05 16:04:51,598 INFO  [regionserver/ID2221VM/127.0.1.1:16201] wal.WALFactory: Instantiating WALProvider of type class org.apache.hadoop.hbase.wal.DefaultWALProvider
+2021-10-05 16:04:51,603 INFO  [regionserver/ID2221VM/127.0.1.1:16201] regionserver.MetricsRegionServerWrapperImpl: Computing regionserver metrics every 5000 milliseconds
+2021-10-05 16:04:51,632 INFO  [regionserver/ID2221VM/127.0.1.1:16201] hbase.ChoreService: Chore [ScheduledChore: Name: CompactionChecker Period: 10000 Unit: MILLISECONDS] is enabled.
+2021-10-05 16:04:51,632 INFO  [regionserver/ID2221VM/127.0.1.1:16201] hbase.ChoreService: Chore [ScheduledChore: Name: id2221vm,16201,1633442595304-MemstoreFlusherChore Period: 10000 Unit: MILLISECONDS] is enabled.
+2021-10-05 16:04:51,632 INFO  [regionserver/ID2221VM/127.0.1.1:16201] hbase.ChoreService: Chore [ScheduledChore: Name: nonceCleaner Period: 360000 Unit: MILLISECONDS] is enabled.
+2021-10-05 16:04:51,632 INFO  [regionserver/ID2221VM/127.0.1.1:16201] hbase.ChoreService: Chore [ScheduledChore: Name: MovedRegionsCleaner for region id2221vm,16201,1633442595304 Period: 120000 Unit: MILLISECONDS] is enabled.
+2021-10-05 16:04:51,635 INFO  [regionserver/ID2221VM/127.0.1.1:16201] regionserver.ReplicationSourceManager: Current list of replicators: [id2221,16201,1631727425275, id2221vm,16201,1633442595304] other RSs: [id2221vm,16201,1633442595304]
+2021-10-05 16:04:51,682 INFO  [SplitLogWorker-ID2221VM:16201] regionserver.SplitLogWorker: SplitLogWorker id2221vm,16201,1633442595304 starting
+2021-10-05 16:04:51,682 INFO  [regionserver/ID2221VM/127.0.1.1:16201] hbase.HealthCheckChore: ExecutorStatusChore runs every 1mins, 0sec 
+2021-10-05 16:04:51,684 INFO  [regionserver/ID2221VM/127.0.1.1:16201] regionserver.HeapMemoryManager: Starting HeapMemoryTuner chore.
+2021-10-05 16:04:51,688 INFO  [regionserver/ID2221VM/127.0.1.1:16201] hbase.ChoreService: Chore [ScheduledChore: Name: id2221vm,16201,1633442595304-HeapMemoryTunerChore Period: 60000 Unit: MILLISECONDS] is enabled.
+2021-10-05 16:04:51,688 INFO  [regionserver/ID2221VM/127.0.1.1:16201] regionserver.HRegionServer: Serving as id2221vm,16201,1633442595304, RpcServer on ID2221VM/127.0.1.1:16201, sessionid=0x17c50c40a700000
+2021-10-05 16:04:51,698 INFO  [regionserver/ID2221VM/127.0.1.1:16201] quotas.RegionServerQuotaManager: Quota support disabled
+2021-10-05 16:04:53,350 INFO  [SplitLogWorker-ID2221VM:16201] coordination.ZkSplitLogWorkerCoordination: worker id2221vm,16201,1633442595304 acquired task /hbase/splitWAL/WALs%2Fid2221%2C16201%2C1631727425275-splitting%2Fid2221%252C16201%252C1631727425275.meta.1632155914764.meta
+2021-10-05 16:04:53,415 INFO  [RS_LOG_REPLAY_OPS-ID2221VM:16201-0] wal.WALSplitter: Splitting wal: hdfs://localhost:9000/hbase/WALs/id2221,16201,1631727425275-splitting/id2221%2C16201%2C1631727425275.meta.1632155914764.meta, length=83
+2021-10-05 16:04:53,415 INFO  [RS_LOG_REPLAY_OPS-ID2221VM:16201-0] wal.WALSplitter: DistributedLogReplay = false
+2021-10-05 16:04:53,420 INFO  [RS_LOG_REPLAY_OPS-ID2221VM:16201-0] util.FSHDFSUtils: Recover lease on dfs file hdfs://localhost:9000/hbase/WALs/id2221,16201,1631727425275-splitting/id2221%2C16201%2C1631727425275.meta.1632155914764.meta
+2021-10-05 16:04:53,430 INFO  [RS_LOG_REPLAY_OPS-ID2221VM:16201-0] util.FSHDFSUtils: Failed to recover lease, attempt=0 on file=hdfs://localhost:9000/hbase/WALs/id2221,16201,1631727425275-splitting/id2221%2C16201%2C1631727425275.meta.1632155914764.meta after 10ms
+2021-10-05 16:04:54,735 INFO  [regionserver/ID2221VM/127.0.1.1:16201] wal.FSHLog: WAL configuration: blocksize=256 MB, rollsize=243.20 MB, prefix=id2221vm%2C16201%2C1633442595304, suffix=, logDir=hdfs://localhost:9000/hbase/WALs/id2221vm,16201,1633442595304, archiveDir=hdfs://localhost:9000/hbase/oldWALs
+2021-10-05 16:04:54,875 INFO  [regionserver/ID2221VM/127.0.1.1:16201] wal.FSHLog: Slow sync cost: 101 ms, current pipeline: []
+2021-10-05 16:04:54,876 INFO  [regionserver/ID2221VM/127.0.1.1:16201] wal.FSHLog: New WAL /hbase/WALs/id2221vm,16201,1633442595304/id2221vm%2C16201%2C1633442595304.1633442694735
+2021-10-05 16:04:57,433 INFO  [RS_LOG_REPLAY_OPS-ID2221VM:16201-0] util.FSHDFSUtils: Recovered lease, attempt=1 on file=hdfs://localhost:9000/hbase/WALs/id2221,16201,1631727425275-splitting/id2221%2C16201%2C1631727425275.meta.1632155914764.meta after 4013ms
+2021-10-05 16:04:57,491 INFO  [RS_LOG_REPLAY_OPS-ID2221VM:16201-0] wal.WALSplitter: 3 split writer threads finished
+2021-10-05 16:04:57,492 INFO  [RS_LOG_REPLAY_OPS-ID2221VM:16201-0] wal.WALSplitter: Processed 0 edits across 0 regions; edits skipped=0; log file=hdfs://localhost:9000/hbase/WALs/id2221,16201,1631727425275-splitting/id2221%2C16201%2C1631727425275.meta.1632155914764.meta, length=83, corrupted=false, progress failed=false
+2021-10-05 16:04:57,496 INFO  [RS_LOG_REPLAY_OPS-ID2221VM:16201-0] coordination.ZkSplitLogWorkerCoordination: successfully transitioned task /hbase/splitWAL/WALs%2Fid2221%2C16201%2C1631727425275-splitting%2Fid2221%252C16201%252C1631727425275.meta.1632155914764.meta to final state DONE id2221vm,16201,1633442595304
+2021-10-05 16:04:57,497 INFO  [RS_LOG_REPLAY_OPS-ID2221VM:16201-0] handler.WALSplitterHandler: worker id2221vm,16201,1633442595304 done with task org.apache.hadoop.hbase.coordination.ZkSplitLogWorkerCoordination$ZkSplitTaskDetails@2ac93890 in 4142ms
+2021-10-05 16:05:00,736 INFO  [RpcServer.priority.FPBQ.Fifo.handler=19,queue=1,port=16201] regionserver.RSRpcServices: Open hbase:meta,,1.1588230740
+2021-10-05 16:05:00,753 INFO  [RS_OPEN_META-ID2221VM:16201-0] wal.WALFactory: Instantiating WALProvider of type class org.apache.hadoop.hbase.wal.DefaultWALProvider
+2021-10-05 16:05:00,761 INFO  [RS_OPEN_META-ID2221VM:16201-0] wal.FSHLog: WAL configuration: blocksize=256 MB, rollsize=243.20 MB, prefix=id2221vm%2C16201%2C1633442595304.meta, suffix=.meta, logDir=hdfs://localhost:9000/hbase/WALs/id2221vm,16201,1633442595304, archiveDir=hdfs://localhost:9000/hbase/oldWALs
+2021-10-05 16:05:00,783 INFO  [RS_OPEN_META-ID2221VM:16201-0] wal.FSHLog: New WAL /hbase/WALs/id2221vm,16201,1633442595304/id2221vm%2C16201%2C1633442595304.meta.1633442700761.meta
+2021-10-05 16:05:00,885 INFO  [RS_OPEN_META-ID2221VM:16201-0] regionserver.RegionCoprocessorHost: Loaded coprocessor org.apache.hadoop.hbase.coprocessor.MultiRowMutationEndpoint from HTD of hbase:meta successfully.
+2021-10-05 16:05:00,954 INFO  [StoreOpener-1588230740-1] hfile.CacheConfig: Created cacheConfig for info: blockCache=LruBlockCache{blockCount=0, currentSize=900960, freeSize=1227820448, maxSize=1228721408, heapSize=900960, minSize=1167285376, minFactor=0.95, multiSize=583642688, multiFactor=0.5, singleSize=291821344, singleFactor=0.25}, cacheDataOnRead=true, cacheDataOnWrite=false, cacheIndexesOnWrite=false, cacheBloomsOnWrite=false, cacheEvictOnClose=false, cacheDataCompressed=false, prefetchOnOpen=false
+2021-10-05 16:05:00,967 INFO  [StoreOpener-1588230740-1] compactions.CompactionConfiguration: size [minCompactSize:134217728, maxCompactSize:9223372036854775807, offPeakMaxCompactSize:9223372036854775807); files [minFilesToCompact:3, maxFilesToCompact:10); ratio 1.200000; off-peak ratio 5.000000; throttle point 2684354560; major period 604800000, major jitter 0.500000, min locality to compact 0.000000; tiered compaction: max_age 9223372036854775807, incoming window min 6, compaction policy for tiered window org.apache.hadoop.hbase.regionserver.compactions.ExploringCompactionPolicy, single output for minor true, compaction window factory org.apache.hadoop.hbase.regionserver.compactions.ExponentialCompactionWindowFactory
+2021-10-05 16:05:01,080 INFO  [StoreOpener-1588230740-1] regionserver.HStore: Store=info, memstore type=DefaultMemStore, storagePolicy=HOT, verifyBulkLoads=false, encoding=NONE, compression=NONE
+2021-10-05 16:05:01,123 INFO  [RS_OPEN_META-ID2221VM:16201-0] regionserver.HRegion: Onlined 1588230740; next sequenceid=28
+2021-10-05 16:05:01,155 INFO  [PostOpenDeployTasks:1588230740] regionserver.HRegionServer: Post open deploy tasks for hbase:meta,,1.1588230740
+2021-10-05 16:05:01,157 INFO  [PostOpenDeployTasks:1588230740] zookeeper.MetaTableLocator: Setting hbase:meta region location in ZooKeeper as id2221vm,16201,1633442595304
+2021-10-05 16:05:01,760 INFO  [SplitLogWorker-ID2221VM:16201] coordination.ZkSplitLogWorkerCoordination: worker id2221vm,16201,1633442595304 acquired task /hbase/splitWAL/WALs%2Fid2221%2C16201%2C1631727425275-splitting%2Fid2221%252C16201%252C1631727425275.1632155921329
+2021-10-05 16:05:01,776 INFO  [RS_LOG_REPLAY_OPS-ID2221VM:16201-1] wal.WALSplitter: Splitting wal: hdfs://localhost:9000/hbase/WALs/id2221,16201,1631727425275-splitting/id2221%2C16201%2C1631727425275.1632155921329, length=83
+2021-10-05 16:05:01,776 INFO  [RS_LOG_REPLAY_OPS-ID2221VM:16201-1] wal.WALSplitter: DistributedLogReplay = false
+2021-10-05 16:05:01,780 INFO  [RS_LOG_REPLAY_OPS-ID2221VM:16201-1] util.FSHDFSUtils: Recover lease on dfs file hdfs://localhost:9000/hbase/WALs/id2221,16201,1631727425275-splitting/id2221%2C16201%2C1631727425275.1632155921329
+2021-10-05 16:05:01,783 INFO  [RS_LOG_REPLAY_OPS-ID2221VM:16201-1] util.FSHDFSUtils: Failed to recover lease, attempt=0 on file=hdfs://localhost:9000/hbase/WALs/id2221,16201,1631727425275-splitting/id2221%2C16201%2C1631727425275.1632155921329 after 3ms
+2021-10-05 16:05:05,775 INFO  [HBase-Metrics2-1] impl.GlobalMetricRegistriesAdapter: Registering RegionServer,sub=Coprocessor.Region.CP_org.apache.hadoop.hbase.coprocessor.MultiRowMutationEndpoint Metrics about HBase RegionObservers
+2021-10-05 16:05:05,785 INFO  [RS_LOG_REPLAY_OPS-ID2221VM:16201-1] util.FSHDFSUtils: Recovered lease, attempt=1 on file=hdfs://localhost:9000/hbase/WALs/id2221,16201,1631727425275-splitting/id2221%2C16201%2C1631727425275.1632155921329 after 4005ms
+2021-10-05 16:05:05,809 INFO  [RS_LOG_REPLAY_OPS-ID2221VM:16201-1] wal.WALSplitter: 3 split writer threads finished
+2021-10-05 16:05:05,809 INFO  [RS_LOG_REPLAY_OPS-ID2221VM:16201-1] wal.WALSplitter: Processed 0 edits across 0 regions; edits skipped=0; log file=hdfs://localhost:9000/hbase/WALs/id2221,16201,1631727425275-splitting/id2221%2C16201%2C1631727425275.1632155921329, length=83, corrupted=false, progress failed=false
+2021-10-05 16:05:05,812 INFO  [RS_LOG_REPLAY_OPS-ID2221VM:16201-1] coordination.ZkSplitLogWorkerCoordination: successfully transitioned task /hbase/splitWAL/WALs%2Fid2221%2C16201%2C1631727425275-splitting%2Fid2221%252C16201%252C1631727425275.1632155921329 to final state DONE id2221vm,16201,1633442595304
+2021-10-05 16:05:05,812 INFO  [RS_LOG_REPLAY_OPS-ID2221VM:16201-1] handler.WALSplitterHandler: worker id2221vm,16201,1633442595304 done with task org.apache.hadoop.hbase.coordination.ZkSplitLogWorkerCoordination$ZkSplitTaskDetails@76776178 in 4051ms
+2021-10-05 16:05:05,956 INFO  [RpcServer.priority.FPBQ.Fifo.handler=18,queue=0,port=16201] regionserver.RSRpcServices: Open test,,1631727629461.bc6f920bd728a0eec9af472ce936574c.
+2021-10-05 16:05:05,968 INFO  [RpcServer.priority.FPBQ.Fifo.handler=18,queue=0,port=16201] regionserver.RSRpcServices: Open hbase:namespace,,1631721902072.27af53a2254ff1b8df84094a94421902.
+2021-10-05 16:05:05,975 INFO  [RpcServer.priority.FPBQ.Fifo.handler=18,queue=0,port=16201] regionserver.RSRpcServices: Open test2,,1631887963333.dfd207019c5b1ed367228c131d737b60.
+2021-10-05 16:05:05,985 INFO  [RpcServer.priority.FPBQ.Fifo.handler=18,queue=0,port=16201] regionserver.RSRpcServices: Open test1,,1631887832210.f2d2ab5db5ce4d7dafb46971da3320b1.
+2021-10-05 16:05:05,988 INFO  [StoreOpener-bc6f920bd728a0eec9af472ce936574c-1] hfile.CacheConfig: Created cacheConfig for cf: blockCache=LruBlockCache{blockCount=2, currentSize=905200, freeSize=1227816208, maxSize=1228721408, heapSize=905200, minSize=1167285376, minFactor=0.95, multiSize=583642688, multiFactor=0.5, singleSize=291821344, singleFactor=0.25}, cacheDataOnRead=true, cacheDataOnWrite=false, cacheIndexesOnWrite=false, cacheBloomsOnWrite=false, cacheEvictOnClose=false, cacheDataCompressed=false, prefetchOnOpen=false
+2021-10-05 16:05:05,988 INFO  [StoreOpener-bc6f920bd728a0eec9af472ce936574c-1] compactions.CompactionConfiguration: size [minCompactSize:134217728, maxCompactSize:9223372036854775807, offPeakMaxCompactSize:9223372036854775807); files [minFilesToCompact:3, maxFilesToCompact:10); ratio 1.200000; off-peak ratio 5.000000; throttle point 2684354560; major period 604800000, major jitter 0.500000, min locality to compact 0.000000; tiered compaction: max_age 9223372036854775807, incoming window min 6, compaction policy for tiered window org.apache.hadoop.hbase.regionserver.compactions.ExploringCompactionPolicy, single output for minor true, compaction window factory org.apache.hadoop.hbase.regionserver.compactions.ExponentialCompactionWindowFactory
+2021-10-05 16:05:05,994 INFO  [StoreOpener-27af53a2254ff1b8df84094a94421902-1] hfile.CacheConfig: Created cacheConfig for info: blockCache=LruBlockCache{blockCount=2, currentSize=905200, freeSize=1227816208, maxSize=1228721408, heapSize=905200, minSize=1167285376, minFactor=0.95, multiSize=583642688, multiFactor=0.5, singleSize=291821344, singleFactor=0.25}, cacheDataOnRead=true, cacheDataOnWrite=false, cacheIndexesOnWrite=false, cacheBloomsOnWrite=false, cacheEvictOnClose=false, cacheDataCompressed=false, prefetchOnOpen=false
+2021-10-05 16:05:05,996 INFO  [StoreOpener-27af53a2254ff1b8df84094a94421902-1] compactions.CompactionConfiguration: size [minCompactSize:134217728, maxCompactSize:9223372036854775807, offPeakMaxCompactSize:9223372036854775807); files [minFilesToCompact:3, maxFilesToCompact:10); ratio 1.200000; off-peak ratio 5.000000; throttle point 2684354560; major period 604800000, major jitter 0.500000, min locality to compact 0.000000; tiered compaction: max_age 9223372036854775807, incoming window min 6, compaction policy for tiered window org.apache.hadoop.hbase.regionserver.compactions.ExploringCompactionPolicy, single output for minor true, compaction window factory org.apache.hadoop.hbase.regionserver.compactions.ExponentialCompactionWindowFactory
+2021-10-05 16:05:06,008 INFO  [StoreOpener-dfd207019c5b1ed367228c131d737b60-1] hfile.CacheConfig: Created cacheConfig for cf: blockCache=LruBlockCache{blockCount=2, currentSize=905200, freeSize=1227816208, maxSize=1228721408, heapSize=905200, minSize=1167285376, minFactor=0.95, multiSize=583642688, multiFactor=0.5, singleSize=291821344, singleFactor=0.25}, cacheDataOnRead=true, cacheDataOnWrite=false, cacheIndexesOnWrite=false, cacheBloomsOnWrite=false, cacheEvictOnClose=false, cacheDataCompressed=false, prefetchOnOpen=false
+2021-10-05 16:05:06,008 INFO  [StoreOpener-dfd207019c5b1ed367228c131d737b60-1] compactions.CompactionConfiguration: size [minCompactSize:134217728, maxCompactSize:9223372036854775807, offPeakMaxCompactSize:9223372036854775807); files [minFilesToCompact:3, maxFilesToCompact:10); ratio 1.200000; off-peak ratio 5.000000; throttle point 2684354560; major period 604800000, major jitter 0.500000, min locality to compact 0.000000; tiered compaction: max_age 9223372036854775807, incoming window min 6, compaction policy for tiered window org.apache.hadoop.hbase.regionserver.compactions.ExploringCompactionPolicy, single output for minor true, compaction window factory org.apache.hadoop.hbase.regionserver.compactions.ExponentialCompactionWindowFactory
+2021-10-05 16:05:06,018 INFO  [StoreOpener-f2d2ab5db5ce4d7dafb46971da3320b1-1] hfile.CacheConfig: Created cacheConfig for cf: blockCache=LruBlockCache{blockCount=2, currentSize=905200, freeSize=1227816208, maxSize=1228721408, heapSize=905200, minSize=1167285376, minFactor=0.95, multiSize=583642688, multiFactor=0.5, singleSize=291821344, singleFactor=0.25}, cacheDataOnRead=true, cacheDataOnWrite=false, cacheIndexesOnWrite=false, cacheBloomsOnWrite=false, cacheEvictOnClose=false, cacheDataCompressed=false, prefetchOnOpen=false
+2021-10-05 16:05:06,019 INFO  [StoreOpener-f2d2ab5db5ce4d7dafb46971da3320b1-1] compactions.CompactionConfiguration: size [minCompactSize:134217728, maxCompactSize:9223372036854775807, offPeakMaxCompactSize:9223372036854775807); files [minFilesToCompact:3, maxFilesToCompact:10); ratio 1.200000; off-peak ratio 5.000000; throttle point 2684354560; major period 604800000, major jitter 0.500000, min locality to compact 0.000000; tiered compaction: max_age 9223372036854775807, incoming window min 6, compaction policy for tiered window org.apache.hadoop.hbase.regionserver.compactions.ExploringCompactionPolicy, single output for minor true, compaction window factory org.apache.hadoop.hbase.regionserver.compactions.ExponentialCompactionWindowFactory
+2021-10-05 16:05:06,023 INFO  [StoreOpener-27af53a2254ff1b8df84094a94421902-1] regionserver.HStore: Store=info, memstore type=DefaultMemStore, storagePolicy=HOT, verifyBulkLoads=false, encoding=NONE, compression=NONE
+2021-10-05 16:05:06,036 INFO  [StoreOpener-bc6f920bd728a0eec9af472ce936574c-1] regionserver.HStore: Store=cf, memstore type=DefaultMemStore, storagePolicy=HOT, verifyBulkLoads=false, encoding=NONE, compression=NONE
+2021-10-05 16:05:06,039 INFO  [StoreOpener-dfd207019c5b1ed367228c131d737b60-1] regionserver.HStore: Store=cf, memstore type=DefaultMemStore, storagePolicy=HOT, verifyBulkLoads=false, encoding=NONE, compression=NONE
+2021-10-05 16:05:06,055 INFO  [StoreOpener-f2d2ab5db5ce4d7dafb46971da3320b1-1] regionserver.HStore: Store=cf, memstore type=DefaultMemStore, storagePolicy=HOT, verifyBulkLoads=false, encoding=NONE, compression=NONE
+2021-10-05 16:05:06,061 INFO  [RS_OPEN_PRIORITY_REGION-ID2221VM:16201-0] regionserver.HRegion: Onlined 27af53a2254ff1b8df84094a94421902; next sequenceid=10
+2021-10-05 16:05:06,068 INFO  [PostOpenDeployTasks:27af53a2254ff1b8df84094a94421902] regionserver.HRegionServer: Post open deploy tasks for hbase:namespace,,1631721902072.27af53a2254ff1b8df84094a94421902.
+2021-10-05 16:05:06,077 INFO  [RS_OPEN_REGION-ID2221VM:16201-0] regionserver.HRegion: Onlined bc6f920bd728a0eec9af472ce936574c; next sequenceid=14
+2021-10-05 16:05:06,079 INFO  [RS_OPEN_REGION-ID2221VM:16201-1] regionserver.HRegion: Onlined dfd207019c5b1ed367228c131d737b60; next sequenceid=7
+2021-10-05 16:05:06,083 INFO  [PostOpenDeployTasks:bc6f920bd728a0eec9af472ce936574c] regionserver.HRegionServer: Post open deploy tasks for test,,1631727629461.bc6f920bd728a0eec9af472ce936574c.
+2021-10-05 16:05:06,084 INFO  [PostOpenDeployTasks:dfd207019c5b1ed367228c131d737b60] regionserver.HRegionServer: Post open deploy tasks for test2,,1631887963333.dfd207019c5b1ed367228c131d737b60.
+2021-10-05 16:05:06,086 INFO  [RS_OPEN_REGION-ID2221VM:16201-2] regionserver.HRegion: Onlined f2d2ab5db5ce4d7dafb46971da3320b1; next sequenceid=10
+2021-10-05 16:05:06,091 INFO  [PostOpenDeployTasks:f2d2ab5db5ce4d7dafb46971da3320b1] regionserver.HRegionServer: Post open deploy tasks for test1,,1631887832210.f2d2ab5db5ce4d7dafb46971da3320b1.
+2021-10-05 16:05:06,171 INFO  [PostOpenDeployTasks:bc6f920bd728a0eec9af472ce936574c] hbase.MetaTableAccessor: Updated row test,,1631727629461.bc6f920bd728a0eec9af472ce936574c. with server=id2221vm,16201,1633442595304
+2021-10-05 16:05:06,171 INFO  [PostOpenDeployTasks:dfd207019c5b1ed367228c131d737b60] hbase.MetaTableAccessor: Updated row test2,,1631887963333.dfd207019c5b1ed367228c131d737b60. with server=id2221vm,16201,1633442595304
+2021-10-05 16:05:06,171 INFO  [PostOpenDeployTasks:f2d2ab5db5ce4d7dafb46971da3320b1] hbase.MetaTableAccessor: Updated row test1,,1631887832210.f2d2ab5db5ce4d7dafb46971da3320b1. with server=id2221vm,16201,1633442595304
+2021-10-05 16:05:06,171 INFO  [PostOpenDeployTasks:27af53a2254ff1b8df84094a94421902] hbase.MetaTableAccessor: Updated row hbase:namespace,,1631721902072.27af53a2254ff1b8df84094a94421902. with server=id2221vm,16201,1633442595304
+2021-10-05 16:07:18,182 INFO  [Idle-Rpc-Conn-Sweeper-pool4-t1] ipc.AbstractRpcClient: Cleanup idle connection to ID2221:16000
+2021-10-05 16:09:51,519 INFO  [LruBlockCacheStatsExecutor] hfile.LruBlockCache: totalSize=885.20 KB, freeSize=1.14 GB, max=1.14 GB, blockCount=4, accesses=18, hits=14, hitRatio=77.78%, , cachingAccesses=18, cachingHits=14, cachingHitsRatio=77.78%, evictions=29, evicted=0, evictedPerRun=0.0
+2021-10-05 16:10:12,633 INFO  [id2221vm,16201,1633442595304_ChoreService_1] regionserver.HRegionServer: id2221vm,16201,1633442595304-MemstoreFlusherChore requesting flush of hbase:meta,,1.1588230740 because info has an old edit so flush to free WALs after random delay 115,388 ms
+2021-10-05 16:12:08,024 INFO  [MemStoreFlusher.1] regionserver.HRegion: Flushing 1/1 column families, memstore=2.90 KB
+2021-10-05 16:12:08,104 INFO  [MemStoreFlusher.1] regionserver.DefaultStoreFlusher: Flushed, sequenceid=35, memsize=2.9 K, hasBloomFilter=false, into tmp file hdfs://localhost:9000/hbase/data/hbase/meta/1588230740/.tmp/info/44edc8d2ab5e4ea3baf51c4e3606d30f
+2021-10-05 16:12:08,158 INFO  [MemStoreFlusher.1] regionserver.HStore: Added hdfs://localhost:9000/hbase/data/hbase/meta/1588230740/info/44edc8d2ab5e4ea3baf51c4e3606d30f, entries=16, sequenceid=35, filesize=6.4 K
+2021-10-05 16:12:08,160 INFO  [MemStoreFlusher.1] regionserver.HRegion: Finished memstore flush of ~2.90 KB/2968, currentsize=0 B/0 for region hbase:meta,,1.1588230740 in 136ms, sequenceid=35, compaction requested=true
+2021-10-05 16:12:08,168 INFO  [regionserver/ID2221VM/127.0.1.1:16201-shortCompactions-0] regionserver.HRegion: Starting compaction on info in region hbase:meta,,1.1588230740
+2021-10-05 16:12:08,169 INFO  [regionserver/ID2221VM/127.0.1.1:16201-shortCompactions-0] regionserver.HStore: Starting compaction of 3 file(s) in info of hbase:meta,,1.1588230740 into tmpdir=hdfs://localhost:9000/hbase/data/hbase/meta/1588230740/.tmp, totalSize=18.9 K
+2021-10-05 16:12:08,213 INFO  [regionserver/ID2221VM/127.0.1.1:16201-shortCompactions-0] throttle.PressureAwareThroughputController: hbase:meta,,1.1588230740#info#compaction#1 average throughput is 2.07 MB/sec, slept 0 time(s) and total slept time is 0 ms. 0 active operations remaining, total limit is 50.00 MB/sec
+2021-10-05 16:12:08,677 INFO  [regionserver/ID2221VM/127.0.1.1:16201-shortCompactions-0] regionserver.HStore: Completed major compaction of 3 (all) file(s) in info of hbase:meta,,1.1588230740 into 0102a1078e1e4f06bfd3fc18337d5ca2(size=9.1 K), total size for store is 9.1 K. This selection was in queue for 0sec, and took 0sec to execute.
+2021-10-05 16:12:08,680 INFO  [regionserver/ID2221VM/127.0.1.1:16201-shortCompactions-0] regionserver.CompactSplitThread: Completed compaction: Request = regionName=hbase:meta,,1.1588230740, storeName=info, fileCount=3, fileSize=18.9 K (6.7 K, 5.8 K, 6.4 K), priority=7, time=2002171310170; duration=0sec
+2021-10-05 16:14:51,518 INFO  [LruBlockCacheStatsExecutor] hfile.LruBlockCache: totalSize=881.05 KB, freeSize=1.14 GB, max=1.14 GB, blockCount=2, accesses=23, hits=18, hitRatio=78.26%, , cachingAccesses=20, cachingHits=16, cachingHitsRatio=80.00%, evictions=59, evicted=2, evictedPerRun=0.03389830508474576
+2021-10-05 16:19:51,518 INFO  [LruBlockCacheStatsExecutor] hfile.LruBlockCache: totalSize=885.89 KB, freeSize=1.14 GB, max=1.14 GB, blockCount=3, accesses=24, hits=18, hitRatio=75.00%, , cachingAccesses=21, cachingHits=16, cachingHitsRatio=76.19%, evictions=89, evicted=2, evictedPerRun=0.02247191011235955
+2021-10-05 16:24:51,517 INFO  [LruBlockCacheStatsExecutor] hfile.LruBlockCache: totalSize=885.89 KB, freeSize=1.14 GB, max=1.14 GB, blockCount=3, accesses=25, hits=19, hitRatio=76.00%, , cachingAccesses=22, cachingHits=17, cachingHitsRatio=77.27%, evictions=119, evicted=2, evictedPerRun=0.01680672268907563
+2021-10-05 16:29:51,517 INFO  [LruBlockCacheStatsExecutor] hfile.LruBlockCache: totalSize=885.89 KB, freeSize=1.14 GB, max=1.14 GB, blockCount=3, accesses=26, hits=20, hitRatio=76.92%, , cachingAccesses=23, cachingHits=18, cachingHitsRatio=78.26%, evictions=149, evicted=2, evictedPerRun=0.013422818791946308
+2021-10-05 16:34:51,517 INFO  [LruBlockCacheStatsExecutor] hfile.LruBlockCache: totalSize=885.89 KB, freeSize=1.14 GB, max=1.14 GB, blockCount=3, accesses=27, hits=21, hitRatio=77.78%, , cachingAccesses=24, cachingHits=19, cachingHitsRatio=79.17%, evictions=179, evicted=2, evictedPerRun=0.0111731843575419
+2021-10-05 16:39:51,517 INFO  [LruBlockCacheStatsExecutor] hfile.LruBlockCache: totalSize=885.89 KB, freeSize=1.14 GB, max=1.14 GB, blockCount=3, accesses=28, hits=22, hitRatio=78.57%, , cachingAccesses=25, cachingHits=20, cachingHitsRatio=80.00%, evictions=209, evicted=2, evictedPerRun=0.009569377990430622
+2021-10-05 16:44:51,517 INFO  [LruBlockCacheStatsExecutor] hfile.LruBlockCache: totalSize=885.89 KB, freeSize=1.14 GB, max=1.14 GB, blockCount=3, accesses=29, hits=23, hitRatio=79.31%, , cachingAccesses=26, cachingHits=21, cachingHitsRatio=80.77%, evictions=239, evicted=2, evictedPerRun=0.008368200836820083
+2021-10-05 16:49:51,518 INFO  [LruBlockCacheStatsExecutor] hfile.LruBlockCache: totalSize=885.89 KB, freeSize=1.14 GB, max=1.14 GB, blockCount=3, accesses=30, hits=24, hitRatio=80.00%, , cachingAccesses=27, cachingHits=22, cachingHitsRatio=81.48%, evictions=269, evicted=2, evictedPerRun=0.007434944237918215
+2021-10-05 16:54:51,517 INFO  [LruBlockCacheStatsExecutor] hfile.LruBlockCache: totalSize=885.89 KB, freeSize=1.14 GB, max=1.14 GB, blockCount=3, accesses=31, hits=25, hitRatio=80.65%, , cachingAccesses=28, cachingHits=23, cachingHitsRatio=82.14%, evictions=299, evicted=2, evictedPerRun=0.006688963210702341
+2021-10-05 16:59:51,517 INFO  [LruBlockCacheStatsExecutor] hfile.LruBlockCache: totalSize=885.89 KB, freeSize=1.14 GB, max=1.14 GB, blockCount=3, accesses=32, hits=26, hitRatio=81.25%, , cachingAccesses=29, cachingHits=24, cachingHitsRatio=82.76%, evictions=329, evicted=2, evictedPerRun=0.0060790273556231
+2021-10-05 17:04:51,518 INFO  [LruBlockCacheStatsExecutor] hfile.LruBlockCache: totalSize=885.89 KB, freeSize=1.14 GB, max=1.14 GB, blockCount=3, accesses=33, hits=27, hitRatio=81.82%, , cachingAccesses=30, cachingHits=25, cachingHitsRatio=83.33%, evictions=359, evicted=2, evictedPerRun=0.005571030640668524
+2021-10-05 17:05:01,279 INFO  [RS_OPEN_META-ID2221VM:16201-0-MetaLogRoller] wal.FSHLog: Rolled WAL /hbase/WALs/id2221vm,16201,1633442595304/id2221vm%2C16201%2C1633442595304.meta.1633442700761.meta with entries=8, filesize=2.81 KB; new WAL /hbase/WALs/id2221vm,16201,1633442595304/id2221vm%2C16201%2C1633442595304.meta.1633446300832.meta
+2021-10-05 17:05:01,281 INFO  [RS_OPEN_META-ID2221VM:16201-0-MetaLogRoller] wal.FSHLog: Archiving hdfs://localhost:9000/hbase/WALs/id2221vm,16201,1633442595304/id2221vm%2C16201%2C1633442595304.meta.1633442700761.meta to hdfs://localhost:9000/hbase/oldWALs/id2221vm%2C16201%2C1633442595304.meta.1633442700761.meta
+2021-10-05 17:05:01,743 INFO  [regionserver/ID2221VM/127.0.1.1:16201.logRoller] wal.FSHLog: Rolled WAL /hbase/WALs/id2221vm,16201,1633442595304/id2221vm%2C16201%2C1633442595304.1633442694735 with entries=4, filesize=1.22 KB; new WAL /hbase/WALs/id2221vm,16201,1633442595304/id2221vm%2C16201%2C1633442595304.1633446301706
+2021-10-05 17:05:01,744 INFO  [regionserver/ID2221VM/127.0.1.1:16201.logRoller] wal.FSHLog: Archiving hdfs://localhost:9000/hbase/WALs/id2221vm,16201,1633442595304/id2221vm%2C16201%2C1633442595304.1633442694735 to hdfs://localhost:9000/hbase/oldWALs/id2221vm%2C16201%2C1633442595304.1633442694735
+2021-10-05 17:09:51,517 INFO  [LruBlockCacheStatsExecutor] hfile.LruBlockCache: totalSize=885.89 KB, freeSize=1.14 GB, max=1.14 GB, blockCount=3, accesses=34, hits=28, hitRatio=82.35%, , cachingAccesses=31, cachingHits=26, cachingHitsRatio=83.87%, evictions=389, evicted=2, evictedPerRun=0.005141388174807198
+2021-10-05 17:14:51,518 INFO  [LruBlockCacheStatsExecutor] hfile.LruBlockCache: totalSize=885.89 KB, freeSize=1.14 GB, max=1.14 GB, blockCount=3, accesses=35, hits=29, hitRatio=82.86%, , cachingAccesses=32, cachingHits=27, cachingHitsRatio=84.38%, evictions=419, evicted=2, evictedPerRun=0.00477326968973747
+2021-10-05 17:19:51,518 INFO  [LruBlockCacheStatsExecutor] hfile.LruBlockCache: totalSize=885.89 KB, freeSize=1.14 GB, max=1.14 GB, blockCount=3, accesses=36, hits=30, hitRatio=83.33%, , cachingAccesses=33, cachingHits=28, cachingHitsRatio=84.85%, evictions=449, evicted=2, evictedPerRun=0.004454342984409799
+2021-10-05 17:24:51,518 INFO  [LruBlockCacheStatsExecutor] hfile.LruBlockCache: totalSize=885.89 KB, freeSize=1.14 GB, max=1.14 GB, blockCount=3, accesses=37, hits=31, hitRatio=83.78%, , cachingAccesses=34, cachingHits=29, cachingHitsRatio=85.29%, evictions=479, evicted=2, evictedPerRun=0.0041753653444676405
+2021-10-05 17:29:51,518 INFO  [LruBlockCacheStatsExecutor] hfile.LruBlockCache: totalSize=885.89 KB, freeSize=1.14 GB, max=1.14 GB, blockCount=3, accesses=38, hits=32, hitRatio=84.21%, , cachingAccesses=35, cachingHits=30, cachingHitsRatio=85.71%, evictions=509, evicted=2, evictedPerRun=0.003929273084479371
+2021-10-05 17:34:51,518 INFO  [LruBlockCacheStatsExecutor] hfile.LruBlockCache: totalSize=885.89 KB, freeSize=1.14 GB, max=1.14 GB, blockCount=3, accesses=39, hits=33, hitRatio=84.62%, , cachingAccesses=36, cachingHits=31, cachingHitsRatio=86.11%, evictions=539, evicted=2, evictedPerRun=0.0037105751391465678
+2021-10-05 17:39:51,518 INFO  [LruBlockCacheStatsExecutor] hfile.LruBlockCache: totalSize=885.89 KB, freeSize=1.14 GB, max=1.14 GB, blockCount=3, accesses=40, hits=34, hitRatio=85.00%, , cachingAccesses=37, cachingHits=32, cachingHitsRatio=86.49%, evictions=569, evicted=2, evictedPerRun=0.0035149384885764497
+2021-10-05 17:44:51,518 INFO  [LruBlockCacheStatsExecutor] hfile.LruBlockCache: totalSize=885.89 KB, freeSize=1.14 GB, max=1.14 GB, blockCount=3, accesses=41, hits=35, hitRatio=85.37%, , cachingAccesses=38, cachingHits=33, cachingHitsRatio=86.84%, evictions=599, evicted=2, evictedPerRun=0.00333889816360601
+2021-10-05 17:49:51,518 INFO  [LruBlockCacheStatsExecutor] hfile.LruBlockCache: totalSize=885.89 KB, freeSize=1.14 GB, max=1.14 GB, blockCount=3, accesses=42, hits=36, hitRatio=85.71%, , cachingAccesses=39, cachingHits=34, cachingHitsRatio=87.18%, evictions=629, evicted=2, evictedPerRun=0.003179650238473768
+2021-10-05 17:54:51,518 INFO  [LruBlockCacheStatsExecutor] hfile.LruBlockCache: totalSize=885.89 KB, freeSize=1.14 GB, max=1.14 GB, blockCount=3, accesses=43, hits=37, hitRatio=86.05%, , cachingAccesses=40, cachingHits=35, cachingHitsRatio=87.50%, evictions=659, evicted=2, evictedPerRun=0.0030349013657056147
+2021-10-05 17:59:51,518 INFO  [LruBlockCacheStatsExecutor] hfile.LruBlockCache: totalSize=885.89 KB, freeSize=1.14 GB, max=1.14 GB, blockCount=3, accesses=44, hits=38, hitRatio=86.36%, , cachingAccesses=41, cachingHits=36, cachingHitsRatio=87.80%, evictions=689, evicted=2, evictedPerRun=0.002902757619738752
+2021-10-05 18:04:51,518 INFO  [LruBlockCacheStatsExecutor] hfile.LruBlockCache: totalSize=885.89 KB, freeSize=1.14 GB, max=1.14 GB, blockCount=3, accesses=45, hits=39, hitRatio=86.67%, , cachingAccesses=42, cachingHits=37, cachingHitsRatio=88.10%, evictions=719, evicted=2, evictedPerRun=0.0027816411682892906
+2021-10-05 18:05:01,431 INFO  [RS_OPEN_META-ID2221VM:16201-0-MetaLogRoller] wal.FSHLog: Rolled WAL /hbase/WALs/id2221vm,16201,1633442595304/id2221vm%2C16201%2C1633442595304.meta.1633446300832.meta with entries=0, filesize=91 B; new WAL /hbase/WALs/id2221vm,16201,1633442595304/id2221vm%2C16201%2C1633442595304.meta.1633449901388.meta
+2021-10-05 18:05:01,432 INFO  [RS_OPEN_META-ID2221VM:16201-0-MetaLogRoller] wal.FSHLog: Archiving hdfs://localhost:9000/hbase/WALs/id2221vm,16201,1633442595304/id2221vm%2C16201%2C1633442595304.meta.1633446300832.meta to hdfs://localhost:9000/hbase/oldWALs/id2221vm%2C16201%2C1633442595304.meta.1633446300832.meta
+2021-10-05 18:05:02,282 INFO  [regionserver/ID2221VM/127.0.1.1:16201.logRoller] wal.FSHLog: Rolled WAL /hbase/WALs/id2221vm,16201,1633442595304/id2221vm%2C16201%2C1633442595304.1633446301706 with entries=0, filesize=91 B; new WAL /hbase/WALs/id2221vm,16201,1633442595304/id2221vm%2C16201%2C1633442595304.1633449901843
+2021-10-05 18:05:02,284 INFO  [regionserver/ID2221VM/127.0.1.1:16201.logRoller] wal.FSHLog: Archiving hdfs://localhost:9000/hbase/WALs/id2221vm,16201,1633442595304/id2221vm%2C16201%2C1633442595304.1633446301706 to hdfs://localhost:9000/hbase/oldWALs/id2221vm%2C16201%2C1633442595304.1633446301706
+2021-10-05 18:09:51,518 INFO  [LruBlockCacheStatsExecutor] hfile.LruBlockCache: totalSize=885.89 KB, freeSize=1.14 GB, max=1.14 GB, blockCount=3, accesses=46, hits=40, hitRatio=86.96%, , cachingAccesses=43, cachingHits=38, cachingHitsRatio=88.37%, evictions=749, evicted=2, evictedPerRun=0.0026702269692923898
+2021-10-05 18:14:51,518 INFO  [LruBlockCacheStatsExecutor] hfile.LruBlockCache: totalSize=885.89 KB, freeSize=1.14 GB, max=1.14 GB, blockCount=3, accesses=47, hits=41, hitRatio=87.23%, , cachingAccesses=44, cachingHits=39, cachingHitsRatio=88.64%, evictions=779, evicted=2, evictedPerRun=0.0025673940949935813
+2021-10-05 18:19:51,517 INFO  [LruBlockCacheStatsExecutor] hfile.LruBlockCache: totalSize=885.89 KB, freeSize=1.14 GB, max=1.14 GB, blockCount=3, accesses=48, hits=42, hitRatio=87.50%, , cachingAccesses=45, cachingHits=40, cachingHitsRatio=88.89%, evictions=809, evicted=2, evictedPerRun=0.002472187886279357
+2021-10-05 18:24:51,517 INFO  [LruBlockCacheStatsExecutor] hfile.LruBlockCache: totalSize=885.89 KB, freeSize=1.14 GB, max=1.14 GB, blockCount=3, accesses=49, hits=43, hitRatio=87.76%, , cachingAccesses=46, cachingHits=41, cachingHitsRatio=89.13%, evictions=839, evicted=2, evictedPerRun=0.0023837902264600714
+2021-10-05 18:29:51,517 INFO  [LruBlockCacheStatsExecutor] hfile.LruBlockCache: totalSize=885.89 KB, freeSize=1.14 GB, max=1.14 GB, blockCount=3, accesses=50, hits=44, hitRatio=88.00%, , cachingAccesses=47, cachingHits=42, cachingHitsRatio=89.36%, evictions=869, evicted=2, evictedPerRun=0.0023014959723820483
+2021-10-05 18:34:51,517 INFO  [LruBlockCacheStatsExecutor] hfile.LruBlockCache: totalSize=885.89 KB, freeSize=1.14 GB, max=1.14 GB, blockCount=3, accesses=51, hits=45, hitRatio=88.24%, , cachingAccesses=48, cachingHits=43, cachingHitsRatio=89.58%, evictions=899, evicted=2, evictedPerRun=0.002224694104560623
+2021-10-05 18:39:51,517 INFO  [LruBlockCacheStatsExecutor] hfile.LruBlockCache: totalSize=885.89 KB, freeSize=1.14 GB, max=1.14 GB, blockCount=3, accesses=52, hits=46, hitRatio=88.46%, , cachingAccesses=49, cachingHits=44, cachingHitsRatio=89.80%, evictions=929, evicted=2, evictedPerRun=0.002152852529601722
+2021-10-05 18:44:51,517 INFO  [LruBlockCacheStatsExecutor] hfile.LruBlockCache: totalSize=885.89 KB, freeSize=1.14 GB, max=1.14 GB, blockCount=3, accesses=53, hits=47, hitRatio=88.68%, , cachingAccesses=50, cachingHits=45, cachingHitsRatio=90.00%, evictions=959, evicted=2, evictedPerRun=0.0020855057351407717
+2021-10-05 18:49:51,517 INFO  [LruBlockCacheStatsExecutor] hfile.LruBlockCache: totalSize=885.89 KB, freeSize=1.14 GB, max=1.14 GB, blockCount=3, accesses=54, hits=48, hitRatio=88.89%, , cachingAccesses=51, cachingHits=46, cachingHitsRatio=90.20%, evictions=989, evicted=2, evictedPerRun=0.0020222446916076846
+2021-10-05 18:51:32,004 INFO  [regionserver/ID2221VM/127.0.1.1:16201-shortCompactions-0] regionserver.HRegion: Starting compaction on cf in region test,,1631727629461.bc6f920bd728a0eec9af472ce936574c.
+2021-10-05 18:51:32,005 INFO  [regionserver/ID2221VM/127.0.1.1:16201-shortCompactions-0] regionserver.HStore: Starting compaction of 2 file(s) in cf of test,,1631727629461.bc6f920bd728a0eec9af472ce936574c. into tmpdir=hdfs://localhost:9000/hbase/data/default/test/bc6f920bd728a0eec9af472ce936574c/.tmp, totalSize=9.7 K
+2021-10-05 18:51:32,066 INFO  [regionserver/ID2221VM/127.0.1.1:16201-shortCompactions-0] throttle.PressureAwareThroughputController: test,,1631727629461.bc6f920bd728a0eec9af472ce936574c.#cf#compaction#2 average throughput is unlimited, slept 0 time(s) and total slept time is 0 ms. 0 active operations remaining, total limit is 50.00 MB/sec
+2021-10-05 18:51:32,149 INFO  [regionserver/ID2221VM/127.0.1.1:16201-shortCompactions-0] regionserver.HStore: Completed major compaction of 2 (all) file(s) in cf of test,,1631727629461.bc6f920bd728a0eec9af472ce936574c. into eca06b762f9e410386120e55946ee3a9(size=5.0 K), total size for store is 5.0 K. This selection was in queue for 0sec, and took 0sec to execute.
+2021-10-05 18:51:32,149 INFO  [regionserver/ID2221VM/127.0.1.1:16201-shortCompactions-0] regionserver.CompactSplitThread: Completed compaction: Request = regionName=test,,1631727629461.bc6f920bd728a0eec9af472ce936574c., storeName=cf, fileCount=2, fileSize=9.7 K (4.9 K, 4.8 K), priority=8, time=11566007274905; duration=0sec
+2021-10-05 18:54:51,517 INFO  [LruBlockCacheStatsExecutor] hfile.LruBlockCache: totalSize=885.89 KB, freeSize=1.14 GB, max=1.14 GB, blockCount=3, accesses=57, hits=49, hitRatio=85.96%, , cachingAccesses=52, cachingHits=47, cachingHitsRatio=90.38%, evictions=1019, evicted=2, evictedPerRun=0.001962708537782139
+2021-10-05 18:59:51,518 INFO  [LruBlockCacheStatsExecutor] hfile.LruBlockCache: totalSize=885.89 KB, freeSize=1.14 GB, max=1.14 GB, blockCount=3, accesses=58, hits=50, hitRatio=86.21%, , cachingAccesses=53, cachingHits=48, cachingHitsRatio=90.57%, evictions=1049, evicted=2, evictedPerRun=0.0019065776930409914
+2021-10-05 19:04:51,517 INFO  [LruBlockCacheStatsExecutor] hfile.LruBlockCache: totalSize=885.89 KB, freeSize=1.14 GB, max=1.14 GB, blockCount=3, accesses=59, hits=51, hitRatio=86.44%, , cachingAccesses=54, cachingHits=49, cachingHitsRatio=90.74%, evictions=1079, evicted=2, evictedPerRun=0.0018535681186283596
+2021-10-05 19:05:01,954 INFO  [RS_OPEN_META-ID2221VM:16201-0-MetaLogRoller] wal.FSHLog: Rolled WAL /hbase/WALs/id2221vm,16201,1633442595304/id2221vm%2C16201%2C1633442595304.meta.1633449901388.meta with entries=0, filesize=91 B; new WAL /hbase/WALs/id2221vm,16201,1633442595304/id2221vm%2C16201%2C1633442595304.meta.1633453501502.meta
+2021-10-05 19:05:01,955 INFO  [RS_OPEN_META-ID2221VM:16201-0-MetaLogRoller] wal.FSHLog: Archiving hdfs://localhost:9000/hbase/WALs/id2221vm,16201,1633442595304/id2221vm%2C16201%2C1633442595304.meta.1633449901388.meta to hdfs://localhost:9000/hbase/oldWALs/id2221vm%2C16201%2C1633442595304.meta.1633449901388.meta
+2021-10-05 19:05:02,799 INFO  [regionserver/ID2221VM/127.0.1.1:16201.logRoller] wal.FSHLog: Rolled WAL /hbase/WALs/id2221vm,16201,1633442595304/id2221vm%2C16201%2C1633442595304.1633449901843 with entries=1, filesize=400 B; new WAL /hbase/WALs/id2221vm,16201,1633442595304/id2221vm%2C16201%2C1633442595304.1633453502357
+2021-10-05 19:05:02,800 INFO  [regionserver/ID2221VM/127.0.1.1:16201.logRoller] wal.FSHLog: Archiving hdfs://localhost:9000/hbase/WALs/id2221vm,16201,1633442595304/id2221vm%2C16201%2C1633442595304.1633449901843 to hdfs://localhost:9000/hbase/oldWALs/id2221vm%2C16201%2C1633442595304.1633449901843
+2021-10-05 19:09:51,517 INFO  [LruBlockCacheStatsExecutor] hfile.LruBlockCache: totalSize=885.89 KB, freeSize=1.14 GB, max=1.14 GB, blockCount=3, accesses=60, hits=52, hitRatio=86.67%, , cachingAccesses=55, cachingHits=50, cachingHitsRatio=90.91%, evictions=1109, evicted=2, evictedPerRun=0.0018034265103697023
+2021-10-05 19:14:51,517 INFO  [LruBlockCacheStatsExecutor] hfile.LruBlockCache: totalSize=885.89 KB, freeSize=1.14 GB, max=1.14 GB, blockCount=3, accesses=61, hits=53, hitRatio=86.89%, , cachingAccesses=56, cachingHits=51, cachingHitsRatio=91.07%, evictions=1139, evicted=2, evictedPerRun=0.001755926251097454
+2021-10-05 19:19:51,517 INFO  [LruBlockCacheStatsExecutor] hfile.LruBlockCache: totalSize=885.89 KB, freeSize=1.14 GB, max=1.14 GB, blockCount=3, accesses=62, hits=54, hitRatio=87.10%, , cachingAccesses=57, cachingHits=52, cachingHitsRatio=91.23%, evictions=1169, evicted=2, evictedPerRun=0.001710863986313088
+2021-10-05 19:24:51,517 INFO  [LruBlockCacheStatsExecutor] hfile.LruBlockCache: totalSize=885.89 KB, freeSize=1.14 GB, max=1.14 GB, blockCount=3, accesses=63, hits=55, hitRatio=87.30%, , cachingAccesses=58, cachingHits=53, cachingHitsRatio=91.38%, evictions=1199, evicted=2, evictedPerRun=0.0016680567139282735
+2021-10-05 19:29:51,517 INFO  [LruBlockCacheStatsExecutor] hfile.LruBlockCache: totalSize=885.89 KB, freeSize=1.14 GB, max=1.14 GB, blockCount=3, accesses=64, hits=56, hitRatio=87.50%, , cachingAccesses=59, cachingHits=54, cachingHitsRatio=91.53%, evictions=1229, evicted=2, evictedPerRun=0.0016273393002441008
+2021-10-05 19:34:51,517 INFO  [LruBlockCacheStatsExecutor] hfile.LruBlockCache: totalSize=885.89 KB, freeSize=1.14 GB, max=1.14 GB, blockCount=3, accesses=65, hits=57, hitRatio=87.69%, , cachingAccesses=60, cachingHits=55, cachingHitsRatio=91.67%, evictions=1259, evicted=2, evictedPerRun=0.0015885623510722795
+2021-10-05 19:39:51,517 INFO  [LruBlockCacheStatsExecutor] hfile.LruBlockCache: totalSize=885.89 KB, freeSize=1.14 GB, max=1.14 GB, blockCount=3, accesses=66, hits=58, hitRatio=87.88%, , cachingAccesses=61, cachingHits=56, cachingHitsRatio=91.80%, evictions=1289, evicted=2, evictedPerRun=0.0015515903801396431
+2021-10-05 19:44:51,517 INFO  [LruBlockCacheStatsExecutor] hfile.LruBlockCache: totalSize=885.89 KB, freeSize=1.14 GB, max=1.14 GB, blockCount=3, accesses=67, hits=59, hitRatio=88.06%, , cachingAccesses=62, cachingHits=57, cachingHitsRatio=91.94%, evictions=1319, evicted=2, evictedPerRun=0.001516300227445034
+2021-10-05 19:49:51,517 INFO  [LruBlockCacheStatsExecutor] hfile.LruBlockCache: totalSize=885.89 KB, freeSize=1.14 GB, max=1.14 GB, blockCount=3, accesses=68, hits=60, hitRatio=88.24%, , cachingAccesses=63, cachingHits=58, cachingHitsRatio=92.06%, evictions=1349, evicted=2, evictedPerRun=0.0014825796886582653
+2021-10-05 19:54:51,517 INFO  [LruBlockCacheStatsExecutor] hfile.LruBlockCache: totalSize=885.89 KB, freeSize=1.14 GB, max=1.14 GB, blockCount=3, accesses=69, hits=61, hitRatio=88.41%, , cachingAccesses=64, cachingHits=59, cachingHitsRatio=92.19%, evictions=1379, evicted=2, evictedPerRun=0.0014503263234227702
+2021-10-05 19:59:51,517 INFO  [LruBlockCacheStatsExecutor] hfile.LruBlockCache: totalSize=885.89 KB, freeSize=1.14 GB, max=1.14 GB, blockCount=3, accesses=70, hits=62, hitRatio=88.57%, , cachingAccesses=65, cachingHits=60, cachingHitsRatio=92.31%, evictions=1409, evicted=2, evictedPerRun=0.0014194464158978
+2021-10-05 20:04:29,375 WARN  [LeaseRenewer:emilstahl@localhost:9000] impl.LeaseRenewer: Failed to renew lease for [DFSClient_NONMAPREDUCE_1315127232_1] for 30 seconds.  Will retry shortly ...
+org.apache.hadoop.ipc.RemoteException(org.apache.hadoop.hdfs.server.namenode.SafeModeException): Cannot renew lease for DFSClient_NONMAPREDUCE_1315127232_1. Name node is in safe mode.
+Resources are low on NN. Please add or free up more resourcesthen turn off safe mode manually. NOTE:  If you turn off safe mode before adding resources, the NN will immediately return to safe mode. Use "hdfs dfsadmin -safemode leave" to turn safe mode off. NamenodeHostName:localhost
+	at org.apache.hadoop.hdfs.server.namenode.FSNamesystem.newSafemodeException(FSNamesystem.java:1435)
+	at org.apache.hadoop.hdfs.server.namenode.FSNamesystem.checkNameNodeSafeMode(FSNamesystem.java:1423)
+	at org.apache.hadoop.hdfs.server.namenode.FSNamesystem.renewLease(FSNamesystem.java:3632)
+	at org.apache.hadoop.hdfs.server.namenode.NameNodeRpcServer.renewLease(NameNodeRpcServer.java:1140)
+	at org.apache.hadoop.hdfs.protocolPB.ClientNamenodeProtocolServerSideTranslatorPB.renewLease(ClientNamenodeProtocolServerSideTranslatorPB.java:689)
+	at org.apache.hadoop.hdfs.protocol.proto.ClientNamenodeProtocolProtos$ClientNamenodeProtocol$2.callBlockingMethod(ClientNamenodeProtocolProtos.java)
+	at org.apache.hadoop.ipc.ProtobufRpcEngine$Server$ProtoBufRpcInvoker.call(ProtobufRpcEngine.java:507)
+	at org.apache.hadoop.ipc.RPC$Server.call(RPC.java:1034)
+	at org.apache.hadoop.ipc.Server$RpcCall.run(Server.java:1003)
+	at org.apache.hadoop.ipc.Server$RpcCall.run(Server.java:931)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at javax.security.auth.Subject.doAs(Subject.java:422)
+	at org.apache.hadoop.security.UserGroupInformation.doAs(UserGroupInformation.java:1926)
+	at org.apache.hadoop.ipc.Server$Handler.run(Server.java:2854)
+
+	at org.apache.hadoop.ipc.Client.getRpcResponse(Client.java:1489)
+	at org.apache.hadoop.ipc.Client.call(Client.java:1435)
+	at org.apache.hadoop.ipc.Client.call(Client.java:1345)
+	at org.apache.hadoop.ipc.ProtobufRpcEngine$Invoker.invoke(ProtobufRpcEngine.java:227)
+	at org.apache.hadoop.ipc.ProtobufRpcEngine$Invoker.invoke(ProtobufRpcEngine.java:116)
+	at com.sun.proxy.$Proxy16.renewLease(Unknown Source)
+	at org.apache.hadoop.hdfs.protocolPB.ClientNamenodeProtocolTranslatorPB.renewLease(ClientNamenodeProtocolTranslatorPB.java:613)
+	at sun.reflect.GeneratedMethodAccessor13.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.hadoop.io.retry.RetryInvocationHandler.invokeMethod(RetryInvocationHandler.java:409)
+	at org.apache.hadoop.io.retry.RetryInvocationHandler$Call.invokeMethod(RetryInvocationHandler.java:163)
+	at org.apache.hadoop.io.retry.RetryInvocationHandler$Call.invoke(RetryInvocationHandler.java:155)
+	at org.apache.hadoop.io.retry.RetryInvocationHandler$Call.invokeOnce(RetryInvocationHandler.java:95)
+	at org.apache.hadoop.io.retry.RetryInvocationHandler.invoke(RetryInvocationHandler.java:346)
+	at com.sun.proxy.$Proxy17.renewLease(Unknown Source)
+	at sun.reflect.GeneratedMethodAccessor13.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.hadoop.hbase.fs.HFileSystem$1.invoke(HFileSystem.java:306)
+	at com.sun.proxy.$Proxy18.renewLease(Unknown Source)
+	at org.apache.hadoop.hdfs.DFSClient.renewLease(DFSClient.java:560)
+	at org.apache.hadoop.hdfs.client.impl.LeaseRenewer.renew(LeaseRenewer.java:395)
+	at org.apache.hadoop.hdfs.client.impl.LeaseRenewer.run(LeaseRenewer.java:415)
+	at org.apache.hadoop.hdfs.client.impl.LeaseRenewer.access$600(LeaseRenewer.java:76)
+	at org.apache.hadoop.hdfs.client.impl.LeaseRenewer$1.run(LeaseRenewer.java:307)
+	at java.lang.Thread.run(Thread.java:748)
+2021-10-05 20:04:30,379 WARN  [LeaseRenewer:emilstahl@localhost:9000] impl.LeaseRenewer: Failed to renew lease for [DFSClient_NONMAPREDUCE_1315127232_1] for 31 seconds.  Will retry shortly ...
+org.apache.hadoop.ipc.RemoteException(org.apache.hadoop.hdfs.server.namenode.SafeModeException): Cannot renew lease for DFSClient_NONMAPREDUCE_1315127232_1. Name node is in safe mode.
+Resources are low on NN. Please add or free up more resourcesthen turn off safe mode manually. NOTE:  If you turn off safe mode before adding resources, the NN will immediately return to safe mode. Use "hdfs dfsadmin -safemode leave" to turn safe mode off. NamenodeHostName:localhost
+	at org.apache.hadoop.hdfs.server.namenode.FSNamesystem.newSafemodeException(FSNamesystem.java:1435)
+	at org.apache.hadoop.hdfs.server.namenode.FSNamesystem.checkNameNodeSafeMode(FSNamesystem.java:1423)
+	at org.apache.hadoop.hdfs.server.namenode.FSNamesystem.renewLease(FSNamesystem.java:3632)
+	at org.apache.hadoop.hdfs.server.namenode.NameNodeRpcServer.renewLease(NameNodeRpcServer.java:1140)
+	at org.apache.hadoop.hdfs.protocolPB.ClientNamenodeProtocolServerSideTranslatorPB.renewLease(ClientNamenodeProtocolServerSideTranslatorPB.java:689)
+	at org.apache.hadoop.hdfs.protocol.proto.ClientNamenodeProtocolProtos$ClientNamenodeProtocol$2.callBlockingMethod(ClientNamenodeProtocolProtos.java)
+	at org.apache.hadoop.ipc.ProtobufRpcEngine$Server$ProtoBufRpcInvoker.call(ProtobufRpcEngine.java:507)
+	at org.apache.hadoop.ipc.RPC$Server.call(RPC.java:1034)
+	at org.apache.hadoop.ipc.Server$RpcCall.run(Server.java:1003)
+	at org.apache.hadoop.ipc.Server$RpcCall.run(Server.java:931)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at javax.security.auth.Subject.doAs(Subject.java:422)
+	at org.apache.hadoop.security.UserGroupInformation.doAs(UserGroupInformation.java:1926)
+	at org.apache.hadoop.ipc.Server$Handler.run(Server.java:2854)
+
+	at org.apache.hadoop.ipc.Client.getRpcResponse(Client.java:1489)
+	at org.apache.hadoop.ipc.Client.call(Client.java:1435)
+	at org.apache.hadoop.ipc.Client.call(Client.java:1345)
+	at org.apache.hadoop.ipc.ProtobufRpcEngine$Invoker.invoke(ProtobufRpcEngine.java:227)
+	at org.apache.hadoop.ipc.ProtobufRpcEngine$Invoker.invoke(ProtobufRpcEngine.java:116)
+	at com.sun.proxy.$Proxy16.renewLease(Unknown Source)
+	at org.apache.hadoop.hdfs.protocolPB.ClientNamenodeProtocolTranslatorPB.renewLease(ClientNamenodeProtocolTranslatorPB.java:613)
+	at sun.reflect.GeneratedMethodAccessor13.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.hadoop.io.retry.RetryInvocationHandler.invokeMethod(RetryInvocationHandler.java:409)
+	at org.apache.hadoop.io.retry.RetryInvocationHandler$Call.invokeMethod(RetryInvocationHandler.java:163)
+	at org.apache.hadoop.io.retry.RetryInvocationHandler$Call.invoke(RetryInvocationHandler.java:155)
+	at org.apache.hadoop.io.retry.RetryInvocationHandler$Call.invokeOnce(RetryInvocationHandler.java:95)
+	at org.apache.hadoop.io.retry.RetryInvocationHandler.invoke(RetryInvocationHandler.java:346)
+	at com.sun.proxy.$Proxy17.renewLease(Unknown Source)
+	at sun.reflect.GeneratedMethodAccessor13.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.hadoop.hbase.fs.HFileSystem$1.invoke(HFileSystem.java:306)
+	at com.sun.proxy.$Proxy18.renewLease(Unknown Source)
+	at org.apache.hadoop.hdfs.DFSClient.renewLease(DFSClient.java:560)
+	at org.apache.hadoop.hdfs.client.impl.LeaseRenewer.renew(LeaseRenewer.java:395)
+	at org.apache.hadoop.hdfs.client.impl.LeaseRenewer.run(LeaseRenewer.java:415)
+	at org.apache.hadoop.hdfs.client.impl.LeaseRenewer.access$600(LeaseRenewer.java:76)
+	at org.apache.hadoop.hdfs.client.impl.LeaseRenewer$1.run(LeaseRenewer.java:307)
+	at java.lang.Thread.run(Thread.java:748)
+2021-10-05 20:04:31,381 WARN  [LeaseRenewer:emilstahl@localhost:9000] impl.LeaseRenewer: Failed to renew lease for [DFSClient_NONMAPREDUCE_1315127232_1] for 32 seconds.  Will retry shortly ...
+org.apache.hadoop.ipc.RemoteException(org.apache.hadoop.hdfs.server.namenode.SafeModeException): Cannot renew lease for DFSClient_NONMAPREDUCE_1315127232_1. Name node is in safe mode.
+Resources are low on NN. Please add or free up more resourcesthen turn off safe mode manually. NOTE:  If you turn off safe mode before adding resources, the NN will immediately return to safe mode. Use "hdfs dfsadmin -safemode leave" to turn safe mode off. NamenodeHostName:localhost
+	at org.apache.hadoop.hdfs.server.namenode.FSNamesystem.newSafemodeException(FSNamesystem.java:1435)
+	at org.apache.hadoop.hdfs.server.namenode.FSNamesystem.checkNameNodeSafeMode(FSNamesystem.java:1423)
+	at org.apache.hadoop.hdfs.server.namenode.FSNamesystem.renewLease(FSNamesystem.java:3632)
+	at org.apache.hadoop.hdfs.server.namenode.NameNodeRpcServer.renewLease(NameNodeRpcServer.java:1140)
+	at org.apache.hadoop.hdfs.protocolPB.ClientNamenodeProtocolServerSideTranslatorPB.renewLease(ClientNamenodeProtocolServerSideTranslatorPB.java:689)
+	at org.apache.hadoop.hdfs.protocol.proto.ClientNamenodeProtocolProtos$ClientNamenodeProtocol$2.callBlockingMethod(ClientNamenodeProtocolProtos.java)
+	at org.apache.hadoop.ipc.ProtobufRpcEngine$Server$ProtoBufRpcInvoker.call(ProtobufRpcEngine.java:507)
+	at org.apache.hadoop.ipc.RPC$Server.call(RPC.java:1034)
+	at org.apache.hadoop.ipc.Server$RpcCall.run(Server.java:1003)
+	at org.apache.hadoop.ipc.Server$RpcCall.run(Server.java:931)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at javax.security.auth.Subject.doAs(Subject.java:422)
+	at org.apache.hadoop.security.UserGroupInformation.doAs(UserGroupInformation.java:1926)
+	at org.apache.hadoop.ipc.Server$Handler.run(Server.java:2854)
+
+	at org.apache.hadoop.ipc.Client.getRpcResponse(Client.java:1489)
+	at org.apache.hadoop.ipc.Client.call(Client.java:1435)
+	at org.apache.hadoop.ipc.Client.call(Client.java:1345)
+	at org.apache.hadoop.ipc.ProtobufRpcEngine$Invoker.invoke(ProtobufRpcEngine.java:227)
+	at org.apache.hadoop.ipc.ProtobufRpcEngine$Invoker.invoke(ProtobufRpcEngine.java:116)
+	at com.sun.proxy.$Proxy16.renewLease(Unknown Source)
+	at org.apache.hadoop.hdfs.protocolPB.ClientNamenodeProtocolTranslatorPB.renewLease(ClientNamenodeProtocolTranslatorPB.java:613)
+	at sun.reflect.GeneratedMethodAccessor13.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.hadoop.io.retry.RetryInvocationHandler.invokeMethod(RetryInvocationHandler.java:409)
+	at org.apache.hadoop.io.retry.RetryInvocationHandler$Call.invokeMethod(RetryInvocationHandler.java:163)
+	at org.apache.hadoop.io.retry.RetryInvocationHandler$Call.invoke(RetryInvocationHandler.java:155)
+	at org.apache.hadoop.io.retry.RetryInvocationHandler$Call.invokeOnce(RetryInvocationHandler.java:95)
+	at org.apache.hadoop.io.retry.RetryInvocationHandler.invoke(RetryInvocationHandler.java:346)
+	at com.sun.proxy.$Proxy17.renewLease(Unknown Source)
+	at sun.reflect.GeneratedMethodAccessor13.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.hadoop.hbase.fs.HFileSystem$1.invoke(HFileSystem.java:306)
+	at com.sun.proxy.$Proxy18.renewLease(Unknown Source)
+	at org.apache.hadoop.hdfs.DFSClient.renewLease(DFSClient.java:560)
+	at org.apache.hadoop.hdfs.client.impl.LeaseRenewer.renew(LeaseRenewer.java:395)
+	at org.apache.hadoop.hdfs.client.impl.LeaseRenewer.run(LeaseRenewer.java:415)
+	at org.apache.hadoop.hdfs.client.impl.LeaseRenewer.access$600(LeaseRenewer.java:76)
+	at org.apache.hadoop.hdfs.client.impl.LeaseRenewer$1.run(LeaseRenewer.java:307)
+	at java.lang.Thread.run(Thread.java:748)
+2021-10-05 20:04:32,384 WARN  [LeaseRenewer:emilstahl@localhost:9000] impl.LeaseRenewer: Failed to renew lease for [DFSClient_NONMAPREDUCE_1315127232_1] for 33 seconds.  Will retry shortly ...
+org.apache.hadoop.ipc.RemoteException(org.apache.hadoop.hdfs.server.namenode.SafeModeException): Cannot renew lease for DFSClient_NONMAPREDUCE_1315127232_1. Name node is in safe mode.
+Resources are low on NN. Please add or free up more resourcesthen turn off safe mode manually. NOTE:  If you turn off safe mode before adding resources, the NN will immediately return to safe mode. Use "hdfs dfsadmin -safemode leave" to turn safe mode off. NamenodeHostName:localhost
+	at org.apache.hadoop.hdfs.server.namenode.FSNamesystem.newSafemodeException(FSNamesystem.java:1435)
+	at org.apache.hadoop.hdfs.server.namenode.FSNamesystem.checkNameNodeSafeMode(FSNamesystem.java:1423)
+	at org.apache.hadoop.hdfs.server.namenode.FSNamesystem.renewLease(FSNamesystem.java:3632)
+	at org.apache.hadoop.hdfs.server.namenode.NameNodeRpcServer.renewLease(NameNodeRpcServer.java:1140)
+	at org.apache.hadoop.hdfs.protocolPB.ClientNamenodeProtocolServerSideTranslatorPB.renewLease(ClientNamenodeProtocolServerSideTranslatorPB.java:689)
+	at org.apache.hadoop.hdfs.protocol.proto.ClientNamenodeProtocolProtos$ClientNamenodeProtocol$2.callBlockingMethod(ClientNamenodeProtocolProtos.java)
+	at org.apache.hadoop.ipc.ProtobufRpcEngine$Server$ProtoBufRpcInvoker.call(ProtobufRpcEngine.java:507)
+	at org.apache.hadoop.ipc.RPC$Server.call(RPC.java:1034)
+	at org.apache.hadoop.ipc.Server$RpcCall.run(Server.java:1003)
+	at org.apache.hadoop.ipc.Server$RpcCall.run(Server.java:931)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at javax.security.auth.Subject.doAs(Subject.java:422)
+	at org.apache.hadoop.security.UserGroupInformation.doAs(UserGroupInformation.java:1926)
+	at org.apache.hadoop.ipc.Server$Handler.run(Server.java:2854)
+
+	at org.apache.hadoop.ipc.Client.getRpcResponse(Client.java:1489)
+	at org.apache.hadoop.ipc.Client.call(Client.java:1435)
+	at org.apache.hadoop.ipc.Client.call(Client.java:1345)
+	at org.apache.hadoop.ipc.ProtobufRpcEngine$Invoker.invoke(ProtobufRpcEngine.java:227)
+	at org.apache.hadoop.ipc.ProtobufRpcEngine$Invoker.invoke(ProtobufRpcEngine.java:116)
+	at com.sun.proxy.$Proxy16.renewLease(Unknown Source)
+	at org.apache.hadoop.hdfs.protocolPB.ClientNamenodeProtocolTranslatorPB.renewLease(ClientNamenodeProtocolTranslatorPB.java:613)
+	at sun.reflect.GeneratedMethodAccessor13.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.hadoop.io.retry.RetryInvocationHandler.invokeMethod(RetryInvocationHandler.java:409)
+	at org.apache.hadoop.io.retry.RetryInvocationHandler$Call.invokeMethod(RetryInvocationHandler.java:163)
+	at org.apache.hadoop.io.retry.RetryInvocationHandler$Call.invoke(RetryInvocationHandler.java:155)
+	at org.apache.hadoop.io.retry.RetryInvocationHandler$Call.invokeOnce(RetryInvocationHandler.java:95)
+	at org.apache.hadoop.io.retry.RetryInvocationHandler.invoke(RetryInvocationHandler.java:346)
+	at com.sun.proxy.$Proxy17.renewLease(Unknown Source)
+	at sun.reflect.GeneratedMethodAccessor13.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.hadoop.hbase.fs.HFileSystem$1.invoke(HFileSystem.java:306)
+	at com.sun.proxy.$Proxy18.renewLease(Unknown Source)
+	at org.apache.hadoop.hdfs.DFSClient.renewLease(DFSClient.java:560)
+	at org.apache.hadoop.hdfs.client.impl.LeaseRenewer.renew(LeaseRenewer.java:395)
+	at org.apache.hadoop.hdfs.client.impl.LeaseRenewer.run(LeaseRenewer.java:415)
+	at org.apache.hadoop.hdfs.client.impl.LeaseRenewer.access$600(LeaseRenewer.java:76)
+	at org.apache.hadoop.hdfs.client.impl.LeaseRenewer$1.run(LeaseRenewer.java:307)
+	at java.lang.Thread.run(Thread.java:748)
+2021-10-05 20:04:33,387 WARN  [LeaseRenewer:emilstahl@localhost:9000] impl.LeaseRenewer: Failed to renew lease for [DFSClient_NONMAPREDUCE_1315127232_1] for 34 seconds.  Will retry shortly ...
+org.apache.hadoop.ipc.RemoteException(org.apache.hadoop.hdfs.server.namenode.SafeModeException): Cannot renew lease for DFSClient_NONMAPREDUCE_1315127232_1. Name node is in safe mode.
+Resources are low on NN. Please add or free up more resourcesthen turn off safe mode manually. NOTE:  If you turn off safe mode before adding resources, the NN will immediately return to safe mode. Use "hdfs dfsadmin -safemode leave" to turn safe mode off. NamenodeHostName:localhost
+	at org.apache.hadoop.hdfs.server.namenode.FSNamesystem.newSafemodeException(FSNamesystem.java:1435)
+	at org.apache.hadoop.hdfs.server.namenode.FSNamesystem.checkNameNodeSafeMode(FSNamesystem.java:1423)
+	at org.apache.hadoop.hdfs.server.namenode.FSNamesystem.renewLease(FSNamesystem.java:3632)
+	at org.apache.hadoop.hdfs.server.namenode.NameNodeRpcServer.renewLease(NameNodeRpcServer.java:1140)
+	at org.apache.hadoop.hdfs.protocolPB.ClientNamenodeProtocolServerSideTranslatorPB.renewLease(ClientNamenodeProtocolServerSideTranslatorPB.java:689)
+	at org.apache.hadoop.hdfs.protocol.proto.ClientNamenodeProtocolProtos$ClientNamenodeProtocol$2.callBlockingMethod(ClientNamenodeProtocolProtos.java)
+	at org.apache.hadoop.ipc.ProtobufRpcEngine$Server$ProtoBufRpcInvoker.call(ProtobufRpcEngine.java:507)
+	at org.apache.hadoop.ipc.RPC$Server.call(RPC.java:1034)
+	at org.apache.hadoop.ipc.Server$RpcCall.run(Server.java:1003)
+	at org.apache.hadoop.ipc.Server$RpcCall.run(Server.java:931)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at javax.security.auth.Subject.doAs(Subject.java:422)
+	at org.apache.hadoop.security.UserGroupInformation.doAs(UserGroupInformation.java:1926)
+	at org.apache.hadoop.ipc.Server$Handler.run(Server.java:2854)
+
+	at org.apache.hadoop.ipc.Client.getRpcResponse(Client.java:1489)
+	at org.apache.hadoop.ipc.Client.call(Client.java:1435)
+	at org.apache.hadoop.ipc.Client.call(Client.java:1345)
+	at org.apache.hadoop.ipc.ProtobufRpcEngine$Invoker.invoke(ProtobufRpcEngine.java:227)
+	at org.apache.hadoop.ipc.ProtobufRpcEngine$Invoker.invoke(ProtobufRpcEngine.java:116)
+	at com.sun.proxy.$Proxy16.renewLease(Unknown Source)
+	at org.apache.hadoop.hdfs.protocolPB.ClientNamenodeProtocolTranslatorPB.renewLease(ClientNamenodeProtocolTranslatorPB.java:613)
+	at sun.reflect.GeneratedMethodAccessor13.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.hadoop.io.retry.RetryInvocationHandler.invokeMethod(RetryInvocationHandler.java:409)
+	at org.apache.hadoop.io.retry.RetryInvocationHandler$Call.invokeMethod(RetryInvocationHandler.java:163)
+	at org.apache.hadoop.io.retry.RetryInvocationHandler$Call.invoke(RetryInvocationHandler.java:155)
+	at org.apache.hadoop.io.retry.RetryInvocationHandler$Call.invokeOnce(RetryInvocationHandler.java:95)
+	at org.apache.hadoop.io.retry.RetryInvocationHandler.invoke(RetryInvocationHandler.java:346)
+	at com.sun.proxy.$Proxy17.renewLease(Unknown Source)
+	at sun.reflect.GeneratedMethodAccessor13.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.hadoop.hbase.fs.HFileSystem$1.invoke(HFileSystem.java:306)
+	at com.sun.proxy.$Proxy18.renewLease(Unknown Source)
+	at org.apache.hadoop.hdfs.DFSClient.renewLease(DFSClient.java:560)
+	at org.apache.hadoop.hdfs.client.impl.LeaseRenewer.renew(LeaseRenewer.java:395)
+	at org.apache.hadoop.hdfs.client.impl.LeaseRenewer.run(LeaseRenewer.java:415)
+	at org.apache.hadoop.hdfs.client.impl.LeaseRenewer.access$600(LeaseRenewer.java:76)
+	at org.apache.hadoop.hdfs.client.impl.LeaseRenewer$1.run(LeaseRenewer.java:307)
+	at java.lang.Thread.run(Thread.java:748)
+2021-10-05 20:04:34,389 WARN  [LeaseRenewer:emilstahl@localhost:9000] impl.LeaseRenewer: Failed to renew lease for [DFSClient_NONMAPREDUCE_1315127232_1] for 35 seconds.  Will retry shortly ...
+org.apache.hadoop.ipc.RemoteException(org.apache.hadoop.hdfs.server.namenode.SafeModeException): Cannot renew lease for DFSClient_NONMAPREDUCE_1315127232_1. Name node is in safe mode.
+Resources are low on NN. Please add or free up more resourcesthen turn off safe mode manually. NOTE:  If you turn off safe mode before adding resources, the NN will immediately return to safe mode. Use "hdfs dfsadmin -safemode leave" to turn safe mode off. NamenodeHostName:localhost
+	at org.apache.hadoop.hdfs.server.namenode.FSNamesystem.newSafemodeException(FSNamesystem.java:1435)
+	at org.apache.hadoop.hdfs.server.namenode.FSNamesystem.checkNameNodeSafeMode(FSNamesystem.java:1423)
+	at org.apache.hadoop.hdfs.server.namenode.FSNamesystem.renewLease(FSNamesystem.java:3632)
+	at org.apache.hadoop.hdfs.server.namenode.NameNodeRpcServer.renewLease(NameNodeRpcServer.java:1140)
+	at org.apache.hadoop.hdfs.protocolPB.ClientNamenodeProtocolServerSideTranslatorPB.renewLease(ClientNamenodeProtocolServerSideTranslatorPB.java:689)
+	at org.apache.hadoop.hdfs.protocol.proto.ClientNamenodeProtocolProtos$ClientNamenodeProtocol$2.callBlockingMethod(ClientNamenodeProtocolProtos.java)
+	at org.apache.hadoop.ipc.ProtobufRpcEngine$Server$ProtoBufRpcInvoker.call(ProtobufRpcEngine.java:507)
+	at org.apache.hadoop.ipc.RPC$Server.call(RPC.java:1034)
+	at org.apache.hadoop.ipc.Server$RpcCall.run(Server.java:1003)
+	at org.apache.hadoop.ipc.Server$RpcCall.run(Server.java:931)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at javax.security.auth.Subject.doAs(Subject.java:422)
+	at org.apache.hadoop.security.UserGroupInformation.doAs(UserGroupInformation.java:1926)
+	at org.apache.hadoop.ipc.Server$Handler.run(Server.java:2854)
+
+	at org.apache.hadoop.ipc.Client.getRpcResponse(Client.java:1489)
+	at org.apache.hadoop.ipc.Client.call(Client.java:1435)
+	at org.apache.hadoop.ipc.Client.call(Client.java:1345)
+	at org.apache.hadoop.ipc.ProtobufRpcEngine$Invoker.invoke(ProtobufRpcEngine.java:227)
+	at org.apache.hadoop.ipc.ProtobufRpcEngine$Invoker.invoke(ProtobufRpcEngine.java:116)
+	at com.sun.proxy.$Proxy16.renewLease(Unknown Source)
+	at org.apache.hadoop.hdfs.protocolPB.ClientNamenodeProtocolTranslatorPB.renewLease(ClientNamenodeProtocolTranslatorPB.java:613)
+	at sun.reflect.GeneratedMethodAccessor13.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.hadoop.io.retry.RetryInvocationHandler.invokeMethod(RetryInvocationHandler.java:409)
+	at org.apache.hadoop.io.retry.RetryInvocationHandler$Call.invokeMethod(RetryInvocationHandler.java:163)
+	at org.apache.hadoop.io.retry.RetryInvocationHandler$Call.invoke(RetryInvocationHandler.java:155)
+	at org.apache.hadoop.io.retry.RetryInvocationHandler$Call.invokeOnce(RetryInvocationHandler.java:95)
+	at org.apache.hadoop.io.retry.RetryInvocationHandler.invoke(RetryInvocationHandler.java:346)
+	at com.sun.proxy.$Proxy17.renewLease(Unknown Source)
+	at sun.reflect.GeneratedMethodAccessor13.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.hadoop.hbase.fs.HFileSystem$1.invoke(HFileSystem.java:306)
+	at com.sun.proxy.$Proxy18.renewLease(Unknown Source)
+	at org.apache.hadoop.hdfs.DFSClient.renewLease(DFSClient.java:560)
+	at org.apache.hadoop.hdfs.client.impl.LeaseRenewer.renew(LeaseRenewer.java:395)
+	at org.apache.hadoop.hdfs.client.impl.LeaseRenewer.run(LeaseRenewer.java:415)
+	at org.apache.hadoop.hdfs.client.impl.LeaseRenewer.access$600(LeaseRenewer.java:76)
+	at org.apache.hadoop.hdfs.client.impl.LeaseRenewer$1.run(LeaseRenewer.java:307)
+	at java.lang.Thread.run(Thread.java:748)
+2021-10-05 20:04:35,391 WARN  [LeaseRenewer:emilstahl@localhost:9000] impl.LeaseRenewer: Failed to renew lease for [DFSClient_NONMAPREDUCE_1315127232_1] for 36 seconds.  Will retry shortly ...
+org.apache.hadoop.ipc.RemoteException(org.apache.hadoop.hdfs.server.namenode.SafeModeException): Cannot renew lease for DFSClient_NONMAPREDUCE_1315127232_1. Name node is in safe mode.
+Resources are low on NN. Please add or free up more resourcesthen turn off safe mode manually. NOTE:  If you turn off safe mode before adding resources, the NN will immediately return to safe mode. Use "hdfs dfsadmin -safemode leave" to turn safe mode off. NamenodeHostName:localhost
+	at org.apache.hadoop.hdfs.server.namenode.FSNamesystem.newSafemodeException(FSNamesystem.java:1435)
+	at org.apache.hadoop.hdfs.server.namenode.FSNamesystem.checkNameNodeSafeMode(FSNamesystem.java:1423)
+	at org.apache.hadoop.hdfs.server.namenode.FSNamesystem.renewLease(FSNamesystem.java:3632)
+	at org.apache.hadoop.hdfs.server.namenode.NameNodeRpcServer.renewLease(NameNodeRpcServer.java:1140)
+	at org.apache.hadoop.hdfs.protocolPB.ClientNamenodeProtocolServerSideTranslatorPB.renewLease(ClientNamenodeProtocolServerSideTranslatorPB.java:689)
+	at org.apache.hadoop.hdfs.protocol.proto.ClientNamenodeProtocolProtos$ClientNamenodeProtocol$2.callBlockingMethod(ClientNamenodeProtocolProtos.java)
+	at org.apache.hadoop.ipc.ProtobufRpcEngine$Server$ProtoBufRpcInvoker.call(ProtobufRpcEngine.java:507)
+	at org.apache.hadoop.ipc.RPC$Server.call(RPC.java:1034)
+	at org.apache.hadoop.ipc.Server$RpcCall.run(Server.java:1003)
+	at org.apache.hadoop.ipc.Server$RpcCall.run(Server.java:931)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at javax.security.auth.Subject.doAs(Subject.java:422)
+	at org.apache.hadoop.security.UserGroupInformation.doAs(UserGroupInformation.java:1926)
+	at org.apache.hadoop.ipc.Server$Handler.run(Server.java:2854)
+
+	at org.apache.hadoop.ipc.Client.getRpcResponse(Client.java:1489)
+	at org.apache.hadoop.ipc.Client.call(Client.java:1435)
+	at org.apache.hadoop.ipc.Client.call(Client.java:1345)
+	at org.apache.hadoop.ipc.ProtobufRpcEngine$Invoker.invoke(ProtobufRpcEngine.java:227)
+	at org.apache.hadoop.ipc.ProtobufRpcEngine$Invoker.invoke(ProtobufRpcEngine.java:116)
+	at com.sun.proxy.$Proxy16.renewLease(Unknown Source)
+	at org.apache.hadoop.hdfs.protocolPB.ClientNamenodeProtocolTranslatorPB.renewLease(ClientNamenodeProtocolTranslatorPB.java:613)
+	at sun.reflect.GeneratedMethodAccessor13.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.hadoop.io.retry.RetryInvocationHandler.invokeMethod(RetryInvocationHandler.java:409)
+	at org.apache.hadoop.io.retry.RetryInvocationHandler$Call.invokeMethod(RetryInvocationHandler.java:163)
+	at org.apache.hadoop.io.retry.RetryInvocationHandler$Call.invoke(RetryInvocationHandler.java:155)
+	at org.apache.hadoop.io.retry.RetryInvocationHandler$Call.invokeOnce(RetryInvocationHandler.java:95)
+	at org.apache.hadoop.io.retry.RetryInvocationHandler.invoke(RetryInvocationHandler.java:346)
+	at com.sun.proxy.$Proxy17.renewLease(Unknown Source)
+	at sun.reflect.GeneratedMethodAccessor13.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.hadoop.hbase.fs.HFileSystem$1.invoke(HFileSystem.java:306)
+	at com.sun.proxy.$Proxy18.renewLease(Unknown Source)
+	at org.apache.hadoop.hdfs.DFSClient.renewLease(DFSClient.java:560)
+	at org.apache.hadoop.hdfs.client.impl.LeaseRenewer.renew(LeaseRenewer.java:395)
+	at org.apache.hadoop.hdfs.client.impl.LeaseRenewer.run(LeaseRenewer.java:415)
+	at org.apache.hadoop.hdfs.client.impl.LeaseRenewer.access$600(LeaseRenewer.java:76)
+	at org.apache.hadoop.hdfs.client.impl.LeaseRenewer$1.run(LeaseRenewer.java:307)
+	at java.lang.Thread.run(Thread.java:748)
+2021-10-05 20:04:36,394 WARN  [LeaseRenewer:emilstahl@localhost:9000] impl.LeaseRenewer: Failed to renew lease for [DFSClient_NONMAPREDUCE_1315127232_1] for 37 seconds.  Will retry shortly ...
+org.apache.hadoop.ipc.RemoteException(org.apache.hadoop.hdfs.server.namenode.SafeModeException): Cannot renew lease for DFSClient_NONMAPREDUCE_1315127232_1. Name node is in safe mode.
+Resources are low on NN. Please add or free up more resourcesthen turn off safe mode manually. NOTE:  If you turn off safe mode before adding resources, the NN will immediately return to safe mode. Use "hdfs dfsadmin -safemode leave" to turn safe mode off. NamenodeHostName:localhost
+	at org.apache.hadoop.hdfs.server.namenode.FSNamesystem.newSafemodeException(FSNamesystem.java:1435)
+	at org.apache.hadoop.hdfs.server.namenode.FSNamesystem.checkNameNodeSafeMode(FSNamesystem.java:1423)
+	at org.apache.hadoop.hdfs.server.namenode.FSNamesystem.renewLease(FSNamesystem.java:3632)
+	at org.apache.hadoop.hdfs.server.namenode.NameNodeRpcServer.renewLease(NameNodeRpcServer.java:1140)
+	at org.apache.hadoop.hdfs.protocolPB.ClientNamenodeProtocolServerSideTranslatorPB.renewLease(ClientNamenodeProtocolServerSideTranslatorPB.java:689)
+	at org.apache.hadoop.hdfs.protocol.proto.ClientNamenodeProtocolProtos$ClientNamenodeProtocol$2.callBlockingMethod(ClientNamenodeProtocolProtos.java)
+	at org.apache.hadoop.ipc.ProtobufRpcEngine$Server$ProtoBufRpcInvoker.call(ProtobufRpcEngine.java:507)
+	at org.apache.hadoop.ipc.RPC$Server.call(RPC.java:1034)
+	at org.apache.hadoop.ipc.Server$RpcCall.run(Server.java:1003)
+	at org.apache.hadoop.ipc.Server$RpcCall.run(Server.java:931)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at javax.security.auth.Subject.doAs(Subject.java:422)
+	at org.apache.hadoop.security.UserGroupInformation.doAs(UserGroupInformation.java:1926)
+	at org.apache.hadoop.ipc.Server$Handler.run(Server.java:2854)
+
+	at org.apache.hadoop.ipc.Client.getRpcResponse(Client.java:1489)
+	at org.apache.hadoop.ipc.Client.call(Client.java:1435)
+	at org.apache.hadoop.ipc.Client.call(Client.java:1345)
+	at org.apache.hadoop.ipc.ProtobufRpcEngine$Invoker.invoke(ProtobufRpcEngine.java:227)
+	at org.apache.hadoop.ipc.ProtobufRpcEngine$Invoker.invoke(ProtobufRpcEngine.java:116)
+	at com.sun.proxy.$Proxy16.renewLease(Unknown Source)
+	at org.apache.hadoop.hdfs.protocolPB.ClientNamenodeProtocolTranslatorPB.renewLease(ClientNamenodeProtocolTranslatorPB.java:613)
+	at sun.reflect.GeneratedMethodAccessor13.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.hadoop.io.retry.RetryInvocationHandler.invokeMethod(RetryInvocationHandler.java:409)
+	at org.apache.hadoop.io.retry.RetryInvocationHandler$Call.invokeMethod(RetryInvocationHandler.java:163)
+	at org.apache.hadoop.io.retry.RetryInvocationHandler$Call.invoke(RetryInvocationHandler.java:155)
+	at org.apache.hadoop.io.retry.RetryInvocationHandler$Call.invokeOnce(RetryInvocationHandler.java:95)
+	at org.apache.hadoop.io.retry.RetryInvocationHandler.invoke(RetryInvocationHandler.java:346)
+	at com.sun.proxy.$Proxy17.renewLease(Unknown Source)
+	at sun.reflect.GeneratedMethodAccessor13.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.hadoop.hbase.fs.HFileSystem$1.invoke(HFileSystem.java:306)
+	at com.sun.proxy.$Proxy18.renewLease(Unknown Source)
+	at org.apache.hadoop.hdfs.DFSClient.renewLease(DFSClient.java:560)
+	at org.apache.hadoop.hdfs.client.impl.LeaseRenewer.renew(LeaseRenewer.java:395)
+	at org.apache.hadoop.hdfs.client.impl.LeaseRenewer.run(LeaseRenewer.java:415)
+	at org.apache.hadoop.hdfs.client.impl.LeaseRenewer.access$600(LeaseRenewer.java:76)
+	at org.apache.hadoop.hdfs.client.impl.LeaseRenewer$1.run(LeaseRenewer.java:307)
+	at java.lang.Thread.run(Thread.java:748)
+2021-10-05 20:04:37,396 WARN  [LeaseRenewer:emilstahl@localhost:9000] impl.LeaseRenewer: Failed to renew lease for [DFSClient_NONMAPREDUCE_1315127232_1] for 38 seconds.  Will retry shortly ...
+org.apache.hadoop.ipc.RemoteException(org.apache.hadoop.hdfs.server.namenode.SafeModeException): Cannot renew lease for DFSClient_NONMAPREDUCE_1315127232_1. Name node is in safe mode.
+Resources are low on NN. Please add or free up more resourcesthen turn off safe mode manually. NOTE:  If you turn off safe mode before adding resources, the NN will immediately return to safe mode. Use "hdfs dfsadmin -safemode leave" to turn safe mode off. NamenodeHostName:localhost
+	at org.apache.hadoop.hdfs.server.namenode.FSNamesystem.newSafemodeException(FSNamesystem.java:1435)
+	at org.apache.hadoop.hdfs.server.namenode.FSNamesystem.checkNameNodeSafeMode(FSNamesystem.java:1423)
+	at org.apache.hadoop.hdfs.server.namenode.FSNamesystem.renewLease(FSNamesystem.java:3632)
+	at org.apache.hadoop.hdfs.server.namenode.NameNodeRpcServer.renewLease(NameNodeRpcServer.java:1140)
+	at org.apache.hadoop.hdfs.protocolPB.ClientNamenodeProtocolServerSideTranslatorPB.renewLease(ClientNamenodeProtocolServerSideTranslatorPB.java:689)
+	at org.apache.hadoop.hdfs.protocol.proto.ClientNamenodeProtocolProtos$ClientNamenodeProtocol$2.callBlockingMethod(ClientNamenodeProtocolProtos.java)
+	at org.apache.hadoop.ipc.ProtobufRpcEngine$Server$ProtoBufRpcInvoker.call(ProtobufRpcEngine.java:507)
+	at org.apache.hadoop.ipc.RPC$Server.call(RPC.java:1034)
+	at org.apache.hadoop.ipc.Server$RpcCall.run(Server.java:1003)
+	at org.apache.hadoop.ipc.Server$RpcCall.run(Server.java:931)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at javax.security.auth.Subject.doAs(Subject.java:422)
+	at org.apache.hadoop.security.UserGroupInformation.doAs(UserGroupInformation.java:1926)
+	at org.apache.hadoop.ipc.Server$Handler.run(Server.java:2854)
+
+	at org.apache.hadoop.ipc.Client.getRpcResponse(Client.java:1489)
+	at org.apache.hadoop.ipc.Client.call(Client.java:1435)
+	at org.apache.hadoop.ipc.Client.call(Client.java:1345)
+	at org.apache.hadoop.ipc.ProtobufRpcEngine$Invoker.invoke(ProtobufRpcEngine.java:227)
+	at org.apache.hadoop.ipc.ProtobufRpcEngine$Invoker.invoke(ProtobufRpcEngine.java:116)
+	at com.sun.proxy.$Proxy16.renewLease(Unknown Source)
+	at org.apache.hadoop.hdfs.protocolPB.ClientNamenodeProtocolTranslatorPB.renewLease(ClientNamenodeProtocolTranslatorPB.java:613)
+	at sun.reflect.GeneratedMethodAccessor13.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.hadoop.io.retry.RetryInvocationHandler.invokeMethod(RetryInvocationHandler.java:409)
+	at org.apache.hadoop.io.retry.RetryInvocationHandler$Call.invokeMethod(RetryInvocationHandler.java:163)
+	at org.apache.hadoop.io.retry.RetryInvocationHandler$Call.invoke(RetryInvocationHandler.java:155)
+	at org.apache.hadoop.io.retry.RetryInvocationHandler$Call.invokeOnce(RetryInvocationHandler.java:95)
+	at org.apache.hadoop.io.retry.RetryInvocationHandler.invoke(RetryInvocationHandler.java:346)
+	at com.sun.proxy.$Proxy17.renewLease(Unknown Source)
+	at sun.reflect.GeneratedMethodAccessor13.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.hadoop.hbase.fs.HFileSystem$1.invoke(HFileSystem.java:306)
+	at com.sun.proxy.$Proxy18.renewLease(Unknown Source)
+	at org.apache.hadoop.hdfs.DFSClient.renewLease(DFSClient.java:560)
+	at org.apache.hadoop.hdfs.client.impl.LeaseRenewer.renew(LeaseRenewer.java:395)
+	at org.apache.hadoop.hdfs.client.impl.LeaseRenewer.run(LeaseRenewer.java:415)
+	at org.apache.hadoop.hdfs.client.impl.LeaseRenewer.access$600(LeaseRenewer.java:76)
+	at org.apache.hadoop.hdfs.client.impl.LeaseRenewer$1.run(LeaseRenewer.java:307)
+	at java.lang.Thread.run(Thread.java:748)
+2021-10-05 20:04:38,399 WARN  [LeaseRenewer:emilstahl@localhost:9000] impl.LeaseRenewer: Failed to renew lease for [DFSClient_NONMAPREDUCE_1315127232_1] for 39 seconds.  Will retry shortly ...
+org.apache.hadoop.ipc.RemoteException(org.apache.hadoop.hdfs.server.namenode.SafeModeException): Cannot renew lease for DFSClient_NONMAPREDUCE_1315127232_1. Name node is in safe mode.
+Resources are low on NN. Please add or free up more resourcesthen turn off safe mode manually. NOTE:  If you turn off safe mode before adding resources, the NN will immediately return to safe mode. Use "hdfs dfsadmin -safemode leave" to turn safe mode off. NamenodeHostName:localhost
+	at org.apache.hadoop.hdfs.server.namenode.FSNamesystem.newSafemodeException(FSNamesystem.java:1435)
+	at org.apache.hadoop.hdfs.server.namenode.FSNamesystem.checkNameNodeSafeMode(FSNamesystem.java:1423)
+	at org.apache.hadoop.hdfs.server.namenode.FSNamesystem.renewLease(FSNamesystem.java:3632)
+	at org.apache.hadoop.hdfs.server.namenode.NameNodeRpcServer.renewLease(NameNodeRpcServer.java:1140)
+	at org.apache.hadoop.hdfs.protocolPB.ClientNamenodeProtocolServerSideTranslatorPB.renewLease(ClientNamenodeProtocolServerSideTranslatorPB.java:689)
+	at org.apache.hadoop.hdfs.protocol.proto.ClientNamenodeProtocolProtos$ClientNamenodeProtocol$2.callBlockingMethod(ClientNamenodeProtocolProtos.java)
+	at org.apache.hadoop.ipc.ProtobufRpcEngine$Server$ProtoBufRpcInvoker.call(ProtobufRpcEngine.java:507)
+	at org.apache.hadoop.ipc.RPC$Server.call(RPC.java:1034)
+	at org.apache.hadoop.ipc.Server$RpcCall.run(Server.java:1003)
+	at org.apache.hadoop.ipc.Server$RpcCall.run(Server.java:931)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at javax.security.auth.Subject.doAs(Subject.java:422)
+	at org.apache.hadoop.security.UserGroupInformation.doAs(UserGroupInformation.java:1926)
+	at org.apache.hadoop.ipc.Server$Handler.run(Server.java:2854)
+
+	at org.apache.hadoop.ipc.Client.getRpcResponse(Client.java:1489)
+	at org.apache.hadoop.ipc.Client.call(Client.java:1435)
+	at org.apache.hadoop.ipc.Client.call(Client.java:1345)
+	at org.apache.hadoop.ipc.ProtobufRpcEngine$Invoker.invoke(ProtobufRpcEngine.java:227)
+	at org.apache.hadoop.ipc.ProtobufRpcEngine$Invoker.invoke(ProtobufRpcEngine.java:116)
+	at com.sun.proxy.$Proxy16.renewLease(Unknown Source)
+	at org.apache.hadoop.hdfs.protocolPB.ClientNamenodeProtocolTranslatorPB.renewLease(ClientNamenodeProtocolTranslatorPB.java:613)
+	at sun.reflect.GeneratedMethodAccessor13.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.hadoop.io.retry.RetryInvocationHandler.invokeMethod(RetryInvocationHandler.java:409)
+	at org.apache.hadoop.io.retry.RetryInvocationHandler$Call.invokeMethod(RetryInvocationHandler.java:163)
+	at org.apache.hadoop.io.retry.RetryInvocationHandler$Call.invoke(RetryInvocationHandler.java:155)
+	at org.apache.hadoop.io.retry.RetryInvocationHandler$Call.invokeOnce(RetryInvocationHandler.java:95)
+	at org.apache.hadoop.io.retry.RetryInvocationHandler.invoke(RetryInvocationHandler.java:346)
+	at com.sun.proxy.$Proxy17.renewLease(Unknown Source)
+	at sun.reflect.GeneratedMethodAccessor13.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.hadoop.hbase.fs.HFileSystem$1.invoke(HFileSystem.java:306)
+	at com.sun.proxy.$Proxy18.renewLease(Unknown Source)
+	at org.apache.hadoop.hdfs.DFSClient.renewLease(DFSClient.java:560)
+	at org.apache.hadoop.hdfs.client.impl.LeaseRenewer.renew(LeaseRenewer.java:395)
+	at org.apache.hadoop.hdfs.client.impl.LeaseRenewer.run(LeaseRenewer.java:415)
+	at org.apache.hadoop.hdfs.client.impl.LeaseRenewer.access$600(LeaseRenewer.java:76)
+	at org.apache.hadoop.hdfs.client.impl.LeaseRenewer$1.run(LeaseRenewer.java:307)
+	at java.lang.Thread.run(Thread.java:748)
+2021-10-05 20:04:39,401 WARN  [LeaseRenewer:emilstahl@localhost:9000] impl.LeaseRenewer: Failed to renew lease for [DFSClient_NONMAPREDUCE_1315127232_1] for 40 seconds.  Will retry shortly ...
+org.apache.hadoop.ipc.RemoteException(org.apache.hadoop.hdfs.server.namenode.SafeModeException): Cannot renew lease for DFSClient_NONMAPREDUCE_1315127232_1. Name node is in safe mode.
+Resources are low on NN. Please add or free up more resourcesthen turn off safe mode manually. NOTE:  If you turn off safe mode before adding resources, the NN will immediately return to safe mode. Use "hdfs dfsadmin -safemode leave" to turn safe mode off. NamenodeHostName:localhost
+	at org.apache.hadoop.hdfs.server.namenode.FSNamesystem.newSafemodeException(FSNamesystem.java:1435)
+	at org.apache.hadoop.hdfs.server.namenode.FSNamesystem.checkNameNodeSafeMode(FSNamesystem.java:1423)
+	at org.apache.hadoop.hdfs.server.namenode.FSNamesystem.renewLease(FSNamesystem.java:3632)
+	at org.apache.hadoop.hdfs.server.namenode.NameNodeRpcServer.renewLease(NameNodeRpcServer.java:1140)
+	at org.apache.hadoop.hdfs.protocolPB.ClientNamenodeProtocolServerSideTranslatorPB.renewLease(ClientNamenodeProtocolServerSideTranslatorPB.java:689)
+	at org.apache.hadoop.hdfs.protocol.proto.ClientNamenodeProtocolProtos$ClientNamenodeProtocol$2.callBlockingMethod(ClientNamenodeProtocolProtos.java)
+	at org.apache.hadoop.ipc.ProtobufRpcEngine$Server$ProtoBufRpcInvoker.call(ProtobufRpcEngine.java:507)
+	at org.apache.hadoop.ipc.RPC$Server.call(RPC.java:1034)
+	at org.apache.hadoop.ipc.Server$RpcCall.run(Server.java:1003)
+	at org.apache.hadoop.ipc.Server$RpcCall.run(Server.java:931)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at javax.security.auth.Subject.doAs(Subject.java:422)
+	at org.apache.hadoop.security.UserGroupInformation.doAs(UserGroupInformation.java:1926)
+	at org.apache.hadoop.ipc.Server$Handler.run(Server.java:2854)
+
+	at org.apache.hadoop.ipc.Client.getRpcResponse(Client.java:1489)
+	at org.apache.hadoop.ipc.Client.call(Client.java:1435)
+	at org.apache.hadoop.ipc.Client.call(Client.java:1345)
+	at org.apache.hadoop.ipc.ProtobufRpcEngine$Invoker.invoke(ProtobufRpcEngine.java:227)
+	at org.apache.hadoop.ipc.ProtobufRpcEngine$Invoker.invoke(ProtobufRpcEngine.java:116)
+	at com.sun.proxy.$Proxy16.renewLease(Unknown Source)
+	at org.apache.hadoop.hdfs.protocolPB.ClientNamenodeProtocolTranslatorPB.renewLease(ClientNamenodeProtocolTranslatorPB.java:613)
+	at sun.reflect.GeneratedMethodAccessor13.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.hadoop.io.retry.RetryInvocationHandler.invokeMethod(RetryInvocationHandler.java:409)
+	at org.apache.hadoop.io.retry.RetryInvocationHandler$Call.invokeMethod(RetryInvocationHandler.java:163)
+	at org.apache.hadoop.io.retry.RetryInvocationHandler$Call.invoke(RetryInvocationHandler.java:155)
+	at org.apache.hadoop.io.retry.RetryInvocationHandler$Call.invokeOnce(RetryInvocationHandler.java:95)
+	at org.apache.hadoop.io.retry.RetryInvocationHandler.invoke(RetryInvocationHandler.java:346)
+	at com.sun.proxy.$Proxy17.renewLease(Unknown Source)
+	at sun.reflect.GeneratedMethodAccessor13.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.hadoop.hbase.fs.HFileSystem$1.invoke(HFileSystem.java:306)
+	at com.sun.proxy.$Proxy18.renewLease(Unknown Source)
+	at org.apache.hadoop.hdfs.DFSClient.renewLease(DFSClient.java:560)
+	at org.apache.hadoop.hdfs.client.impl.LeaseRenewer.renew(LeaseRenewer.java:395)
+	at org.apache.hadoop.hdfs.client.impl.LeaseRenewer.run(LeaseRenewer.java:415)
+	at org.apache.hadoop.hdfs.client.impl.LeaseRenewer.access$600(LeaseRenewer.java:76)
+	at org.apache.hadoop.hdfs.client.impl.LeaseRenewer$1.run(LeaseRenewer.java:307)
+	at java.lang.Thread.run(Thread.java:748)
+2021-10-05 20:04:40,403 WARN  [LeaseRenewer:emilstahl@localhost:9000] impl.LeaseRenewer: Failed to renew lease for [DFSClient_NONMAPREDUCE_1315127232_1] for 41 seconds.  Will retry shortly ...
+org.apache.hadoop.ipc.RemoteException(org.apache.hadoop.hdfs.server.namenode.SafeModeException): Cannot renew lease for DFSClient_NONMAPREDUCE_1315127232_1. Name node is in safe mode.
+Resources are low on NN. Please add or free up more resourcesthen turn off safe mode manually. NOTE:  If you turn off safe mode before adding resources, the NN will immediately return to safe mode. Use "hdfs dfsadmin -safemode leave" to turn safe mode off. NamenodeHostName:localhost
+	at org.apache.hadoop.hdfs.server.namenode.FSNamesystem.newSafemodeException(FSNamesystem.java:1435)
+	at org.apache.hadoop.hdfs.server.namenode.FSNamesystem.checkNameNodeSafeMode(FSNamesystem.java:1423)
+	at org.apache.hadoop.hdfs.server.namenode.FSNamesystem.renewLease(FSNamesystem.java:3632)
+	at org.apache.hadoop.hdfs.server.namenode.NameNodeRpcServer.renewLease(NameNodeRpcServer.java:1140)
+	at org.apache.hadoop.hdfs.protocolPB.ClientNamenodeProtocolServerSideTranslatorPB.renewLease(ClientNamenodeProtocolServerSideTranslatorPB.java:689)
+	at org.apache.hadoop.hdfs.protocol.proto.ClientNamenodeProtocolProtos$ClientNamenodeProtocol$2.callBlockingMethod(ClientNamenodeProtocolProtos.java)
+	at org.apache.hadoop.ipc.ProtobufRpcEngine$Server$ProtoBufRpcInvoker.call(ProtobufRpcEngine.java:507)
+	at org.apache.hadoop.ipc.RPC$Server.call(RPC.java:1034)
+	at org.apache.hadoop.ipc.Server$RpcCall.run(Server.java:1003)
+	at org.apache.hadoop.ipc.Server$RpcCall.run(Server.java:931)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at javax.security.auth.Subject.doAs(Subject.java:422)
+	at org.apache.hadoop.security.UserGroupInformation.doAs(UserGroupInformation.java:1926)
+	at org.apache.hadoop.ipc.Server$Handler.run(Server.java:2854)
+
+	at org.apache.hadoop.ipc.Client.getRpcResponse(Client.java:1489)
+	at org.apache.hadoop.ipc.Client.call(Client.java:1435)
+	at org.apache.hadoop.ipc.Client.call(Client.java:1345)
+	at org.apache.hadoop.ipc.ProtobufRpcEngine$Invoker.invoke(ProtobufRpcEngine.java:227)
+	at org.apache.hadoop.ipc.ProtobufRpcEngine$Invoker.invoke(ProtobufRpcEngine.java:116)
+	at com.sun.proxy.$Proxy16.renewLease(Unknown Source)
+	at org.apache.hadoop.hdfs.protocolPB.ClientNamenodeProtocolTranslatorPB.renewLease(ClientNamenodeProtocolTranslatorPB.java:613)
+	at sun.reflect.GeneratedMethodAccessor13.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.hadoop.io.retry.RetryInvocationHandler.invokeMethod(RetryInvocationHandler.java:409)
+	at org.apache.hadoop.io.retry.RetryInvocationHandler$Call.invokeMethod(RetryInvocationHandler.java:163)
+	at org.apache.hadoop.io.retry.RetryInvocationHandler$Call.invoke(RetryInvocationHandler.java:155)
+	at org.apache.hadoop.io.retry.RetryInvocationHandler$Call.invokeOnce(RetryInvocationHandler.java:95)
+	at org.apache.hadoop.io.retry.RetryInvocationHandler.invoke(RetryInvocationHandler.java:346)
+	at com.sun.proxy.$Proxy17.renewLease(Unknown Source)
+	at sun.reflect.GeneratedMethodAccessor13.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.hadoop.hbase.fs.HFileSystem$1.invoke(HFileSystem.java:306)
+	at com.sun.proxy.$Proxy18.renewLease(Unknown Source)
+	at org.apache.hadoop.hdfs.DFSClient.renewLease(DFSClient.java:560)
+	at org.apache.hadoop.hdfs.client.impl.LeaseRenewer.renew(LeaseRenewer.java:395)
+	at org.apache.hadoop.hdfs.client.impl.LeaseRenewer.run(LeaseRenewer.java:415)
+	at org.apache.hadoop.hdfs.client.impl.LeaseRenewer.access$600(LeaseRenewer.java:76)
+	at org.apache.hadoop.hdfs.client.impl.LeaseRenewer$1.run(LeaseRenewer.java:307)
+	at java.lang.Thread.run(Thread.java:748)
+2021-10-05 20:04:41,406 WARN  [LeaseRenewer:emilstahl@localhost:9000] impl.LeaseRenewer: Failed to renew lease for [DFSClient_NONMAPREDUCE_1315127232_1] for 42 seconds.  Will retry shortly ...
+org.apache.hadoop.ipc.RemoteException(org.apache.hadoop.hdfs.server.namenode.SafeModeException): Cannot renew lease for DFSClient_NONMAPREDUCE_1315127232_1. Name node is in safe mode.
+Resources are low on NN. Please add or free up more resourcesthen turn off safe mode manually. NOTE:  If you turn off safe mode before adding resources, the NN will immediately return to safe mode. Use "hdfs dfsadmin -safemode leave" to turn safe mode off. NamenodeHostName:localhost
+	at org.apache.hadoop.hdfs.server.namenode.FSNamesystem.newSafemodeException(FSNamesystem.java:1435)
+	at org.apache.hadoop.hdfs.server.namenode.FSNamesystem.checkNameNodeSafeMode(FSNamesystem.java:1423)
+	at org.apache.hadoop.hdfs.server.namenode.FSNamesystem.renewLease(FSNamesystem.java:3632)
+	at org.apache.hadoop.hdfs.server.namenode.NameNodeRpcServer.renewLease(NameNodeRpcServer.java:1140)
+	at org.apache.hadoop.hdfs.protocolPB.ClientNamenodeProtocolServerSideTranslatorPB.renewLease(ClientNamenodeProtocolServerSideTranslatorPB.java:689)
+	at org.apache.hadoop.hdfs.protocol.proto.ClientNamenodeProtocolProtos$ClientNamenodeProtocol$2.callBlockingMethod(ClientNamenodeProtocolProtos.java)
+	at org.apache.hadoop.ipc.ProtobufRpcEngine$Server$ProtoBufRpcInvoker.call(ProtobufRpcEngine.java:507)
+	at org.apache.hadoop.ipc.RPC$Server.call(RPC.java:1034)
+	at org.apache.hadoop.ipc.Server$RpcCall.run(Server.java:1003)
+	at org.apache.hadoop.ipc.Server$RpcCall.run(Server.java:931)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at javax.security.auth.Subject.doAs(Subject.java:422)
+	at org.apache.hadoop.security.UserGroupInformation.doAs(UserGroupInformation.java:1926)
+	at org.apache.hadoop.ipc.Server$Handler.run(Server.java:2854)
+
+	at org.apache.hadoop.ipc.Client.getRpcResponse(Client.java:1489)
+	at org.apache.hadoop.ipc.Client.call(Client.java:1435)
+	at org.apache.hadoop.ipc.Client.call(Client.java:1345)
+	at org.apache.hadoop.ipc.ProtobufRpcEngine$Invoker.invoke(ProtobufRpcEngine.java:227)
+	at org.apache.hadoop.ipc.ProtobufRpcEngine$Invoker.invoke(ProtobufRpcEngine.java:116)
+	at com.sun.proxy.$Proxy16.renewLease(Unknown Source)
+	at org.apache.hadoop.hdfs.protocolPB.ClientNamenodeProtocolTranslatorPB.renewLease(ClientNamenodeProtocolTranslatorPB.java:613)
+	at sun.reflect.GeneratedMethodAccessor13.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.hadoop.io.retry.RetryInvocationHandler.invokeMethod(RetryInvocationHandler.java:409)
+	at org.apache.hadoop.io.retry.RetryInvocationHandler$Call.invokeMethod(RetryInvocationHandler.java:163)
+	at org.apache.hadoop.io.retry.RetryInvocationHandler$Call.invoke(RetryInvocationHandler.java:155)
+	at org.apache.hadoop.io.retry.RetryInvocationHandler$Call.invokeOnce(RetryInvocationHandler.java:95)
+	at org.apache.hadoop.io.retry.RetryInvocationHandler.invoke(RetryInvocationHandler.java:346)
+	at com.sun.proxy.$Proxy17.renewLease(Unknown Source)
+	at sun.reflect.GeneratedMethodAccessor13.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.hadoop.hbase.fs.HFileSystem$1.invoke(HFileSystem.java:306)
+	at com.sun.proxy.$Proxy18.renewLease(Unknown Source)
+	at org.apache.hadoop.hdfs.DFSClient.renewLease(DFSClient.java:560)
+	at org.apache.hadoop.hdfs.client.impl.LeaseRenewer.renew(LeaseRenewer.java:395)
+	at org.apache.hadoop.hdfs.client.impl.LeaseRenewer.run(LeaseRenewer.java:415)
+	at org.apache.hadoop.hdfs.client.impl.LeaseRenewer.access$600(LeaseRenewer.java:76)
+	at org.apache.hadoop.hdfs.client.impl.LeaseRenewer$1.run(LeaseRenewer.java:307)
+	at java.lang.Thread.run(Thread.java:748)
+2021-10-05 20:04:42,408 WARN  [LeaseRenewer:emilstahl@localhost:9000] impl.LeaseRenewer: Failed to renew lease for [DFSClient_NONMAPREDUCE_1315127232_1] for 43 seconds.  Will retry shortly ...
+org.apache.hadoop.ipc.RemoteException(org.apache.hadoop.hdfs.server.namenode.SafeModeException): Cannot renew lease for DFSClient_NONMAPREDUCE_1315127232_1. Name node is in safe mode.
+Resources are low on NN. Please add or free up more resourcesthen turn off safe mode manually. NOTE:  If you turn off safe mode before adding resources, the NN will immediately return to safe mode. Use "hdfs dfsadmin -safemode leave" to turn safe mode off. NamenodeHostName:localhost
+	at org.apache.hadoop.hdfs.server.namenode.FSNamesystem.newSafemodeException(FSNamesystem.java:1435)
+	at org.apache.hadoop.hdfs.server.namenode.FSNamesystem.checkNameNodeSafeMode(FSNamesystem.java:1423)
+	at org.apache.hadoop.hdfs.server.namenode.FSNamesystem.renewLease(FSNamesystem.java:3632)
+	at org.apache.hadoop.hdfs.server.namenode.NameNodeRpcServer.renewLease(NameNodeRpcServer.java:1140)
+	at org.apache.hadoop.hdfs.protocolPB.ClientNamenodeProtocolServerSideTranslatorPB.renewLease(ClientNamenodeProtocolServerSideTranslatorPB.java:689)
+	at org.apache.hadoop.hdfs.protocol.proto.ClientNamenodeProtocolProtos$ClientNamenodeProtocol$2.callBlockingMethod(ClientNamenodeProtocolProtos.java)
+	at org.apache.hadoop.ipc.ProtobufRpcEngine$Server$ProtoBufRpcInvoker.call(ProtobufRpcEngine.java:507)
+	at org.apache.hadoop.ipc.RPC$Server.call(RPC.java:1034)
+	at org.apache.hadoop.ipc.Server$RpcCall.run(Server.java:1003)
+	at org.apache.hadoop.ipc.Server$RpcCall.run(Server.java:931)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at javax.security.auth.Subject.doAs(Subject.java:422)
+	at org.apache.hadoop.security.UserGroupInformation.doAs(UserGroupInformation.java:1926)
+	at org.apache.hadoop.ipc.Server$Handler.run(Server.java:2854)
+
+	at org.apache.hadoop.ipc.Client.getRpcResponse(Client.java:1489)
+	at org.apache.hadoop.ipc.Client.call(Client.java:1435)
+	at org.apache.hadoop.ipc.Client.call(Client.java:1345)
+	at org.apache.hadoop.ipc.ProtobufRpcEngine$Invoker.invoke(ProtobufRpcEngine.java:227)
+	at org.apache.hadoop.ipc.ProtobufRpcEngine$Invoker.invoke(ProtobufRpcEngine.java:116)
+	at com.sun.proxy.$Proxy16.renewLease(Unknown Source)
+	at org.apache.hadoop.hdfs.protocolPB.ClientNamenodeProtocolTranslatorPB.renewLease(ClientNamenodeProtocolTranslatorPB.java:613)
+	at sun.reflect.GeneratedMethodAccessor13.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.hadoop.io.retry.RetryInvocationHandler.invokeMethod(RetryInvocationHandler.java:409)
+	at org.apache.hadoop.io.retry.RetryInvocationHandler$Call.invokeMethod(RetryInvocationHandler.java:163)
+	at org.apache.hadoop.io.retry.RetryInvocationHandler$Call.invoke(RetryInvocationHandler.java:155)
+	at org.apache.hadoop.io.retry.RetryInvocationHandler$Call.invokeOnce(RetryInvocationHandler.java:95)
+	at org.apache.hadoop.io.retry.RetryInvocationHandler.invoke(RetryInvocationHandler.java:346)
+	at com.sun.proxy.$Proxy17.renewLease(Unknown Source)
+	at sun.reflect.GeneratedMethodAccessor13.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.hadoop.hbase.fs.HFileSystem$1.invoke(HFileSystem.java:306)
+	at com.sun.proxy.$Proxy18.renewLease(Unknown Source)
+	at org.apache.hadoop.hdfs.DFSClient.renewLease(DFSClient.java:560)
+	at org.apache.hadoop.hdfs.client.impl.LeaseRenewer.renew(LeaseRenewer.java:395)
+	at org.apache.hadoop.hdfs.client.impl.LeaseRenewer.run(LeaseRenewer.java:415)
+	at org.apache.hadoop.hdfs.client.impl.LeaseRenewer.access$600(LeaseRenewer.java:76)
+	at org.apache.hadoop.hdfs.client.impl.LeaseRenewer$1.run(LeaseRenewer.java:307)
+	at java.lang.Thread.run(Thread.java:748)
+2021-10-05 20:04:43,412 WARN  [LeaseRenewer:emilstahl@localhost:9000] impl.LeaseRenewer: Failed to renew lease for [DFSClient_NONMAPREDUCE_1315127232_1] for 44 seconds.  Will retry shortly ...
+org.apache.hadoop.ipc.RemoteException(org.apache.hadoop.hdfs.server.namenode.SafeModeException): Cannot renew lease for DFSClient_NONMAPREDUCE_1315127232_1. Name node is in safe mode.
+Resources are low on NN. Please add or free up more resourcesthen turn off safe mode manually. NOTE:  If you turn off safe mode before adding resources, the NN will immediately return to safe mode. Use "hdfs dfsadmin -safemode leave" to turn safe mode off. NamenodeHostName:localhost
+	at org.apache.hadoop.hdfs.server.namenode.FSNamesystem.newSafemodeException(FSNamesystem.java:1435)
+	at org.apache.hadoop.hdfs.server.namenode.FSNamesystem.checkNameNodeSafeMode(FSNamesystem.java:1423)
+	at org.apache.hadoop.hdfs.server.namenode.FSNamesystem.renewLease(FSNamesystem.java:3632)
+	at org.apache.hadoop.hdfs.server.namenode.NameNodeRpcServer.renewLease(NameNodeRpcServer.java:1140)
+	at org.apache.hadoop.hdfs.protocolPB.ClientNamenodeProtocolServerSideTranslatorPB.renewLease(ClientNamenodeProtocolServerSideTranslatorPB.java:689)
+	at org.apache.hadoop.hdfs.protocol.proto.ClientNamenodeProtocolProtos$ClientNamenodeProtocol$2.callBlockingMethod(ClientNamenodeProtocolProtos.java)
+	at org.apache.hadoop.ipc.ProtobufRpcEngine$Server$ProtoBufRpcInvoker.call(ProtobufRpcEngine.java:507)
+	at org.apache.hadoop.ipc.RPC$Server.call(RPC.java:1034)
+	at org.apache.hadoop.ipc.Server$RpcCall.run(Server.java:1003)
+	at org.apache.hadoop.ipc.Server$RpcCall.run(Server.java:931)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at javax.security.auth.Subject.doAs(Subject.java:422)
+	at org.apache.hadoop.security.UserGroupInformation.doAs(UserGroupInformation.java:1926)
+	at org.apache.hadoop.ipc.Server$Handler.run(Server.java:2854)
+
+	at org.apache.hadoop.ipc.Client.getRpcResponse(Client.java:1489)
+	at org.apache.hadoop.ipc.Client.call(Client.java:1435)
+	at org.apache.hadoop.ipc.Client.call(Client.java:1345)
+	at org.apache.hadoop.ipc.ProtobufRpcEngine$Invoker.invoke(ProtobufRpcEngine.java:227)
+	at org.apache.hadoop.ipc.ProtobufRpcEngine$Invoker.invoke(ProtobufRpcEngine.java:116)
+	at com.sun.proxy.$Proxy16.renewLease(Unknown Source)
+	at org.apache.hadoop.hdfs.protocolPB.ClientNamenodeProtocolTranslatorPB.renewLease(ClientNamenodeProtocolTranslatorPB.java:613)
+	at sun.reflect.GeneratedMethodAccessor13.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.hadoop.io.retry.RetryInvocationHandler.invokeMethod(RetryInvocationHandler.java:409)
+	at org.apache.hadoop.io.retry.RetryInvocationHandler$Call.invokeMethod(RetryInvocationHandler.java:163)
+	at org.apache.hadoop.io.retry.RetryInvocationHandler$Call.invoke(RetryInvocationHandler.java:155)
+	at org.apache.hadoop.io.retry.RetryInvocationHandler$Call.invokeOnce(RetryInvocationHandler.java:95)
+	at org.apache.hadoop.io.retry.RetryInvocationHandler.invoke(RetryInvocationHandler.java:346)
+	at com.sun.proxy.$Proxy17.renewLease(Unknown Source)
+	at sun.reflect.GeneratedMethodAccessor13.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.hadoop.hbase.fs.HFileSystem$1.invoke(HFileSystem.java:306)
+	at com.sun.proxy.$Proxy18.renewLease(Unknown Source)
+	at org.apache.hadoop.hdfs.DFSClient.renewLease(DFSClient.java:560)
+	at org.apache.hadoop.hdfs.client.impl.LeaseRenewer.renew(LeaseRenewer.java:395)
+	at org.apache.hadoop.hdfs.client.impl.LeaseRenewer.run(LeaseRenewer.java:415)
+	at org.apache.hadoop.hdfs.client.impl.LeaseRenewer.access$600(LeaseRenewer.java:76)
+	at org.apache.hadoop.hdfs.client.impl.LeaseRenewer$1.run(LeaseRenewer.java:307)
+	at java.lang.Thread.run(Thread.java:748)
+2021-10-05 20:04:44,416 WARN  [LeaseRenewer:emilstahl@localhost:9000] impl.LeaseRenewer: Failed to renew lease for [DFSClient_NONMAPREDUCE_1315127232_1] for 45 seconds.  Will retry shortly ...
+org.apache.hadoop.ipc.RemoteException(org.apache.hadoop.hdfs.server.namenode.SafeModeException): Cannot renew lease for DFSClient_NONMAPREDUCE_1315127232_1. Name node is in safe mode.
+Resources are low on NN. Please add or free up more resourcesthen turn off safe mode manually. NOTE:  If you turn off safe mode before adding resources, the NN will immediately return to safe mode. Use "hdfs dfsadmin -safemode leave" to turn safe mode off. NamenodeHostName:localhost
+	at org.apache.hadoop.hdfs.server.namenode.FSNamesystem.newSafemodeException(FSNamesystem.java:1435)
+	at org.apache.hadoop.hdfs.server.namenode.FSNamesystem.checkNameNodeSafeMode(FSNamesystem.java:1423)
+	at org.apache.hadoop.hdfs.server.namenode.FSNamesystem.renewLease(FSNamesystem.java:3632)
+	at org.apache.hadoop.hdfs.server.namenode.NameNodeRpcServer.renewLease(NameNodeRpcServer.java:1140)
+	at org.apache.hadoop.hdfs.protocolPB.ClientNamenodeProtocolServerSideTranslatorPB.renewLease(ClientNamenodeProtocolServerSideTranslatorPB.java:689)
+	at org.apache.hadoop.hdfs.protocol.proto.ClientNamenodeProtocolProtos$ClientNamenodeProtocol$2.callBlockingMethod(ClientNamenodeProtocolProtos.java)
+	at org.apache.hadoop.ipc.Pr2021-10-05 20:04:45,420 WARN  [LeaseRenewer:emilstahl@localhost:9000] impl.LeaseRenewer: Failed to renew lease for [DFSClient_NONMAPREDUCE_1315127232_1] for 46 seconds.  Will retry shortly ...
+org.apache.hadoop.ipc.RemoteException(org.apache.hadoop.hdfs.server.namenode.SafeModeException): Cannot renew lease for DFSClient_NONMAPREDUCE_1315127232_1. Name node is in safe mode.
+Resources are low on NN. Please add or free up more resourcesthen turn off safe mode manually. NOTE:  If you turn off safe mode before adding resources, the NN will immediately return to safe mode. Use "hdfs dfsadmin -safemode leave" to turn safe mode off. NamenodeHostName:localhost
+	at org.apache.hadoop.hdfs.server.namenode.FSNamesystem.newSafemodeException(FSNamesystem.java:1435)
+	at org.apache.hadoop.hdfs.server.namenode.FSNamesystem.checkNameNodeSafeMode(FSNamesystem.java:1423)
+	at org.apache.hadoop.hdfs.server.namenode.FSNamesystem.renewLease(FSNamesystem.java:3632)
+	at org.apache.hadoop.hdfs.server.namenode.NameNodeRpcServer.renewLease(NameNodeRpcServer.java:1140)
+	at org.apache.hadoop.hdfs.protocolPB.ClientNamenodeProtocolServerSideTranslatorPB.renewLease(ClientNamenodeProtocolServerSideTranslatorPB.java:689)
+	at org.apache.hadoop.hdfs.protocol.proto.ClientNamenodeProtocolProtos$ClientNamenodeProtocol$2.callBlockingMethod(ClientNamenodeProtocolProtos.java)
+	at org.apache.hadoop.ipc.ProtobufRpcEngine$Server$ProtoBufRpcInvoker.call(ProtobufRpcEngine.java:507)
+	at org.apache.hadoop.ipc.RPC$Server.call(RPC.java:1034)
+	at org.apache.hadoop.ipc.Server$RpcCall.run(Server.java:1003)
+	at org.apache.hadoop.ipc.Server$RpcCall.run(Server.java:931)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at javax.security.auth.Subject.doAs(Subject.java:422)
+	at org.apache.hadoop.security.UserGroupInformation.doAs(UserGroupInformation.java:1926)
+	at org.apache.hadoop.ipc.Server$Handler.run(Server.java:2854)
+
+	at org.apache.hadoop.ipc.Client.getRpcResponse(Client.java:1489)
+	at org.apache.hadoop.ipc.Client.call(Client.java:1435)
+	at org.apache.hadoop.ipc.Client.call(Client.java:1345)
+	at org.apache.hadoop.ipc.ProtobufRpcEngine$Invoker.invoke(ProtobufRpcEngine.java:227)
+	at org.apache.hadoop.ipc.ProtobufRpcEngine$Invoker.invoke(ProtobufRpcEngine.java:116)
+	at com.sun.proxy.$Proxy16.renewLease(Unknown Source)
+	at org.apache.hadoop.hdfs.protocolPB.ClientNamenodeProtocolTranslatorPB.renewLease(ClientNamenodeProtocolTranslatorPB.java:613)
+	at sun.reflect.GeneratedMethodAccessor13.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.hadoop.io.retry.RetryInvocationHandler.invokeMethod(RetryInvocationHandler.java:409)
+	at org.apache.hadoop.io.retry.RetryInvocationHandler$Call.invokeMethod(RetryInvocationHandler.java:163)
+	at org.apache.hadoop.io.retry.RetryInvocationHandler$Call.invoke(RetryInvocationHandler.java:155)
+	at org.apache.hadoop.io.retry.RetryInvocationHandler$Call.invokeOnce(RetryInvocationHandler.java:95)
+	at org.apache.hadoop.io.retry.RetryInvocationHandler.invoke(RetryInvocationHandler.java:346)
+	at com.sun.proxy.$Proxy17.renewLease(Unknown Source)
+	at sun.reflect.GeneratedMethodAccessor13.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.hadoop.hbase.fs.HFileSystem$1.invoke(HFileSystem.java:306)
+	at com.sun.proxy.$Proxy18.renewLease(Unknown Source)
+	at org.apache.hadoop.hdfs.DFSClient.renewLease(DFSClient.java:560)
+	at org.apache.hadoop.hdfs.client.impl.LeaseRenewer.renew(LeaseRenewer.java:395)
+	at org.apache.hadoop.hdfs.client.impl.LeaseRenewer.run(LeaseRenewer.java:415)
+	at org.apache.hadoop.hdfs.client.impl.LeaseRenewer.access$600(LeaseRenewer.java:76)
+	at org.apache.hadoop.hdfs.client.impl.LeaseRenewer$1.run(LeaseRenewer.java:307)
+	at java.lang.Thread.run(Thread.java:748)
+2021-10-05 20:04:46,422 WARN  [LeaseRenewer:emilstahl@localhost:9000] impl.LeaseRenewer: Failed to renew lease for [DFSClient_NONMAPREDUCE_1315127232_1] for 47 seconds.  Will retry shortly ...
+org.apache.hadoop.ipc.RemoteException(org.apache.hadoop.hdfs.server.namenode.SafeModeException): Cannot renew lease for DFSClient_NONMAPREDUCE_1315127232_1. Name node is in safe mode.
+Resources are low on NN. Please add or free up more resourcesthen turn off safe mode manually. NOTE:  If you turn off safe mode before adding resources, the NN will immediately return to safe mode. Use "hdfs dfsadmin -safemode leave" to turn safe mode off. NamenodeHostName:localhost
+	at org.apache.hadoop.hdfs.server.namenode.FSNamesystem.newSafemodeException(FSNamesystem.java:1435)
+	at org.apache.hadoop.hdfs.server.namenode.FSNamesystem.checkNameNodeSafeMode(FSNamesystem.java:1423)
+	at org.apache.hadoop.hdfs.server.namenode.FSNamesystem.renewLease(FSNamesystem.java:3632)
+	at org.apache.hadoop.hdfs.server.namenode.NameNodeRpcServer.renewLease(NameNodeRpcServer.java:1140)
+	at org.apache.hadoop.hdfs.protocolPB.ClientNamenodeProtocolServerSideTranslatorPB.renewLease(ClientNamenodeProtocolServerSideTranslatorPB.java:689)
+	at org.apache.hadoop.hdfs.protocol.proto.ClientNamenodeProtocolProtos$ClientNamenodeProtocol$2.callBlockingMethod(ClientNamenodeProtocolProtos.java)
+	at org.apache.hadoop.ipc.ProtobufRpcEngine$Server$ProtoBufRpcInvoker.call(ProtobufRpcEngine.java:507)
+	at org.apache.hadoop.ipc.RPC$Server.call(RPC.java:1034)
+	at org.apache.hadoop.ipc.Server$RpcCall.run(Server.java:1003)
+	at org.apache.hadoop.ipc.Server$RpcCall.run(Server.java:931)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at javax.security.auth.Subject.doAs(Subject.java:422)
+	at org.apache.hadoop.security.UserGroupInformation.doAs(UserGroupInformation.java:1926)
+	at org.apache.hadoop.ipc.Server$Handler.run(Server.java:2854)
+
+	at org.apache.hadoop.ipc.Client.getRpcResponse(Client.java:1489)
+	at org.apache.hadoop.ipc.Client.call(Client.java:1435)
+	at org.apache.hadoop.ipc.Client.call(Client.java:1345)
+	at org.apache.hadoop.ipc.ProtobufRpcEngine$Invoker.invoke(ProtobufRpcEngine.java:227)
+	at org.apache.hadoop.ipc.ProtobufRpcEngine$Invoker.invoke(ProtobufRpcEngine.java:116)
+	at com.sun.proxy.$Proxy16.renewLease(Unknown Source)
+	at org.apache.hadoop.hdfs.protocolPB.ClientNamenodeProtocolTranslatorPB.renewLease(ClientNamenodeProtocolTranslatorPB.java:613)
+	at sun.reflect.GeneratedMethodAccessor13.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.hadoop.io.retry.RetryInvocationHandler.invokeMethod(RetryInvocationHandler.java:409)
+	at org.apache.hadoop.io.retry.RetryInvocationHandler$Call.invokeMethod(RetryInvocationHandler.java:163)
+	at org.apache.hadoop.io.retry.RetryInvocationHandler$Call.invoke(RetryInvocationHandler.java:155)
+	at org.apache.hadoop.io.retry.RetryInvocationHandler$Call.invokeOnce(RetryInvocationHandler.java:95)
+	at org.apache.hadoop.io.retry.RetryInvocationHandler.invoke(RetryInvocationHandler.java:346)
+	at com.sun.proxy.$Proxy17.renewLease(Unknown Source)
+	at sun.reflect.GeneratedMethodAccessor13.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.hadoop.hbase.fs.HFileSystem$1.invoke(HFileSystem.java:306)
+	at com.sun.proxy.$Proxy18.renewLease(Unknown Source)
+	at org.apache.hadoop.hdfs.DFSClient.renewLease(DFSClient.java:560)
+	at org.apache.hadoop.hdfs.client.impl.LeaseRenewer.renew(LeaseRenewer.java:395)
+	at org.apache.hadoop.hdfs.client.impl.LeaseRenewer.run(LeaseRenewer.java:415)
+	at org.apache.hadoop.hdfs.client.impl.LeaseRenewer.access$600(LeaseRenewer.java:76)
+	at org.apache.hadoop.hdfs.client.impl.LeaseRenewer$1.run(LeaseRenewer.java:307)
+	at java.lang.Thread.run(Thread.java:748)
+2021-10-05 20:04:47,425 WARN  [LeaseRenewer:emilstahl@localhost:9000] impl.LeaseRenewer: Failed to renew lease for [DFSClient_NONMAPREDUCE_1315127232_1] for 48 seconds.  Will retry shortly ...
+org.apache.hadoop.ipc.RemoteException(org.apache.hadoop.hdfs.server.namenode.SafeModeException): Cannot renew lease for DFSClient_NONMAPREDUCE_1315127232_1. Name node is in safe mode.
+Resources are low on NN. Please add or free up more resourcesthen turn off safe mode manually. NOTE:  If you turn off safe mode before adding resources, the NN will immediately return to safe mode. Use "hdfs dfsadmin -safemode leave" to turn safe mode off. NamenodeHostName:localhost
+	at org.apache.hadoop.hdfs.server.namenode.FSNamesystem.newSafemodeException(FSNamesystem.java:1435)
+	at org.apache.hadoop.hdfs.server.namenode.FSNamesystem.checkNameNodeSafeMode(FSNamesystem.java:1423)
+	at org.apache.hadoop.hdfs.server.namenode.FSNamesystem.renewLease(FSNamesystem.java:3632)
+	at org.apache.hadoop.hdfs.server.namenode.NameNodeRpcServer.renewLease(NameNodeRpcServer.java:1140)
+	at org.apache.hadoop.hdfs.protocolPB.ClientNamenodeProtocolServerSideTranslatorPB.renewLease(ClientNamenodeProtocolServerSideTranslatorPB.java:689)
+	at org.apache.hadoop.hdfs.protocol.proto.ClientNamenodeProtocolProtos$ClientNamenodeProtocol$2.callBlockingMethod(ClientNamenodeProtocolProtos.java)
+	at org.apache.hadoop.ipc.ProtobufRpcEngine$Server$ProtoBufRpcInvoker.call(ProtobufRpcEngine.java:507)
+	at org.apache.hadoop.ipc.RPC$Server.call(RPC.java:1034)
+	at org.apache.hadoop.ipc.Server$RpcCall.run(Server.java:1003)
+	at org.apache.hadoop.ipc.Server$RpcCall.run(Server.java:931)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at javax.security.auth.Subject.doAs(Subject.java:422)
+	at org.apache.hadoop.security.UserGroupInformation.doAs(UserGroupInformation.java:1926)
+	at org.apache.hadoop.ipc.Server$Handler.run(Server.java:2854)
+
+	at org.apache.hadoop.ipc.Client.getRpcResponse(Client.java:1489)
+	at org.apache.hadoop.ipc.Client.call(Client.java:1435)
+	at org.apache.hadoop.ipc.Client.call(Client.java:1345)
+	at org.apache.hadoop.ipc.ProtobufRpcEngine$Invoker.invoke(ProtobufRpcEngine.java:227)
+	at org.apache.hadoop.ipc.ProtobufRpcEngine$Invoker.invoke(ProtobufRpcEngine.java:116)
+	at com.sun.proxy.$Proxy16.renewLease(Unknown Source)
+	at org.apache.hadoop.hdfs.protocolPB.ClientNamenodeProtocolTranslatorPB.renewLease(ClientNamenodeProtocolTranslatorPB.java:613)
+	at sun.reflect.GeneratedMethodAccessor13.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.hadoop.io.retry.RetryInvocationHandler.invokeMethod(RetryInvocationHandler.java:409)
+	at org.apache.hadoop.io.retry.RetryInvocationHandler$Call.invokeMethod(RetryInvocationHandler.java:163)
+	at org.apache.hadoop.io.retry.RetryInvocationHandler$Call.invoke(RetryInvocationHandler.java:155)
+	at org.apache.hadoop.io.retry.RetryInvocationHandler$Call.invokeOnce(RetryInvocationHandler.java:95)
+	at org.apache.hadoop.io.retry.RetryInvocationHandler.invoke(RetryInvocationHandler.java:346)
+	at com.sun.proxy.$Proxy17.renewLease(Unknown Source)
+	at sun.reflect.GeneratedMethodAccessor13.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.hadoop.hbase.fs.HFileSystem$1.invoke(HFileSystem.java:306)
+	at com.sun.proxy.$Proxy18.renewLease(Unknown Source)
+	at org.apache.hadoop.hdfs.DFSClient.renewLease(DFSClient.java:560)
+	at org.apache.hadoop.hdfs.client.impl.LeaseRenewer.renew(LeaseRenewer.java:395)
+	at org.apache.hadoop.hdfs.client.impl.LeaseRenewer.run(LeaseRenewer.java:415)
+	at org.apache.hadoop.hdfs.client.impl.LeaseRenewer.access$600(LeaseRenewer.java:76)
+	at org.apache.hadoop.hdfs.client.impl.LeaseRenewer$1.run(LeaseRenewer.java:307)
+	at java.lang.Thread.run(Thread.java:748)
+2021-10-05 20:04:48,427 WARN  [LeaseRenewer:emilstahl@localhost:9000] impl.LeaseRenewer: Failed to renew lease for [DFSClient_NONMAPREDUCE_1315127232_1] for 49 seconds.  Will retry shortly ...
+org.apache.hadoop.ipc.RemoteException(org.apache.hadoop.hdfs.server.namenode.SafeModeException): Cannot renew lease for DFSClient_NONMAPREDUCE_1315127232_12021-10-05 20:05:02,106 INFO  [regionserver/ID2221VM/127.0.1.1:16201] mortbay.log: Stopped SelectChannelConnector@0.0.0.0:16301
+2021-10-05 20:05:02,107 INFO  [regionserver/ID2221VM/127.0.1.1:16201] regionserver.HeapMemoryManager: Stopping HeapMemoryTuner chore.
+2021-10-05 20:05:02,107 INFO  [regionserver/ID2221VM/127.0.1.1:16201] flush.RegionServerFlushTableProcedureManager: Stopping region server flush procedure manager abruptly.
+2021-10-05 20:05:02,107 INFO  [regionserver/ID2221VM/127.0.1.1:16201] snapshot.RegionServerSnapshotManager: Stopping RegionServerSnapshotManager abruptly.
+2021-10-05 20:05:02,108 INFO  [MemStoreFlusher.0] regionserver.MemStoreFlusher: MemStoreFlusher.0 exiting
+2021-10-05 20:05:02,108 INFO  [MemStoreFlusher.1] regionserver.MemStoreFlusher: MemStoreFlusher.1 exiting
+2021-10-05 20:05:02,110 INFO  [regionserver/ID2221VM/127.0.1.1:16201] regionserver.HRegionServer: aborting server id2221vm,16201,1633442595304
+2021-10-05 20:05:02,110 INFO  [regionserver/ID2221VM/127.0.1.1:16201] client.ConnectionManager$HConnectionImplementation: Closing zookeeper sessionid=0x17c50c40a700002
+2021-10-05 20:05:02,113 INFO  [regionserver/ID2221VM/127.0.1.1:16201] zookeeper.ZooKeeper: Session: 0x17c50c40a700002 closed
+2021-10-05 20:05:02,113 INFO  [regionserver/ID2221VM/127.0.1.1:16201] regionserver.CompactSplitThread: Waiting for Split Thread to finish...
+2021-10-05 20:05:02,113 INFO  [regionserver/ID2221VM/127.0.1.1:16201] regionserver.CompactSplitThread: Waiting for Merge Thread to finish...
+2021-10-05 20:05:02,113 INFO  [regionserver/ID2221VM/127.0.1.1:16201] regionserver.CompactSplitThread: Waiting for Large Compaction Thread to finish...
+2021-10-05 20:05:02,113 INFO  [regionserver/ID2221VM/127.0.1.1:16201] regionserver.CompactSplitThread: Waiting for Small Compaction Thread to finish...
+2021-10-05 20:05:02,115 INFO  [regionserver/ID2221VM/127.0.1.1:16201-EventThread] zookeeper.ClientCnxn: EventThread shut down for session: 0x17c50c40a700002
+2021-10-05 20:05:02,115 INFO  [regionserver/ID2221VM/127.0.1.1:16201] regionserver.HRegionServer: Waiting on 5 regions to close
+2021-10-05 20:05:02,120 INFO  [StoreCloserThread-hbase:namespace,,1631721902072.27af53a2254ff1b8df84094a94421902.-1] regionserver.HStore: Closed info
+2021-10-05 20:05:02,120 INFO  [StoreCloserThread-test2,,1631887963333.dfd207019c5b1ed367228c131d737b60.-1] regionserver.HStore: Closed cf
+2021-10-05 20:05:02,122 INFO  [StoreCloserThread-hbase:meta,,1.1588230740-1] regionserver.HStore: Closed info
+2021-10-05 20:05:02,123 INFO  [RS_CLOSE_REGION-ID2221VM:16201-1] regionserver.HRegion: Closed test2,,1631887963333.dfd207019c5b1ed367228c131d737b60.
+2021-10-05 20:05:02,123 INFO  [RS_CLOSE_REGION-ID2221VM:16201-0] regionserver.HRegion: Closed hbase:namespace,,1631721902072.27af53a2254ff1b8df84094a94421902.
+2021-10-05 20:05:02,127 INFO  [StoreCloserThread-test1,,1631887832210.f2d2ab5db5ce4d7dafb46971da3320b1.-1] regionserver.HStore: Closed cf
+2021-10-05 20:05:02,128 INFO  [RS_CLOSE_META-ID2221VM:16201-0] regionserver.HRegion: Closed hbase:meta,,1.1588230740
+2021-10-05 20:05:02,130 INFO  [StoreCloserThread-test,,1631727629461.bc6f920bd728a0eec9af472ce936574c.-1] regionserver.HStore: Closed cf
+2021-10-05 20:05:02,130 INFO  [RS_CLOSE_REGION-ID2221VM:16201-2] regionserver.HRegion: Closed test1,,1631887832210.f2d2ab5db5ce4d7dafb46971da3320b1.
+2021-10-05 20:05:02,131 INFO  [RS_CLOSE_REGION-ID2221VM:16201-1] regionserver.HRegion: Closed test,,1631727629461.bc6f920bd728a0eec9af472ce936574c.
+2021-10-05 20:05:02,315 INFO  [regionserver/ID2221VM/127.0.1.1:16201] regionserver.HRegionServer: stopping server id2221vm,16201,1633442595304; all regions closed.
+2021-10-05 20:05:02,353 ERROR [regionserver/ID2221VM/127.0.1.1:16201] regionserver.HRegionServer: FSNamesystem.completeFile(FSNamesystem.java:2735)
+	at org.apache.hadoop.hdfs.server.namenode.NameNodeRpcServer.complete(NameNodeRpcServer.java:935)
+	at org.apache.hadoop.hdfs.protocolPB.ClientNamenodeProtocolServerSideTranslatorPB.complete(ClientNamenodeProtocolServerSideTranslatorPB.java:562)
+	at org.apache.hadoop.hdfs.protocol2021-10-05 20:05:02,899 INFO  [regionserver/ID2221VM/127.0.1.1:16201] zookeeper.ZooKeeper: Session: 0x17c50c40a700000 closed
+2021-10-05 20:05:02,899 INFO  [regionserver/ID2221VM/127.0.1.1:16201] regionserver.HRegionServer: stopping server id2221vm,16201,1633442595304; zookeeper connection closed.
+2021-10-05 20:05:02,900 INFO  [regionserver/ID2221VM/127.0.1.1:16201] regionserver.HRegionServer: regionserver/ID2221VM/127.0.1.1:16201 exiting
+2021-10-05 20:05:02,900 ERROR [main] regionserver.HRegionServerCommandLine: Region server exiting
+java.lang.RuntimeException: HRegionServer Aborted
+	at org.apache.hadoop.hbase.regionserver.HRegionServerCommandLine.start(HRegionServerCommandLine.java:68)
+	at org.apache.hadoop.hbase.regionserver.HRegionServerCommandLine.run(HRegionServerCommandLine.java:87)
+	at org.apache.hadoop.util.ToolRunner.run(ToolRunner.java:76)
+	at org.apache.hadoop.hbase.util.ServerCommandLine.doMain(ServerCommandLine.java:127)
+	at org.apache.hadoop.hbase.regionserver.HRegionServer.main(HRegionServer.java:2978)
+2021-10-05 20:05:02,901 INFO  [main-EventThread] zookeeper.ClientCnxn: EventThread shut down for session: 0x17c50c40a700000
+2021-10-05 20:05:02,903 INFO  [pool-6-thread-1] regionserver.ShutdownHook: Shutdown hook starting; hbase.shutdown.hook=true; fsShutdownHook=org.apache.hadoop.fs.FileSystem$Cache$ClientFinalizer@2af616d3
+2021-10-05 20:05:02,903 INFO  [pool-6-thread-1] regionserver.ShutdownHook: Starting fs shutdown hook thread.
+2021-10-05 20:05:02,903 INFO  [pool-6-thread-1] regionserver.ShutdownHook: Shutdown hook finished.

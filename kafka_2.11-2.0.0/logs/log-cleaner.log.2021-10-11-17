@@ -1,0 +1,5 @@
+[2021-10-11 17:14:17,090] INFO Starting the log cleaner (kafka.log.LogCleaner)
+[2021-10-11 17:14:17,129] INFO [kafka-log-cleaner-thread-0]: Starting (kafka.log.LogCleaner)
+[2021-10-11 17:14:17,790] INFO The cleaning for partition avg-0 is aborted and paused (kafka.log.LogCleaner)
+[2021-10-11 17:14:17,791] INFO Compaction for partition avg-0 is resumed (kafka.log.LogCleaner)
+[2021-10-11 17:14:17,791] INFO The cleaning for partition avg-0 is aborted (kafka.log.LogCleaner)
